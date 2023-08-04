@@ -1,0 +1,22 @@
+@import '~/assets/variables.scss';
+
+body {
+  font-family: $font-text;
+  color: $dark-blue;
+}
+main {
+  margin-top: $headerHeight;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-title;
+}
+
+.fullheightdiv {
+  height: $full-height;
+  position: relative;
+}

@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf')
+    format('truetype');
+}
+
+$dark-blue: #0a192f;
+$light-blue: #172a45;
+$light-gray: #ccd6f6;
+$yellow: #ffd700;
+
+$font-title: 'Roboto', sans-serif;
+$font-text: 'Open Sans', sans-serif;
+
+$headerHeight: 80px;
+$full-height: calc(100vh - #{$headerHeight});
+
+@mixin contentFrame {
+  max-width: 1200px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
