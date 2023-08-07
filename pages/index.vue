@@ -85,28 +85,42 @@
         </div>
       </article>
       <article class="fullheightdiv prestationsGenItem">
-        <div>
-          <h2>Développement web</h2>
-          <p>
-            Je loue également mes compétences de développeur web pour vous aider
-            à concevoir vos projets web.
-          </p>
-          <ul>
-            <li>
+        <h2>Développement web</h2>
+        <div class="prestationDev">
+          <div>
+            <h3>Langages</h3>
+            <p>
               Outre les bases (HTML, dont <strong>accessibilité</strong> et
               <strong>marquage Schema</strong>, - CSS et SCSS), j'ai développé
               plusieurs projets utilisant soit un framework JS (<strong>Next-React</strong>
               et <strong>Vue-Nuxt</strong>), soit un thème
               <strong>wordpress</strong> personnalisé.
-            </li>
-            <li>
+            </p>
+          </div>
+          <div>
+            <h3>Fonctionnalités</h3>
+            <p>
               Parmi les fonctionnalités, il y a évidemment le
-              <strong>formulaire sécurisé</strong>, mais aussi une myriade
-              d'autres permettant de générer des pages optimisées pour le SEO.
-            </li>
-          </ul>
+              <strong>formulaire sécurisé</strong>, mais aussi la génération de
+              méta-données à partir d'une base de données et un backoffice pour
+              alimenter cette dernière.
+            </p>
+          </div>
+          <p>
+            Je développe en détail mes réalisations, leurs fonctionnalités et
+            les difficultés rencontrées, dans le <strong><a href=#porforlio>portfolio</a></strong>.
+          </p>
+          <div class="devLangLogos">
+            <img src="javascript-logo.png" alt="Logo javascript" />
+            <img src="logoreact.png" alt="Logo React" />
+            <img src="logovue.png" alt="Logo Vue" />
+            <img src="next-js.svg" alt="Logo Next" />
+            <img src="nuxtlogo.svg" alt="Logo Nuxt" class="logoLong" />
+            <img src="WordPress_logo.svg" alt="Logo Wordpress" class="logoLong" />
+
+          </div>
+
         </div>
-        <div class="devLangLogos"></div>
       </article>
     </section>
     <section class="fullheightdiv prestationsSpé">
@@ -114,36 +128,42 @@
       <div>
         <div class="prestationSpéItem">
           <h3>Mini-audit</h3>
-          <p>Je propose les prestations "classiques" du SEO:</p>
+          <div class="prestationSpéDescription">
+            <p>Faire un audit complet peut prendre entre une demi-journée et plusieurs jours. Il est souvent plus optimal
+              d'en faire de petits, peu cher. </p>
+            <p>Je propose des <strong>mini-audits</strong> à <strong>90€</strong>, qui se présentent sous la forme d'une
+              vidéo de 10 minutes, dans laquelle je présente les problèmes que j'ai identifiés.</p>
+          </div>
+          <p class="prix">Plus de détails</p>
         </div>
         <div class="prestationSpéItem">
           <h3>Cartographie SEO</h3>
-          <p>Je propose les prestations "classiques" de développeur web:</p>
+          <div class="prestationSpéDescription">
+            <p>Ma cartographie SEO est une plongée au coeur de votre secteur. Je combine l'utilisation des <strong>outils
+                SEO</strong> avec toutes les <strong>sources d'information</strong> disponibles pour vous donner une
+              vision précise des opportunités et
+              menaces qui se dessinent sur le web dans <strong>votre secteur</strong>.
+            </p>
+          </div>
+          <p class="prix">Plus de détails</p>
         </div>
         <div class="prestationSpéItem">
           <h3>Site internet tout inclus</h3>
-          <p>Je propose les prestations "classiques" de développeur web:</p>
+          <div class="prestationSpéDescription">
+
+            <p>Je vous propose un petit site internet basique, personnalisé, suivant les <strong>bonnes pratiques</strong>
+              SEO
+              et accessibilité et avec jusqu'à 10 pages de contenus. C'est le travail d'un designer, un développeur, un
+              SEO et un rédacteur pour <strong>1900€</strong>.</p>
+          </div>
+          <p class="prix">Plus de détails</p>
         </div>
       </div>
     </section>
-    <section class="fullheightdiv presentation">
-      <div>
-        <h2>Présentation</h2>
-        <p>
-          En faisant du SEO, pour moi et en agence, j'ai réalisé l'importance de
-          la technique. Outre le "seo technique" classique, les signaux
-          utilisateurs sont centraux dans l'algorithme Google, il est donc
-          crucial d'optimiser l'expérience utilisateur. Je suis devenu
-          développeur pour pouvoir prendre en main cet aspect.
-        </p>
-        <p>
-          Je suis développeur web et consultant SEO. Je présente sur ce site mon
-          portfolio de sites et de projets, ainsi que mes prestations pour vous
-          aider à améliorer votre présence sur le web.
-        </p>
-      </div>
-      <img src="photo-alexandre-baumann.webp" />
+    <section class="fullheightdiv portfolio">
+
     </section>
+
   </div>
 </template>
 
@@ -213,6 +233,8 @@ export default {
 
 .problematisation {
   @include contentFrame;
+  margin-top: 100px;
+
 
   p {
     text-align: center;
@@ -291,31 +313,71 @@ export default {
       font-size: 40px;
     }
 
+    h3 {
+      margin-left: 10%;
+      font-size: 24px;
+    }
+
+    p {
+      margin-bottom: 10px;
+      line-height: 160%;
+      font-size: 18px;
+    }
+
     .prestationSeo {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 10%;
+      column-gap: 10%;
+      row-gap: 20px;
       text-align: start;
 
       >* {
         width: 100%;
       }
 
-      h3 {
-        margin-left: 10%;
-        font-size: 24px;
-      }
 
-      p {
-        margin-bottom: 10px;
-        line-height: 160%;
-        font-size: 18px;
-      }
 
       img {
         object-fit: contain;
         grid-column: 2 / 2;
         grid-row: 1;
+      }
+    }
+
+    .prestationDev {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 10%;
+      row-gap: 20px;
+      text-align: start;
+
+      >* {
+        width: 100%;
+      }
+
+      >p {
+        margin-top: auto;
+        margin-bottom: auto;
+
+      }
+
+      .devLangLogos {
+        grid-column: 2;
+        grid-row: 1/2;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+
+        img {
+          object-fit: contain;
+          width: 100px;
+
+          &.logoLong {
+            width: 200px;
+
+          }
+        }
       }
     }
 
@@ -327,27 +389,55 @@ export default {
   display: flex;
   flex-direction: column;
 
+  h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .prestationSpéDescription {
+    height: 300px;
+  }
+
+
+
   >div {
     display: flex;
+    gap: 20px;
 
     .prestationSpéItem {
       display: flex;
       flex-direction: column;
+      width: 33.3%;
+      border: 2px solid $light-blue;
+      padding: 20px;
+      border-radius: 40px;
+
+      p {
+        font-size: 18px;
+        line-height: 160%;
+
+      }
+
+      .prix {
+        text-align: center;
+        font-weight: 700;
+        font-size: 24px;
+        padding: 10px 20px 10px 20px;
+        background-color: $yellow;
+        border-radius: 20px;
+      }
     }
   }
 }
 
-.presentation {
+.portfolio {
   display: flex;
   @include contentFrame;
-  gap: 100px;
-
-  >img {
-    width: 400px;
-    object-fit: cover;
-    height: 500px;
-    border-radius: 30px;
-  }
 
 
 }
