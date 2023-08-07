@@ -1,0 +1,151 @@
+<template>
+    <form @submit.prevent="handleSubmit" class="form">
+        <h2>Formulaire</h2>
+        <div class="nomprenom">
+            <div class="champ">
+                <label for="firstName">
+                    Prénom :
+                </label>
+                <input id="firstName" type="text" class="champtext" v-model="firstName" required />
+            </div>
+            <div class="champ">
+                <label for="lastName">
+                    Nom :
+                </label>
+                <input id="lastName" type="text" class="champtext" v-model="lastName" required />
+            </div>
+        </div>
+        <div class="champ">
+            <label for="email">
+                Email :
+            </label>
+            <input id="email" type="email" class="champtext" v-model="email" required />
+        </div>
+        <div class="champ">
+            <label for="message">
+                Message :
+            </label>
+            <textarea id="message" class="champtext" v-model="message" required></textarea>
+        </div>
+        <label class="checkbox" for="privacyPolicy">
+            <input id="privacyPolicy" type="checkbox" v-model="privacyPolicyAccepted" required />
+            Accepter la politique de confidentialité
+        </label>
+        <div :style="{ position: 'absolute', left: '-5000px' }">
+            Ne pas remplir
+            <input type="text" v-model="honeypot" />
+        </div>
+        <button type="submit">Envoyer</button>
+        <p v-if="status">{{ status }}</p>
+    </form>
+</template>
+
+<script>
+export default {
+    data() {
+        return {
+            firstName: "",
+            lastName: "",
+            email: "",
+            message: "",
+            status: "",
+            honeypot: "",
+            privacyPolicyAccepted: false
+        };
+    },
+    methods: {
+        async handleSubmit() {
+            if (this.honeypot) {
+                this.status = "Votre message a été envoyé !";
+                this.$emit('formSubmitted', { success: true, message: "Votre message a été envoyé !" });
+                return;
+            }
+
+            if (!this.privacyPolicyAccepted) {
+                this.status = "Veuillez accepter la politique de confidentialité.";
+                return;
+            }
+
+            const formData = {
+                firstName: this.firstName,
+                lastName: this.lastName,
+                email: this.email,
+                message: this.message,
+                privacyPolicyAccepted: this.privacyPolicyAccepted
+            };
+
+            try {
+                const response = await fetch("/api/submit-form", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify(formData),
+                });
+
+                if (response.status === 200) {
+                    this.status = "Votre message a été envoyé !";
+                    this.$emit('formSubmitted', { success: true, message: "Votre message a été envoyé !" });
+
+                    // Réinitialiser les champs après l'envoi
+                    this.firstName = "";
+                    this.lastName = "";
+                    this.email = "";
+                    this.message = "";
+                    this.privacyPolicyAccepted = false;
+                } else {
+                    const errorData = await response.json();
+                    this.status = `Erreur: ${errorData.error}`;
+                }
+            } catch (error) {
+                this.status = `Erreur : ${error.message}`;
+            }
+        }
+    }
+};
+</script>
+
+  
+<style scoped>
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    h2 {
+        text-align: center;
+        font-size: 40px;
+        margin: 0px;
+    }
+
+    .champ {
+        display: flex;
+        flex-direction: column;
+
+        textarea {
+            height: 100px;
+        }
+    }
+
+    .nomprenom {
+        display: flex;
+        gap: 10%;
+
+        .champ {
+            width: 45%;
+        }
+    }
+
+    input,
+    textarea {
+        border-radius: 10px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    .nomprenom {}
+
+
+}
+</style>
+  

@@ -123,6 +123,10 @@
         </div>
       </article>
     </section>
+    <section class="formCTA">
+      <FormCTA />
+
+    </section>
     <section class="fullheightdiv prestationsSpé">
       <h2>Prestations spécifiques</h2>
       <div>
@@ -131,8 +135,8 @@
           <div class="prestationSpéDescription">
             <p>Faire un audit complet peut prendre entre une demi-journée et plusieurs jours. Il est souvent plus optimal
               d'en faire de petits, peu cher. </p>
-            <p>Je propose des <strong>mini-audits</strong> à <strong>90€</strong>, qui se présentent sous la forme d'une
-              vidéo de 10 minutes, dans laquelle je présente les problèmes que j'ai identifiés.</p>
+            <p>Je propose des <strong>mini-audits</strong> à <strong>90€</strong>, qui vous donnent l'essentiel en
+              quelques minutes.</p>
           </div>
           <p class="prix">Plus de détails</p>
         </div>
@@ -168,9 +172,13 @@
 </template>
 
 <script>
+import FormCTA from '@/components/FormCTA.vue';
+
 export default {
-  // Pas besoin de spécifier le layout ici car le layout par défaut sera utilisé
-}
+  components: {
+    FormCTA
+  }
+};
 </script>
 
 <style scoped lang="scss">
@@ -433,6 +441,14 @@ export default {
       }
     }
   }
+}
+
+.formCTA {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $dark-blue;
 }
 
 .portfolio {
