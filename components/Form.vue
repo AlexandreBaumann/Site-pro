@@ -35,7 +35,7 @@
             Ne pas remplir
             <input type="text" v-model="honeypot" />
         </div>
-        <button type="submit">Envoyer</button>
+        <button class="envoyer" type="submit">Envoyer</button>
         <p v-if="status">{{ status }}</p>
     </form>
 </template>
@@ -106,7 +106,7 @@ export default {
 </script>
 
   
-<style scoped>
+<style scoped  lang="scss">
 .form {
     display: flex;
     flex-direction: column;
@@ -143,7 +143,13 @@ export default {
         margin-top: 10px;
     }
 
-    .nomprenom {}
+    .envoyer {
+        padding: 10px 20px 10px 20px;
+        font-weight: 600;
+        background-color: $dark-blue;
+        color: white;
+        border-radius: 10px;
+    }
 
 
 }

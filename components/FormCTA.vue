@@ -1,7 +1,7 @@
 <template>
     <div class="form-bouton-modale">
         <!-- Bouton CTA pour déclencher le modal -->
-        <button @click="showModal = true">Ouvrir le formulaire</button>
+        <button @click="showModal = true">Me contacter</button>
 
         <!-- Le Modal -->
         <div v-if="showModal" class="modal" @click="closeModal($event)">
@@ -48,6 +48,7 @@ export default {
 .form-bouton-modale {
     padding: 10px 20px 10px 20px;
     background-color: $yellow;
+    border-radius: 20px;
 
     button {
         font-size: 36px;

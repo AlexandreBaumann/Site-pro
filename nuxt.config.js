@@ -44,4 +44,7 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
   target: 'static',
+  serverMiddleware: [
+    { path: '/api/submit-form', handler: '~/serverMiddleware/submitForm.js' },
+  ],
 }

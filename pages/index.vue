@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main-content">
     <section class="fullheightdiv accroche">
       <div>
         <div class="accrochetext">
@@ -117,7 +117,6 @@
             <img src="next-js.svg" alt="Logo Next" />
             <img src="nuxtlogo.svg" alt="Logo Nuxt" class="logoLong" />
             <img src="WordPress_logo.svg" alt="Logo Wordpress" class="logoLong" />
-
           </div>
 
         </div>
@@ -138,7 +137,7 @@
             <p>Je propose des <strong>mini-audits</strong> à <strong>90€</strong>, qui vous donnent l'essentiel en
               quelques minutes.</p>
           </div>
-          <p class="prix">Plus de détails</p>
+          <p class="cta">Plus de détails</p>
         </div>
         <div class="prestationSpéItem">
           <h3>Cartographie SEO</h3>
@@ -149,7 +148,7 @@
               menaces qui se dessinent sur le web dans <strong>votre secteur</strong>.
             </p>
           </div>
-          <p class="prix">Plus de détails</p>
+          <p class="cta">Plus de détails</p>
         </div>
         <div class="prestationSpéItem">
           <h3>Site internet tout inclus</h3>
@@ -160,11 +159,12 @@
               et accessibilité et avec jusqu'à 10 pages de contenus. C'est le travail d'un designer, un développeur, un
               SEO et un rédacteur pour <strong>1900€</strong>.</p>
           </div>
-          <p class="prix">Plus de détails</p>
+          <p class="cta">Plus de détails</p>
         </div>
       </div>
     </section>
     <section class="fullheightdiv portfolio">
+      <h2>Portfolio</h2>
 
     </section>
 
@@ -186,6 +186,13 @@ export default {
   max-width: 1200px;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .accroche {
@@ -431,7 +438,7 @@ export default {
 
       }
 
-      .prix {
+      .cta {
         text-align: center;
         font-weight: 700;
         font-size: 24px;
@@ -449,11 +456,15 @@ export default {
   align-items: center;
   justify-content: center;
   background-color: $dark-blue;
+  width: 100%;
 }
 
 .portfolio {
   display: flex;
   @include contentFrame;
+  width: 100%;
+  background-color: $light-blue;
+
 
 
 }
