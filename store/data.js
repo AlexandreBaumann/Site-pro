@@ -1,4 +1,4 @@
-import data from '../assets/data.json'
+import data from '../assets/portfolio.json'
 
 export const state = () => ({
   data: data,
