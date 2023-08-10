@@ -1,0 +1,89 @@
+[
+    {
+        "titre": "Site professionnel AB",
+        "url": "/portfolio/site-vitrine-alexandre-baumann",
+        "technologies": [
+            "Nuxt",
+            "Vue",
+            "SCSS",
+            "MongoDB"
+        ],
+        "thumb": "/Site-AB.jpg",
+        "topic": "Création de site internet",
+        "abstract": "Site vitrine dédié à présenter mes prestations de développement web et SEO.",
+        "resumeP1": "Ce site me présente comme <strong>développeur web</strong> et <strong>SEO</strong>, ainsi que les <strong>prestations</strong> que je peux réaliser. Il est codé en javascript avec <strong>Nuxt.js</strong>, framework basé sur Vue.js, permettant le Server Side Rendering (rendu côté serveur) et la génération de site statique.",
+        "resumeP2": "Les fonctionnalites sont une <strong>modale</strong> et un <strong>formulaire de contact</strong>. La base de données, ne contenant que les éléments de mon porfolio, est un simple json.",
+        "fonctionnalites": "",
+        "difficultes": "",
+        "interet": "5"
+    },
+    {
+        "titre": "Alternative Hydrogène",
+        "url": "/portfolio/site-information-alternative-hydrogene",
+        "technologies": [
+            "Next",
+            "React",
+            "SCSS",
+            "MongoDB",
+            "Python"
+        ],
+        "thumb": "",
+        "topic": [
+            "Génération de site SEO",
+            "Création de site internet"
+        ],
+        "abstract": "Site d'information de plusieurs centaines de pages sur l'hydrogène. Test SEO autour de la génération de contenus.",
+        "resumeP1": "Ce <strong>site d'information</strong> de plusieurs centaines de pages a pour objet de présenter le secteur de l'hydrogène. Il a plusieurs typologies de pages: les entreprises, les matériaux, les piles à combustible ... Elles sont affichées et classées dans plusieurs boucles grâce à la base de données <strong>MongoDB</strong>.",
+        "resumeP2": "Le projet est codé avec <strong>Next.js</strong>, un framework de React permettant le Server Side Rendering, et repose sur l'utilisation de <strong>Python</strong> pour générer le contenu avec OpenAI et gérer le netlinking.",
+        "interet": "4"
+    },
+    {
+        "titre": "Chemins de vie",
+        "url": "/portfolio/site-vitrine-chemins-de-vie",
+        "technologies": [
+            "Next",
+            "React",
+            "SCSS"
+        ],
+        "thumb": "",
+        "topic": [
+            "Création de site internet"
+        ],
+        "abstract": "Site vitrine pour un masseur / sophrologue , à destination des particuliers et des entreprises.",
+        "resumeP1": "Ce site vitrine présente les services d'un masseur - sophrologue à destination des particuliers et des entreprises. Il est codé avec <strong>Next.js</strong>, un framework de React permettant le Server Side Rendering.",
+        "resumeP2": "Les fonctionnalités sont une <strong>modale</strong> et un <strong>formulaire de contact</strong>.",
+        "interet": "4"
+    },
+    {
+        "titre": "Kazaa - formation OpenClassRoom",
+        "url": "/portfolio/front-end-kazaa",
+        "technologies": [
+            "React",
+            "CSS"
+        ],
+        "thumb": "",
+        "topic": [
+            "Projet de formation"
+        ],
+        "abstract": "Intégration du front end pour un site projet de formation.",
+        "resumeP1": "",
+        "resumeP2": "",
+        "interet": "2"
+    },
+    {
+        "titre": "Mon vieux Grimoire - formation OpenClassRoom",
+        "url": "/portfolio/back-end-mon-vieux-grimoire",
+        "technologies": [
+            "Node",
+            "Express"
+        ],
+        "thumb": "",
+        "topic": [
+            "Projet de formation"
+        ],
+        "abstract": "Conception du backend d'un site tourné autour de la notation de livres. Projet de formation OpenClassRoom.",
+        "resumeP1": "",
+        "resumeP2": "",
+        "interet": "2"
+    }
+]

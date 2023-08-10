@@ -1,17 +1,14 @@
 <template>
   <div class="main-content">
     <section class="fullheightdiv accroche">
-      <div>
-        <div class="accrochetext">
-          <p class="annonce">
-            Votre <strong>site internet</strong>: une boutique accessible à tous
-          </p>
-          <p class="soustitre">
-            Je vous aide à exploiter ce potentiel énorme de
-            <strong>revenus</strong> et de <strong>visibilité</strong>
-          </p>
-        </div>
-        <img src="/boutique.webp" alt="Boutique" />
+      <div class="accrochetext">
+        <p class="annonce">
+          Votre <strong>site internet</strong>: une boutique accessible à tous
+        </p>
+        <p class="soustitre">
+          Je vous aide à exploiter ce potentiel énorme de
+          <strong>revenus</strong> et de <strong>visibilité</strong>
+        </p>
       </div>
       <img src="/boutique.webp" alt="Boutique" class="background" />
     </section>
@@ -163,25 +160,56 @@
         </div>
       </div>
     </section>
-    <section class="fullheightdiv portfolio">
-      <h2>Portfolio</h2>
+    <section class="fullheightdiv portfolioDiv">
+      <div class="portfolioContainer">
+        <h2>Portfolio</h2>
+        <article class="portfolio">
 
+          <Card v-for="cardData in topInterestProjects" :key="cardData._id" :card="cardData" />
+        </article>
+        <p class="lienPortfolio">
+          <nuxt-link to="/portfolio">Voir tout le portfolio</nuxt-link>
+        </p>
+      </div>
+    </section>
+    <section class="fullheightdiv formulaire">
+      <Form />
     </section>
 
   </div>
 </template>
 
 <script>
+//////////////////////////////////////SCRIPTS///////////////////////////////////////////////
+//////////////////////////////////////SCRIPTS///////////////////////////////////////////////
+//////////////////////////////////////SCRIPTS///////////////////////////////////////////////
+//////////////////////////////////////SCRIPTS///////////////////////////////////////////////
+
 import FormCTA from '@/components/FormCTA.vue';
+import Card from '~/components/Card.vue';
+import { mapGetters } from 'vuex';
+import Form from '@/components/Form.vue';
 
 export default {
   components: {
-    FormCTA
+    FormCTA,
+    Card,
+    Form
+  },
+  computed: {
+    ...mapGetters('data', ['topInterestProjects'])
   }
+
 };
+
 </script>
 
 <style scoped lang="scss">
+//////////////////////////////////////STYLES///////////////////////////////////////////////
+/////////////////////////////////////////STYLES///////////////////////////////////////////////
+//////////////////////////////////////STYLES///////////////////////////////////////////////
+//////////////////////////////////////STYLES///////////////////////////////////////////////
+
 @mixin contentFrame {
   max-width: 1200px;
   padding-left: 10%;
@@ -195,7 +223,14 @@ export default {
   align-items: center;
 }
 
+//////////////////////////////////////Accroche///////////////////////////////////////////////
+
 .accroche {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   .background {
     position: absolute;
     top: 0px;
@@ -212,6 +247,7 @@ export default {
     padding: 30px;
     margin: 50px;
     text-align: center;
+    width: 60%;
 
     .annonce {
       font-size: 50px;
@@ -226,25 +262,13 @@ export default {
     }
   }
 
-  >div {
-    display: flex;
-    height: 100%;
-    align-items: center;
-
-    >div {
-      width: 60%;
-    }
-
-    >img {
-      margin: 40px;
-      border-radius: 30px;
-      object-fit: cover;
-      width: 40%;
-      height: 80%;
-    }
-  }
 
 }
+
+
+
+
+//////////////////////////////////////Problematisation///////////////////////////////////////////////
 
 .problematisation {
   @include contentFrame;
@@ -292,6 +316,8 @@ export default {
     }
   }
 }
+
+//////////////////////////////////////Prestations gen///////////////////////////////////////////////
 
 .prestationsGen {
   @include contentFrame;
@@ -399,6 +425,8 @@ export default {
   }
 }
 
+//////////////////////////////////////Prestations spé///////////////////////////////////////////////
+
 .prestationsSpé {
   @include contentFrame;
   display: flex;
@@ -407,15 +435,19 @@ export default {
   h2 {
     font-size: 40px;
     text-align: center;
+
+
   }
 
   h3 {
     font-size: 26px;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
   }
 
   .prestationSpéDescription {
-    height: 300px;
+    height: 230px;
   }
 
 
@@ -433,7 +465,7 @@ export default {
       border-radius: 40px;
 
       p {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 160%;
 
       }
@@ -445,10 +477,13 @@ export default {
         padding: 10px 20px 10px 20px;
         background-color: $yellow;
         border-radius: 20px;
+        margin-bottom: 0px;
       }
     }
   }
 }
+
+////////////////////////////////////// Form CTA ///////////////////////////////////////////////
 
 .formCTA {
   height: 100px;
@@ -459,13 +494,57 @@ export default {
   width: 100%;
 }
 
-.portfolio {
-  display: flex;
-  @include contentFrame;
+////////////////////////////////////// Portfolio ///////////////////////////////////////////////
+
+.portfolioDiv {
+
   width: 100%;
   background-color: $light-blue;
 
+  box-sizing: border-box;
+
+  .portfolioContainer {
+    @include contentFrame;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+      font-size: 40px;
+      margin-top: 40px;
+      color: white;
+      text-align: center;
+
+    }
+
+    .lienPortfolio {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-top: 0px;
+      margin-bottom: 10px;
+      font-size: 18px;
+      font-weight: 600;
+
+      a {
+        text-decoration: none;
+        color: $yellow;
+      }
+    }
+
+    .portfolio {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
 
 
+
+    }
+  }
+}
+
+.formulaire {
+  display: flex;
+  align-items: center;
 }
 </style>

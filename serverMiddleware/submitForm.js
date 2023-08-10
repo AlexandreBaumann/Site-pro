@@ -53,7 +53,7 @@ export default async function handler(req, res) {
 
     let mailOptions = {
       from: 'admin@manuels-de-droit.fr',
-      to: 'chemins_de_vie@orange.fr',
+      to: 'contact@alexandrebaumann.com',
       subject: 'New message from your website',
       text: `First Name: ${cleanFirstName}\nLast Name: ${cleanLastName}\nEmail: ${email}\nMessage: ${cleanMessage}`,
     }

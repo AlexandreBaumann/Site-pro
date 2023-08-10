@@ -1,13 +1,17 @@
 <template>
     <div class="form-bouton-modale">
         <!-- Bouton CTA pour déclencher le modal -->
-        <button @click="showModal = true">Me contacter</button>
+        <button @click="showModal = true">Contact</button>
 
         <!-- Le Modal -->
         <div v-if="showModal" class="modal" @click="closeModal($event)">
             <div class="modal-content">
                 <span class="close-btn" @click="showModal = false">&times;</span>
-                <Form @formSubmitted="handleFormResponse" />
+                <Form v-if="!formSubmittedSuccessfully" @formSubmitted="handleFormResponse" />
+                <div v-else class="success-message">
+                    <div class="checkmark">&#x2714;</div>
+                    <button @click="showModal = false">Merci pour votre message!</button>
+                </div>
             </div>
         </div>
     </div>
@@ -22,22 +26,21 @@ export default {
     },
     data() {
         return {
-            showModal: false
+            showModal: false,
+            formSubmittedSuccessfully: false
         };
     },
     methods: {
         handleFormResponse(response) {
             if (response.success) {
-                this.showModal = false; // ferme le modal si la soumission est réussie
-                // Vous pouvez également afficher un message de réussite, traiter les données, etc.
-            } else {
-                // Traitez l'erreur ou la réponse négative
+                this.formSubmittedSuccessfully = true;
             }
         },
         closeModal(event) {
             // Vérifie si l'événement provient de la div `.modal` elle-même
             if (event.target.classList.contains('modal')) {
                 this.showModal = false;
+                this.formSubmittedSuccessfully = false;  // réinitialiser
             }
         },
     }
@@ -82,6 +85,28 @@ export default {
     position: absolute;
     right: 20px;
     top: 10px;
+    cursor: pointer;
+}
+
+.success-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.checkmark {
+    font-size: 50px;
+    color: $light-blue;
+}
+
+.success-message button {
+    background-color: $yellow;
+    color: $dark-blue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 </style>

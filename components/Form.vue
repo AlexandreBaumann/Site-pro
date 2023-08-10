@@ -1,6 +1,6 @@
 <template>
     <form @submit.prevent="handleSubmit" class="form">
-        <h2>Formulaire</h2>
+        <h2>Me contacter</h2>
         <div class="nomprenom">
             <div class="champ">
                 <label for="firstName">
@@ -37,6 +37,7 @@
         </div>
         <button class="envoyer" type="submit">Envoyer</button>
         <p v-if="status">{{ status }}</p>
+        <p v-if="showSuccessMessage">Message bien envoyé!</p>
     </form>
 </template>
 
@@ -50,7 +51,8 @@ export default {
             message: "",
             status: "",
             honeypot: "",
-            privacyPolicyAccepted: false
+            privacyPolicyAccepted: false,
+            showSuccessMessage: false
         };
     },
     methods: {
@@ -93,6 +95,10 @@ export default {
                     this.email = "";
                     this.message = "";
                     this.privacyPolicyAccepted = false;
+                    this.showSuccessMessage = true;
+                    setTimeout(() => {
+                        this.showSuccessMessage = false;
+                    }, 5000);
                 } else {
                     const errorData = await response.json();
                     this.status = `Erreur: ${errorData.error}`;

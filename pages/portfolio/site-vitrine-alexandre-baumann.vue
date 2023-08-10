@@ -7,8 +7,14 @@
         <h3>Les modales</h3>
         <p>Il y a plusieurs modales:</p>
         <ul>
-            <li>Le bouton "contact" dans le menu et dans l'appel à ac</li>
+            <li>Les boutons "contact" dans le menu et dans la Home déclenchent l'apparition d'une modale contenant le
+                formulaire de contact. Lorsqu'il est correctement rempli, il est remplacé par un message de validation et un
+                bouton pour fermer la modale. Elle peut se fermer en cliquant dans la zone grisée, à l'extérieur d'elle.
+            </li>
+            <li>Les "cards" représentant les projets du portfolio permettent l'ouverture d'une modale où le projet est plus
+                précisément décrit, avec un lien permettant de voir la page dédiée.</li>
         </ul>
+        <p>Elles sont gérées avec des "state".</p>
         <h3>Le formulaire</h3>
         <p>Le formulaire se divise en deux fichiers: le formulaire à proprement parler, le composant Form.vue, et le fichier
             côté serveur qui traite les données qu'il envoie.</p>
@@ -18,12 +24,14 @@
             <li>Si vous oubliez un champ ou ne renseignez pas un email, vous avez un message d'erreur précisant la nature de
                 l'erreur.</li>
             <li>Vous devez accepter la politique de confidentialité pour envoyer le message.</li>
-            <li>Si l'envoi est valide, vous avez </li>
+            <li>Si l'envoi est valide, vous avez un message de validation qui apparait. Si le formulaire est dans une
+                modale, à la place du formulaire s'affiche un message de validation et un bouton pour fermer la modale.
+            </li>
         </ul>
         <p>Pour lutter contre le SPAM, j'ai mis en place un honeypot: une division invisible à l'utilisateur, qui est en
-            dehors du champ de l'écran. J'aurais pu utiliser la propriété "display:hidden", mais je pense que c'est trop
-            facile à contourner pour un robot. La renseigner va renvoyer une réponse 200, mais le contenu du formulaire ne
-            sera pas transmis.</p>
+            dehors du champ de l'écran. La renseigner va renvoyer une réponse 200, mais le contenu du formulaire ne
+            sera pas transmis. J'aurais pu utiliser la propriété "display:hidden", mais je pense que c'est trop
+            facile à contourner pour un robot. </p>
         <h4>Traitement de la requête et envoi du mail</h4>
         <p>Mettre en place le système d'envoi de mail a été la principale difficulté.
             Il fallait mettre en place un script accueillant le message et envoyant le mail au compte de l'administrateur.

@@ -1,3 +1,5 @@
+import bodyParser from 'body-parser'
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -18,8 +20,6 @@ export default {
   css: [
     '@/assets/styles/normalize.css',
     '@/assets/styles/main.scss',
-    '@/assets/styles/header.scss',
-    '@/assets/styles/footer.scss',
     '@fortawesome/fontawesome-svg-core/styles.css',
   ],
 
@@ -45,6 +45,7 @@ export default {
   build: {},
   target: 'static',
   serverMiddleware: [
+    bodyParser.json(),
     { path: '/api/submit-form', handler: '~/serverMiddleware/submitForm.js' },
   ],
 }
