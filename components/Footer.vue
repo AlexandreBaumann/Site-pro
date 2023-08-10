@@ -2,8 +2,8 @@
   <footer>
     <nav>
       <ul>
-        <li><nuxt-link to="/mention-legales">Mentions légales</nuxt-link></li>
-        <li><nuxt-link to="/politique-de-confidentialite">Politique de confidentialité</nuxt-link></li>
+        <!-- <li><nuxt-link to="/mention-legales">Mentions légales</nuxt-link></li> -->
+        <!-- <li><nuxt-link to="/politique-de-confidentialite">Politique de confidentialité</nuxt-link></li> -->
       </ul>
     </nav>
   </footer>
@@ -43,5 +43,6 @@ footer {
       }
     }
   }
-}</style>
+}
+</style>
   

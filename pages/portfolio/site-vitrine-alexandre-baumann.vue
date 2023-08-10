@@ -2,21 +2,76 @@
     <div class="container">
 
         <h1>Site vitrine Alexandre Baumann (Developpement et SEO)</h1>
+        <p>C'est le site sur lequel nous sommes: mon site vitrine, pour exposer mes travaux et prestations. Je vais vous
+            présenter ici:</p>
+        <ul>
+            <li>Les technologies utilisées</li>
+            <li>Les fonctionnalités</li>
+            <li>Les éléments de style un peu complexes</li>
+            <li>Les difficultés rencontrées</li>
+        </ul>
+        <p>Je vais devoir utiliser le langage technique. Je vous propose donc, avant cela, un résumé compréhensible par un
+            non-développeur.</p>
+        <h2>Résumé</h2>
+        <p>Le présent site utilise Nuxt.js, un framework javascript permettant une expérience de navigation améliorée tout
+            en étant optimisé pour le SEO.</p>
+        <p>J'ai limité autant que possible l'utilisation de dépendances, pour garder le système relativement simple. Il y a
+            quelques fonctionnalités spécifiques: un formulaire de contact, des "modales" (fenêtres qui s'ouvrent et
+            occupent l'écran
+            en grisant la page en arrière plan) et l'intégration d'une boucle d'articles (c'est comme la liste d'article
+            dans les journaux ou les blogs).</p>
+        <p>Le formulaire est l'élément qui a demandé le plus de travail: il a fallu le rendre conforme aux exigences de la
+            qualité web (si un champ est mal rempli, l'erreur doit être décrite; il faut un message de validation ..), le
+            rendre sécure pour éviter les injections de code et enfin configurer l'envoi de mail.</p>
+
         <h2>Présentation des technologies utilisées</h2>
+        <h3>Nuxt.js</h3>
+        <p>Le site est codé sous Nuxt.js, un framework javascript basé sur Vue.js. </p>
+        <p>Vue est un framework Javascript "single page application" (SPA), comme React et Angular, ce qui garantit une
+            expérience
+            d'utilisation extrêmement fluide. Il a pour particularité
+            d'avoir trois parties à ces composants: le HTML, le script et le style. Cela évite
+            notamment d'avoir un fichier de style pour chaque composant. Sa syntaxe est particulièrement concise.</p>
+        <p>Néanmoins, le rendu des SPA étant entièrement généré avec javascript, c'est peu compatible avec le SEO. C'est
+            pour cela qu'on été développé des solutions pour générer le rendu côté serveur ("Server Side Rendering") ou sous
+            forme d'export statique (HTML, CSS, Json et Javascript). C'est ce que permet Nuxt.js. Pour le présent site, j'ai
+            fait le choix de l'export statique, plus simple et suffisant.</p>
+        <h3>Dépendances</h3>
+        <p>Parmi les dépendances, il y a notamment:</p>
+        <ul>
+            <li>La suite <strong>@fortawesome</strong>, pour utiliser les icones Fontawesome.</li>
+            <li><strong>Sass</strong> et <strong>sass-loader</strong> pour gérer le SCSS.</li>
+            <li><strong>Prettier</strong> pour le formattage automatique de tout sauf des fichiers .vue et Volar pour ces
+                derniers.</li>
+            <li><strong>Nodemailer</strong> pour gérer l'envoi d'email avec le formulaire de contact.</li>
+        </ul>
+        <p>J'utilise également Typescript pour avoir un code plus propre.</p>
+        <h3>Autres</h3>
+        <p>J'utilise le <strong>SCSS</strong> pour le style. Notez que si on veut
+            l'utiliser dans
+            les parties "style" des composants, il faut ajouter "lang="scss"" à
+            l'intérieur.</p>
+        <p>La base de donnée, étant très simple, est juste un <strong>fichier json</strong> déposé dans le dossier static.
+            C'est la solution
+            la plus simple, qui me permet de facilement ajouter et modifier ses éléments.</p>
         <h2>Fonctionnalités</h2>
+        <p>Il y a deux types de fonctionnalités: les <strong>modales</strong>et le <strong>formulaire de contact</strong>.
+        </p>
         <h3>Les modales</h3>
         <p>Il y a plusieurs modales:</p>
         <ul>
-            <li>Les boutons "contact" dans le menu et dans la Home déclenchent l'apparition d'une modale contenant le
+            <li>Les boutons <strong>"contact"</strong> dans le menu et dans la Home déclenchent l'apparition d'une modale
+                contenant le
                 formulaire de contact. Lorsqu'il est correctement rempli, il est remplacé par un message de validation et un
                 bouton pour fermer la modale. Elle peut se fermer en cliquant dans la zone grisée, à l'extérieur d'elle.
             </li>
-            <li>Les "cards" représentant les projets du portfolio permettent l'ouverture d'une modale où le projet est plus
+            <li>Les <strong>"cards"</strong> représentant les projets du portfolio permettent l'ouverture d'une modale où le
+                projet est plus
                 précisément décrit, avec un lien permettant de voir la page dédiée.</li>
         </ul>
         <p>Elles sont gérées avec des "state".</p>
         <h3>Le formulaire</h3>
-        <p>Le formulaire se divise en deux fichiers: le formulaire à proprement parler, le composant Form.vue, et le fichier
+        <p>Le formulaire se divise en deux fichiers: le composant côté client', Form.vue, et le fichier
             côté serveur qui traite les données qu'il envoie.</p>
         <h4>Le formulaire lui-même</h4>
         <p>Il y a ce qu'on s'attend à voir sur un formulaire:</p>
@@ -46,6 +101,29 @@
         </ul>
 
         <h3>La boucle de cartes</h3>
+        <p>C'est une fonctionnalité extrêmement simple à coder sous Vue. En effet, il suffit de ce petit bout de code:
+            &lt;Card v-for="cardData in $store.state.data.data" :key="cardData._id" :card="cardData" /&gt; />
+        </p>
+        <p>cela affiche un composant Card pour chaque objet dans l'objet "data" du store.</p>
+        <p>La spécificité est l'utilisation d'un "store", qui permet de gérer la base de données (le fichier json)
+            pour l'ensemble de l'application. Dans l'exemple, on prend toute la base. Néanmoins, dans la page d'accueil, on
+            fait la même en utilisant un "getter", c'est à dire qu'on a retravaillé ladite base. On en extrait les 3 projets
+            avec la propriété "interet" la plus élevée. Cela se passe dans data.js dans le dossier store.</p>
+
+
+        <h2>Le style</h2>
+
+        <h3>Le cadre et classe récurrente</h3>
+        <p>J'utilise un mixin pour avoir un cadre cohérent de contenu (une largeur maximale et des espaces sur les côtés).
+            J'aurais également pu utiliser une classe. C'est d'ailleurs la solution que j'ai adoptée pour avoir des sections
+            dont la hauteur prend l'écran moins la hauteur du header. C'est la classe "fullheightdiv" dans
+            assets/styles/main.scss.
+        </p>
+
+        <h3>La modale</h3>
+        <p>Le style des modales est très simple: on affiche une division avec la classe "modal", avec une position:fixed et
+            qui prend tout l'écran. Elle a comme background-color un noir transparent. Ensuite on a, à l'intérieur, la
+            division de classe "modal-content" qui va accueillir le contenu.</p>
 
         <h2>Difficultés rencontrées</h2>
         <h3>Sur le fonctionnement</h3>
@@ -64,7 +142,7 @@
         <h4>Autres détails</h4>
         <p>J'ai été confronté à quelques autres difficultés, plus mineures, liées à ma découverte de Nuxt:</p>
         <ul>
-            <li>Pour implémenter le scss dans les balises "style" des composants, il faut spécifier " lang="scss" " à
+            <li>Pour implémenter le scss dans les balises "style" des composants, il faut spécifier "lang="scss"" à
                 l'intérieur.</li>
             <li>La page <i>"/portfolio"</i> devait se trouver sous le nom <i>"index.vue"</i> dans le sous-dossier
                 <i>"portfolio"</i> pour ne pas

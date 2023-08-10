@@ -8,8 +8,8 @@
       </div>
       <nav>
         <ul>
-          <li><nuxt-link to="/developpement">Développement</nuxt-link></li>
-          <li><nuxt-link to="/seo">SEO</nuxt-link></li>
+          <!-- <li><nuxt-link to="/developpement">Développement</nuxt-link></li>
+          <li><nuxt-link to="/seo">SEO</nuxt-link></li> -->
           <li><nuxt-link to="/portfolio">Portfolio</nuxt-link></li>
           <li>
             <FormCTA />
