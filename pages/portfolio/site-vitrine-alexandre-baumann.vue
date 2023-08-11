@@ -55,7 +55,8 @@
             C'est la solution
             la plus simple, qui me permet de facilement ajouter et modifier ses éléments.</p>
         <h2>Fonctionnalités</h2>
-        <p>Il y a deux types de fonctionnalités: les <strong>modales</strong>et le <strong>formulaire de contact</strong>.
+        <p>Les types de fonctionnalités sont les <strong>modales</strong>, le <strong>formulaire de contact</strong> et la
+            <strong>gestion des métadonnées.</strong>.
         </p>
         <h3>Les modales</h3>
         <p>Il y a plusieurs modales:</p>

@@ -45,8 +45,8 @@ export default async function handler(req, res) {
       port: 465,
       secure: true,
       auth: {
-        user: 'admin@manuels-de-droit.fr', // your SMTP username
-        pass: 'supermotdepasse', // your SMTP password
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASSWORD,
       },
       tls: { rejectUnauthorized: false },
     })
