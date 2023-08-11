@@ -1,16 +1,20 @@
 @import '~/assets/variables.scss';
 //Ombrage sur les cartes ?
-// Courte description du projet
-// Définition des problématiques principales
 // Compétences
-// Sécuriser dans des variables d'environement
 
 body {
   font-family: $font-text;
   color: $dark-blue;
+  font-size: 22px;
+  @media (max-width: $tall-to-mid) {
+    font-size: 18px;
+  }
 }
 main {
-  margin-top: $headerHeight;
+  margin-top: $headerHeight-tall;
+  @media (max-width: $tall-to-mid) {
+    margin-top: $headerHeight-mid;
+  }
 }
 h1,
 h2,
@@ -22,8 +26,11 @@ h6 {
 }
 
 .fullheightdiv {
-  height: $full-height;
+  height: $full-height-tall;
   position: relative;
+  @media (max-width: $tall-to-mid) {
+    height: $full-height-mid;
+  }
 }
 
 button {
@@ -37,4 +44,32 @@ button {
   -webkit-appearance: none; /* pour les navigateurs Webkit comme Safari et Chrome */
   -moz-appearance: none; /* pour Firefox */
   appearance: none; /* standard moderne */
+}
+
+.Next,
+.React {
+  background-color: #8a3400;
+}
+
+.Nuxt,
+.Vue {
+  background-color: #ff5500;
+}
+
+.SCSS,
+.CSS {
+  background-color: #707070;
+}
+
+.Node,
+.Express {
+  background-color: #8e4585;
+}
+
+.Python {
+  background-color: #191970;
+}
+
+.MongoDB {
+  background-color: #9932cc;
 }

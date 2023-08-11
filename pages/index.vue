@@ -1,5 +1,5 @@
 <template>
-  <div class="main-content">
+  <main>
     <section class="fullheightdiv accroche">
       <div class="accrochetext">
         <p class="annonce">
@@ -14,7 +14,7 @@
     </section>
     <section class="fullheightdiv problematisation">
       <div class="problemaccroche">
-        <p>Plus qu'une opportunité, votre identité</p>
+        <p>Plus qu'une opportunité: votre identité</p>
       </div>
       <div class="problemDiv">
         <div class="problemIcones">
@@ -38,86 +38,84 @@
         </div>
       </div>
     </section>
-    <section class="prestationsGen">
-      <article class="fullheightdiv prestationsGenTitle">
-        <h1>Développement web et SEO</h1>
-        <p>
-          Je vous aide à <strong>développer vos sites internet</strong> et à
-          <strong>optimiser votre référencement naturel</strong> (SEO, Search
-          Engine Optimization).
-        </p>
-      </article>
-      <article class="fullheightdiv prestationsGenItem">
-        <h2>Référencement naturel (SEO)</h2>
-        <div class="prestationSeo">
-          <div>
-            <h3>L'audit</h3>
-            <p>
-              Si vous avez un site internet et que vous souhaitez le conserver,
-              il faut faire un bilan avant d'engager des actions. Un
-              <strong>audit SEO et accessibilité</strong> vous permet
-              d'identifier les problèmes techniques de vos sites et de vérifier
-              le respect des bonnes pratiques.
-            </p>
-          </div>
-          <div>
-            <h3>L'étude marché SEO</h3>
-            <p>
-              Le <strong>benchmark concurrentiel</strong> et la
-              <strong>recherche de mots-clés</strong> vous donne une nouvelle
-              perspective sur votre marché et vos concurrents. Découvrez votre
-              futur produit phare !
-            </p>
-          </div>
-          <div>
-            <h3>Plan d'action et suivi</h3>
-            <p>
-              Je vous aide à concevoir votre <strong>plan d'action</strong> et à
-              <strong>suivre</strong> vos progrès, pour faire rapidement le
-              retour d'expérience et identifier les axes d'amélioration.
-            </p>
-          </div>
-
-          <img src="seo.webp" alt="nuage de mots relatifs au SEO" />
-        </div>
-      </article>
-      <article class="fullheightdiv prestationsGenItem">
-        <h2>Développement web</h2>
-        <div class="prestationDev">
-          <div>
-            <h3>Langages</h3>
-            <p>
-              Outre les bases (HTML, dont <strong>accessibilité</strong> et
-              <strong>marquage Schema</strong>, - CSS et SCSS), j'ai développé
-              plusieurs projets utilisant soit un framework JS (<strong>Next-React</strong>
-              et <strong>Vue-Nuxt</strong>), soit un thème
-              <strong>wordpress</strong> personnalisé.
-            </p>
-          </div>
-          <div>
-            <h3>Fonctionnalités</h3>
-            <p>
-              Parmi les fonctionnalités, il y a évidemment le
-              <strong>formulaire sécurisé</strong>, mais aussi la génération de
-              méta-données à partir d'une base de données et un backoffice pour
-              alimenter cette dernière.
-            </p>
-          </div>
+    <section class="fullheightdiv prestationsGenTitle">
+      <h1>Développement web et SEO</h1>
+      <p>
+        Je vous aide à <strong>développer vos sites internet</strong> et à
+        <strong>optimiser votre visibilité</strong> dans les moteurs de recherche (SEO, Search
+        Engine Optimization).
+      </p>
+    </section>
+    <section class="fullheightdiv prestationsGenItem">
+      <h2>Référencement naturel (SEO)</h2>
+      <div class="prestationSeo">
+        <div>
+          <h3>L'audit</h3>
           <p>
-            Je développe en détail mes réalisations, leurs fonctionnalités et
-            les difficultés rencontrées, dans le <strong><a href=#porforlio>portfolio</a></strong>.
+            Si vous avez un site internet et que vous souhaitez le conserver,
+            il faut faire un bilan avant d'engager des actions. Un
+            <strong>audit SEO et accessibilité</strong> vous permet
+            d'identifier les problèmes techniques de vos sites et de vérifier
+            le respect des bonnes pratiques.
           </p>
-          <div class="devLangLogos">
-            <img src="javascript-logo.png" alt="Logo javascript" />
-            <img src="logoreact.png" alt="Logo React" />
-            <img src="logovue.png" alt="Logo Vue" />
-            <img src="next-js.svg" alt="Logo Next" />
-            <img src="nuxtlogo.svg" alt="Logo Nuxt" class="logoLong" />
-            <img src="WordPress_logo.svg" alt="Logo Wordpress" class="logoLong" />
-          </div>
-
         </div>
-      </article>
+        <div>
+          <h3>L'étude marché SEO</h3>
+          <p>
+            Le <strong>benchmark concurrentiel</strong> et la
+            <strong>recherche de mots-clés</strong> vous donne une nouvelle
+            perspective sur votre marché et vos concurrents. Découvrez votre
+            futur produit phare !
+          </p>
+        </div>
+        <div>
+          <h3>Plan d'action et suivi</h3>
+          <p>
+            Je vous aide à concevoir votre <strong>plan d'action</strong> et à
+            <strong>suivre</strong> vos progrès, pour faire rapidement le
+            retour d'expérience et identifier les axes d'amélioration.
+          </p>
+        </div>
+
+        <img src="seo.webp" alt="nuage de mots relatifs au SEO" />
+      </div>
+    </section>
+    <section class="fullheightdiv prestationsGenItem">
+      <h2>Développement web</h2>
+      <div class="prestationDev">
+        <div>
+          <h3>Langages</h3>
+          <p>
+            Outre les bases (HTML, dont <strong>accessibilité</strong> et
+            <strong>marquage Schema</strong>, - CSS et SCSS), j'ai développé
+            plusieurs projets utilisant soit un framework JS (<strong>Next-React</strong>
+            et <strong>Vue-Nuxt</strong>), soit un thème
+            <strong>wordpress</strong> personnalisé.
+          </p>
+        </div>
+        <div>
+          <h3>Fonctionnalités</h3>
+          <p>
+            Parmi les fonctionnalités, il y a évidemment le
+            <strong>formulaire sécurisé</strong>, mais aussi la génération de
+            méta-données à partir d'une base de données et un backoffice pour
+            alimenter cette dernière.
+          </p>
+        </div>
+        <p>
+          Je développe en détail mes réalisations, leurs fonctionnalités et
+          les difficultés rencontrées, dans le <strong><a href=#porforlio>portfolio</a></strong>.
+        </p>
+        <div class="devLangLogos">
+          <img src="javascript-logo.png" alt="Logo javascript" />
+          <img src="logoreact.png" alt="Logo React" />
+          <img src="logovue.png" alt="Logo Vue" />
+          <img src="next-js.svg" alt="Logo Next" />
+          <img src="nuxtlogo.svg" alt="Logo Nuxt" class="logoLong" />
+          <img src="WordPress_logo.svg" alt="Logo Wordpress" class="logoLong" />
+        </div>
+
+      </div>
     </section>
     <section class="formCTA">
       <FormCTA />
@@ -176,7 +174,7 @@
       <Form />
     </section>
 
-  </div>
+  </main>
 </template>
 
 <script>
@@ -216,12 +214,7 @@ export default {
   padding-right: 10%;
 }
 
-.main-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 
 //////////////////////////////////////Accroche///////////////////////////////////////////////
 
@@ -230,6 +223,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 
   .background {
     position: absolute;
@@ -244,20 +238,33 @@ export default {
   .accrochetext {
     background-color: white;
     border-radius: 20px;
-    padding: 30px;
+    padding: 50px;
     margin: 50px;
     text-align: center;
-    width: 60%;
+    width: 50%;
+
+    @media (max-width:$tall-to-mid) {
+      padding: 30px;
+
+    }
+
 
     .annonce {
       font-size: 50px;
       font-weight: 600;
+      line-height: 180%;
+
+      @media (max-width:$tall-to-mid) {
+        line-height: 160%;
+      }
 
     }
 
     .soustitre {
       font-size: 30px;
-      line-height: 150%;
+      line-height: 180%;
+
+      @media (max-width:$tall-to-mid) {}
 
     }
   }
@@ -272,8 +279,9 @@ export default {
 
 .problematisation {
   @include contentFrame;
-  margin-top: 100px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 
   p {
     text-align: center;
@@ -282,6 +290,9 @@ export default {
   .problemaccroche {
     font-size: 50px;
     font-weight: 600;
+
+    @media (max-width:$tall-to-mid) {}
+
   }
 
   .problemDiv {
@@ -302,6 +313,11 @@ export default {
       font-size: 90px;
       margin-top: 50px;
       margin-bottom: 50px;
+
+      @media (max-width:$tall-to-mid) {
+        margin-top: 0px;
+        margin-bottom: 20px;
+      }
     }
 
     .problemTextes {
@@ -311,6 +327,11 @@ export default {
       p {
         font-size: 24px;
         line-height: 180%;
+
+        @media (max-width:$tall-to-mid) {
+          font-size: 20px;
+
+        }
       }
 
     }
@@ -319,111 +340,138 @@ export default {
 
 //////////////////////////////////////Prestations gen///////////////////////////////////////////////
 
-.prestationsGen {
+
+.prestationsGenTitle {
   @include contentFrame;
+
   display: flex;
   flex-direction: column;
-  padding-top: 60px;
-  text-align: center;
+  justify-content: space-evenly;
   align-items: center;
 
-  .prestationsGenTitle {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+  h1 {
+    font-size: 70px;
 
-    h1 {
-      font-size: 60px;
+    @media (max-width:$tall-to-mid) {
+      font-size: 50px;
     }
 
-    >p {
-      font-size: 30px;
-      line-height: 180%;
-      width: 80%;
-    }
   }
 
-  .prestationsGenItem {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
+  >p {
+    font-size: 40px;
+    line-height: 180%;
+    width: 80%;
+    text-align: center;
 
-    h2 {
-      font-size: 40px;
-    }
-
-    h3 {
-      margin-left: 10%;
-      font-size: 24px;
-    }
-
-    p {
-      margin-bottom: 10px;
-      line-height: 160%;
-      font-size: 18px;
-    }
-
-    .prestationSeo {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      column-gap: 10%;
-      row-gap: 20px;
-      text-align: start;
-
-      >* {
-        width: 100%;
-      }
-
-
-
-      img {
-        object-fit: contain;
-        grid-column: 2 / 2;
-        grid-row: 1;
-      }
-    }
-
-    .prestationDev {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      column-gap: 10%;
-      row-gap: 20px;
-      text-align: start;
-
-      >* {
-        width: 100%;
-      }
-
-      >p {
-        margin-top: auto;
-        margin-bottom: auto;
-
-      }
-
-      .devLangLogos {
-        grid-column: 2;
-        grid-row: 1/2;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        justify-content: center;
-
-        img {
-          object-fit: contain;
-          width: 100px;
-
-          &.logoLong {
-            width: 200px;
-
-          }
-        }
-      }
+    @media (max-width:$tall-to-mid) {
+      font-size: 30px;
     }
 
   }
 }
+
+.prestationsGenItem {
+  @include contentFrame;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  h2 {
+    font-size: 40px;
+
+    @media (max-width:$tall-to-mid) {}
+
+  }
+
+  h3 {
+    margin-left: 10%;
+    font-size: 24px;
+
+    @media (max-width:$tall-to-mid) {}
+
+  }
+
+  p {
+    margin-bottom: 10px;
+    line-height: 160%;
+    font-size: 18px;
+
+    @media (max-width:$tall-to-mid) {}
+
+  }
+
+  .prestationSeo {
+    @include contentFrame;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10%;
+    row-gap: 20px;
+    text-align: start;
+
+    @media (max-width:$tall-to-mid) {}
+
+    >* {
+      width: 100%;
+    }
+
+
+
+    img {
+      object-fit: contain;
+      grid-column: 2 / 2;
+      grid-row: 1;
+    }
+  }
+
+  .prestationDev {
+    @include contentFrame;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10%;
+    row-gap: 20px;
+    text-align: start;
+
+    >* {
+      width: 100%;
+    }
+
+    >p {
+      margin-top: auto;
+      margin-bottom: auto;
+
+      @media (max-width:$tall-to-mid) {}
+
+    }
+
+    .devLangLogos {
+      grid-column: 2;
+      grid-row: 1/2;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+
+      img {
+        object-fit: contain;
+        width: 100px;
+
+        @media (max-width:$tall-to-mid) {}
+
+        &.logoLong {
+          width: 200px;
+
+        }
+      }
+    }
+  }
+
+}
+
 
 //////////////////////////////////////Prestations spé///////////////////////////////////////////////
 
@@ -431,23 +479,36 @@ export default {
   @include contentFrame;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 
   h2 {
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
 
+    @media (max-width:$tall-to-mid) {
+      font-size: 50px;
 
+    }
   }
 
   h3 {
-    font-size: 26px;
+    font-size: 32px;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 5px;
+
+    @media (max-width:$tall-to-mid) {
+      font-size: 26px;
+    }
   }
 
   .prestationSpéDescription {
-    height: 230px;
+    height: 400px;
+
+    @media (max-width:$tall-to-mid) {
+      height: 200px;
+
+    }
   }
 
 
@@ -465,8 +526,13 @@ export default {
       border-radius: 40px;
 
       p {
-        font-size: 16px;
+        font-size: 22px;
         line-height: 160%;
+
+        @media (max-width:$tall-to-mid) {
+          font-size: 16px;
+          line-height: 150%;
+        }
 
       }
 
@@ -478,6 +544,11 @@ export default {
         background-color: $yellow;
         border-radius: 20px;
         margin-bottom: 0px;
+
+        @media (max-width:$tall-to-mid) {
+          font-size: 20px;
+          padding: 7px 15px 7px 15px;
+        }
       }
     }
   }
@@ -497,7 +568,10 @@ export default {
 ////////////////////////////////////// Portfolio ///////////////////////////////////////////////
 
 .portfolioDiv {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   width: 100%;
   background-color: $light-blue;
 
@@ -507,9 +581,10 @@ export default {
     @include contentFrame;
     flex-direction: column;
     align-items: center;
+    min-width: 1100px;
 
     h2 {
-      font-size: 40px;
+      font-size: 50px;
       margin-top: 40px;
       color: white;
       text-align: center;
@@ -521,10 +596,14 @@ export default {
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      margin-top: 0px;
-      margin-bottom: 10px;
-      font-size: 18px;
       font-weight: 600;
+      font-size: 24px;
+
+      @media (max-width:$tall-to-mid) {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
 
       a {
         text-decoration: none;
@@ -539,6 +618,7 @@ export default {
 
 
 
+
     }
   }
 }
@@ -546,5 +626,7 @@ export default {
 .formulaire {
   display: flex;
   align-items: center;
+
+  @media (max-width:$tall-to-mid) {}
 }
 </style>

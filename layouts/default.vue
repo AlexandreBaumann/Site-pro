@@ -3,9 +3,7 @@
 
     <Head />
     <Header /> <!-- votre header -->
-    <main>
-      <Nuxt /> <!-- le contenu de la page -->
-    </main>
+    <Nuxt /> <!-- le contenu de la page -->
     <Footer /> <!-- votre footer -->
   </div>
 </template>
@@ -23,4 +21,11 @@ export default {
   }
 }
 </script>
-  
+<style>
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+</style>

@@ -17,8 +17,13 @@ $yellow: #ffd700;
 $font-title: 'Roboto', sans-serif;
 $font-text: 'Open Sans', sans-serif;
 
-$headerHeight: 80px;
-$full-height: calc(100vh - #{$headerHeight});
+$tall-to-mid: 1600px;
+
+$headerHeight-tall: 120px;
+$headerHeight-mid: 80px;
+
+$full-height-tall: calc(100vh - #{$headerHeight-tall});
+$full-height-mid: calc(100vh - #{$headerHeight-mid});
 
 @mixin contentFrame {
   max-width: 1200px;
