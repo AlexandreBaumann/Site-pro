@@ -45,6 +45,28 @@ button {
   -moz-appearance: none; /* pour Firefox */
   appearance: none; /* standard moderne */
 }
+/////////////////////////// ETIQUETTES //////////////////////
+/////////////////////////// ETIQUETTES //////////////////////
+/////////////////////////// ETIQUETTES //////////////////////
+/////////////////////////// ETIQUETTES //////////////////////
+
+.technologies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  li {
+    display: inline-block;
+    color: white;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      background: #fff;
+    }
+  }
+}
 
 .Next,
 .React {

@@ -32,7 +32,7 @@
             "Génération de site SEO",
             "Création de site internet"
         ],
-        "abstract": "Site d'information de plusieurs centaines de pages sur l'hydrogène. Test SEO autour de la génération de contenus.",
+        "abstract": "Site d'information de plusieurs centaines de pages sur l'hydrogène.",
         "resumeP1": "Ce <strong>site d'information</strong> de plusieurs centaines de pages a pour objet de présenter le secteur de l'hydrogène. Il a plusieurs typologies de pages: les entreprises, les matériaux, les piles à combustible ... Elles sont affichées et classées dans plusieurs boucles grâce à la base de données <strong>MongoDB</strong>.",
         "resumeP2": "Le projet est codé avec <strong>Next.js</strong>, un framework de React permettant le Server Side Rendering, et repose sur l'utilisation de <strong>Python</strong> pour générer le contenu avec OpenAI et gérer le netlinking.",
         "interet": "4"

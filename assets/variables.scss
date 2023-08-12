@@ -18,6 +18,10 @@ $font-title: 'Roboto', sans-serif;
 $font-text: 'Open Sans', sans-serif;
 
 $tall-to-mid: 1600px;
+$mid-to-tablet: 1024px;
+$tablet-to-smalltablet: 800px;
+$smalltablet-to-phone: 600px;
+$phone-to-smallphone: 400px;
 
 $headerHeight-tall: 120px;
 $headerHeight-mid: 80px;
@@ -29,4 +33,7 @@ $full-height-mid: calc(100vh - #{$headerHeight-mid});
   max-width: 1200px;
   padding-left: 10%;
   padding-right: 10%;
+  @media (max-width: $mid-to-tablet) {
+    max-width: none;
+  }
 }

@@ -207,13 +207,7 @@ export default {
 /////////////////////////////////////////STYLES///////////////////////////////////////////////
 //////////////////////////////////////STYLES///////////////////////////////////////////////
 //////////////////////////////////////STYLES///////////////////////////////////////////////
-
-@mixin contentFrame {
-  max-width: 1200px;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
+@import '~/assets/variables.scss';
 
 
 //////////////////////////////////////Accroche///////////////////////////////////////////////
@@ -245,9 +239,28 @@ export default {
 
     @media (max-width:$tall-to-mid) {
       padding: 30px;
+    }
+
+    @media (max-width:1300px) {
+      padding: 20px;
+    }
+
+    @media (max-width:$mid-to-tablet) {
+      padding: 50px;
+      width: 70%;
 
     }
 
+    @media (max-width:$tablet-to-smalltablet) {
+      padding: 30px;
+      ;
+    }
+
+    @media (max-width:$smalltablet-to-phone) {
+      padding: 20px;
+    }
+
+    @media (max-width:$phone-to-smallphone) {}
 
     .annonce {
       font-size: 50px;
@@ -258,6 +271,24 @@ export default {
         line-height: 160%;
       }
 
+      @media (max-width:1300px) {
+        font-size: 40px;
+      }
+
+      @media (max-width:$mid-to-tablet) {
+        font-size: 60px;
+      }
+
+      @media (max-width:$tablet-to-smalltablet) {
+        font-size: 50px;
+      }
+
+      @media (max-width:$smalltablet-to-phone) {
+        font-size: 30px;
+      }
+
+      @media (max-width:$phone-to-smallphone) {}
+
     }
 
     .soustitre {
@@ -266,6 +297,24 @@ export default {
 
       @media (max-width:$tall-to-mid) {}
 
+      @media (max-width:1300px) {
+        font-size: 24px;
+
+      }
+
+      @media (max-width:$mid-to-tablet) {
+        font-size: 40px;
+      }
+
+      @media (max-width:$tablet-to-smalltablet) {
+        font-size: 34px;
+      }
+
+      @media (max-width:$smalltablet-to-phone) {
+        font-size: 20px;
+      }
+
+      @media (max-width:$phone-to-smallphone) {}
     }
   }
 
@@ -293,6 +342,21 @@ export default {
 
     @media (max-width:$tall-to-mid) {}
 
+    @media (max-width:$mid-to-tablet) {
+      font-size: 70px;
+      line-height: 160%;
+    }
+
+    @media (max-width:$tablet-to-smalltablet) {
+      font-size: 50px;
+    }
+
+    @media (max-width:$smalltablet-to-phone) {
+      font-size: 40px;
+
+    }
+
+    @media (max-width:$phone-to-smallphone) {}
   }
 
   .problemDiv {
@@ -318,6 +382,16 @@ export default {
         margin-top: 0px;
         margin-bottom: 20px;
       }
+
+      @media (max-width:$mid-to-tablet) {
+        font-size: 120px;
+      }
+
+      @media (max-width:$tablet-to-smalltablet) {}
+
+      @media (max-width:$smalltablet-to-phone) {}
+
+      @media (max-width:$phone-to-smallphone) {}
     }
 
     .problemTextes {
@@ -332,6 +406,16 @@ export default {
           font-size: 20px;
 
         }
+
+        @media (max-width:$mid-to-tablet) {
+          font-size: 26px;
+        }
+
+        @media (max-width:$tablet-to-smalltablet) {}
+
+        @media (max-width:$smalltablet-to-phone) {}
+
+        @media (max-width:$phone-to-smallphone) {}
       }
 
     }
@@ -351,10 +435,21 @@ export default {
 
   h1 {
     font-size: 70px;
+    text-align: center;
 
     @media (max-width:$tall-to-mid) {
       font-size: 50px;
     }
+
+    @media (max-width:$mid-to-tablet) {
+      font-size: 70px;
+    }
+
+    @media (max-width:$tablet-to-smalltablet) {}
+
+    @media (max-width:$smalltablet-to-phone) {}
+
+    @media (max-width:$phone-to-smallphone) {}
 
   }
 
@@ -367,6 +462,16 @@ export default {
     @media (max-width:$tall-to-mid) {
       font-size: 30px;
     }
+
+    @media (max-width:$mid-to-tablet) {
+      font-size: 40px;
+    }
+
+    @media (max-width:$tablet-to-smalltablet) {}
+
+    @media (max-width:$smalltablet-to-phone) {}
+
+    @media (max-width:$phone-to-smallphone) {}
 
   }
 }
@@ -384,6 +489,13 @@ export default {
 
     @media (max-width:$tall-to-mid) {}
 
+    @media (max-width:$mid-to-tablet) {}
+
+    @media (max-width:$tablet-to-smalltablet) {}
+
+    @media (max-width:$smalltablet-to-phone) {}
+
+    @media (max-width:$phone-to-smallphone) {}
   }
 
   h3 {
@@ -392,6 +504,13 @@ export default {
 
     @media (max-width:$tall-to-mid) {}
 
+    @media (max-width:$mid-to-tablet) {}
+
+    @media (max-width:$tablet-to-smalltablet) {}
+
+    @media (max-width:$smalltablet-to-phone) {}
+
+    @media (max-width:$phone-to-smallphone) {}
   }
 
   p {
@@ -401,6 +520,13 @@ export default {
 
     @media (max-width:$tall-to-mid) {}
 
+    @media (max-width:$mid-to-tablet) {}
+
+    @media (max-width:$tablet-to-smalltablet) {}
+
+    @media (max-width:$smalltablet-to-phone) {}
+
+    @media (max-width:$phone-to-smallphone) {}
   }
 
   .prestationSeo {
@@ -413,6 +539,14 @@ export default {
     text-align: start;
 
     @media (max-width:$tall-to-mid) {}
+
+    @media (max-width:$mid-to-tablet) {}
+
+    @media (max-width:$tablet-to-smalltablet) {}
+
+    @media (max-width:$smalltablet-to-phone) {}
+
+    @media (max-width:$phone-to-smallphone) {}
 
     >* {
       width: 100%;
@@ -479,27 +613,31 @@ export default {
   @include contentFrame;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
 
   h2 {
     font-size: 60px;
     text-align: center;
+    height: 20%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     @media (max-width:$tall-to-mid) {
       font-size: 50px;
 
     }
-  }
 
-  h3 {
-    font-size: 32px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 5px;
-
-    @media (max-width:$tall-to-mid) {
-      font-size: 26px;
+    @media (max-width:$mid-to-tablet) {
+      height: 15%;
     }
+
+    @media (max-width:$tablet-to-smalltablet) {}
+
+    @media (max-width:$smalltablet-to-phone) {}
+
+    @media (max-width:$phone-to-smallphone) {}
   }
 
   .prestationSpéDescription {
@@ -507,23 +645,72 @@ export default {
 
     @media (max-width:$tall-to-mid) {
       height: 200px;
-
     }
+
+    @media (max-width:$mid-to-tablet) {
+      height: 120px;
+    }
+
+    @media (max-width:$tablet-to-smalltablet) {}
+
+    @media (max-width:$smalltablet-to-phone) {}
+
+    @media (max-width:$phone-to-smallphone) {}
   }
 
 
 
   >div {
     display: flex;
-    gap: 20px;
+    height: 80%;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width:$mid-to-tablet) {
+      flex-direction: column;
+      gap: 1%;
+
+    }
 
     .prestationSpéItem {
       display: flex;
       flex-direction: column;
-      width: 33.3%;
+      justify-content: space-between;
+      width: 30%;
       border: 2px solid $light-blue;
       padding: 20px;
       border-radius: 40px;
+      flex-shrink: 0;
+      box-sizing: border-box;
+
+      @media (max-width:$mid-to-tablet) {
+        width: 100%;
+        padding: 10px;
+
+      }
+
+      h3 {
+        font-size: 32px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 5px;
+
+        @media (max-width:$tall-to-mid) {
+          font-size: 26px;
+        }
+
+        @media (max-width:$mid-to-tablet) {
+          font-size: 32px;
+        }
+
+        @media (max-width:$tablet-to-smalltablet) {
+          font-size: 26px;
+        }
+
+        @media (max-width:$smalltablet-to-phone) {}
+
+        @media (max-width:$phone-to-smallphone) {}
+      }
 
       p {
         font-size: 22px;
@@ -533,6 +720,24 @@ export default {
           font-size: 16px;
           line-height: 150%;
         }
+
+        @media (max-width:1300px) {
+          font-size: 15px;
+        }
+
+        @media (max-width:1100px) {
+          font-size: 14px;
+        }
+
+        @media (max-width:$mid-to-tablet) {
+          font-size: 16px;
+        }
+
+        @media (max-width:$tablet-to-smalltablet) {}
+
+        @media (max-width:$smalltablet-to-phone) {}
+
+        @media (max-width:$phone-to-smallphone) {}
 
       }
 
@@ -549,6 +754,14 @@ export default {
           font-size: 20px;
           padding: 7px 15px 7px 15px;
         }
+
+        @media (max-width:$mid-to-tablet) {}
+
+        @media (max-width:$tablet-to-smalltablet) {}
+
+        @media (max-width:$smalltablet-to-phone) {}
+
+        @media (max-width:$phone-to-smallphone) {}
       }
     }
   }
@@ -578,10 +791,11 @@ export default {
   box-sizing: border-box;
 
   .portfolioContainer {
-    @include contentFrame;
     flex-direction: column;
     align-items: center;
-    min-width: 1100px;
+
+    margin-left: 5%;
+    margin-right: 5%;
 
     h2 {
       font-size: 50px;
@@ -589,6 +803,17 @@ export default {
       color: white;
       text-align: center;
 
+      @media (max-width:$mid-to-tablet) {}
+
+      @media (max-width:$tablet-to-smalltablet) {
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      @media (max-width:$smalltablet-to-phone) {}
+
+      @media (max-width:$phone-to-smallphone) {}
     }
 
     .lienPortfolio {
@@ -605,6 +830,10 @@ export default {
         font-size: 18px;
       }
 
+      @media (max-width:$mid-to-tablet) {
+        justify-content: center;
+      }
+
       a {
         text-decoration: none;
         color: $yellow;
@@ -615,9 +844,13 @@ export default {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      gap: 3%;
 
+      @media (max-width:$mid-to-tablet) {
+        flex-wrap: wrap;
+        justify-content: center;
 
-
+      }
 
     }
   }
@@ -628,5 +861,4 @@ export default {
   align-items: center;
 
   @media (max-width:$tall-to-mid) {}
-}
-</style>
+}</style>
