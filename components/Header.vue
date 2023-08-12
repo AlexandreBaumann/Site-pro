@@ -62,7 +62,7 @@ header {
 
   .logo {
     font-size: 30px;
-    font-weight: 600px;
+    font-weight: 600;
 
     @media (max-width:$mid-to-tablet) {}
 

@@ -67,16 +67,20 @@ export default {
 
   @media (max-width:$mid-to-tablet) {
     width: 400px;
-    height: 200px;
 
   }
 
 
   @media (max-width:$tablet-to-smalltablet) {}
 
-  @media (max-width:$smalltablet-to-phone) {}
+  @media (max-width:$smalltablet-to-phone) {
+    width: 300px;
 
-  @media (max-width:$phone-to-smallphone) {}
+  }
+
+  @media (max-width:$phone-to-smallphone) {
+    width: 250px;
+  }
 
   img {
     height: 150px;
@@ -88,9 +92,7 @@ export default {
 
     }
 
-    @media (max-width:$mid-to-tablet) {
-      height: 80px;
-    }
+    @media (max-width:$mid-to-tablet) {}
 
     @media (max-width:$tablet-to-smalltablet) {}
 
@@ -121,7 +123,9 @@ export default {
 
     @media (max-width:$tablet-to-smalltablet) {}
 
-    @media (max-width:$smalltablet-to-phone) {}
+    @media (max-width:$smalltablet-to-phone) {
+      font-size: 22px;
+    }
 
     @media (max-width:$phone-to-smallphone) {}
   }
@@ -149,7 +153,9 @@ export default {
       font-size: 16px;
     }
 
-    @media (max-width:$smalltablet-to-phone) {}
+    @media (max-width:$smalltablet-to-phone) {
+      font-size: 14px;
+    }
 
     @media (max-width:$phone-to-smallphone) {}
   }

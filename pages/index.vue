@@ -288,7 +288,9 @@ export default {
         font-size: 30px;
       }
 
-      @media (max-width:$phone-to-smallphone) {}
+      @media (max-width:$phone-to-smallphone) {
+        font-size: 26px;
+      }
 
     }
 
@@ -315,7 +317,9 @@ export default {
         font-size: 20px;
       }
 
-      @media (max-width:$phone-to-smallphone) {}
+      @media (max-width:$phone-to-smallphone) {
+        font-size: 18px;
+      }
     }
   }
 
@@ -357,7 +361,9 @@ export default {
 
     }
 
-    @media (max-width:$phone-to-smallphone) {}
+    @media (max-width:$phone-to-smallphone) {
+      font-size: 26px;
+    }
   }
 
   .problemDiv {
@@ -396,7 +402,9 @@ export default {
         font-size: 60px;
       }
 
-      @media (max-width:$phone-to-smallphone) {}
+      @media (max-width:$phone-to-smallphone) {
+        font-size: 50px;
+      }
     }
 
     .problemTextes {
@@ -421,10 +429,12 @@ export default {
         }
 
         @media (max-width:$smalltablet-to-phone) {
-          font-size: 18px;
+          font-size: 16px;
         }
 
-        @media (max-width:$phone-to-smallphone) {}
+        @media (max-width:$phone-to-smallphone) {
+          font-size: 14px;
+        }
       }
 
     }
@@ -462,7 +472,9 @@ export default {
       font-size: 50px;
     }
 
-    @media (max-width:$phone-to-smallphone) {}
+    @media (max-width:$phone-to-smallphone) {
+      font-size: 40px;
+    }
 
   }
 
@@ -488,7 +500,9 @@ export default {
       font-size: 24px;
     }
 
-    @media (max-width:$phone-to-smallphone) {}
+    @media (max-width:$phone-to-smallphone) {
+      font-size: 20px;
+    }
 
   }
 }
@@ -631,7 +645,7 @@ export default {
   display: flex;
   flex-direction: column;
 
-  @media (max-width:$tablet-to-smalltablet) {
+  @media (max-width:$mid-to-tablet) {
     height: auto;
     padding-bottom: 30px;
   }
@@ -654,13 +668,14 @@ export default {
 
     @media (max-width:$mid-to-tablet) {
       height: 15%;
+      margin-top: 30px;
+      margin-bottom: 30px;
     }
 
     @media (max-width:$tablet-to-smalltablet) {
       font-size: 40px;
 
-      margin-top: 30px;
-      margin-bottom: 30px;
+
     }
 
     @media (max-width:$smalltablet-to-phone) {}
@@ -680,13 +695,17 @@ export default {
     }
 
     @media (max-width:$tablet-to-smalltablet) {
-      height: 140px;
+      height: 160px;
 
     }
 
-    @media (max-width:$smalltablet-to-phone) {}
+    @media (max-width:$smalltablet-to-phone) {
+      height: 200px;
+    }
 
-    @media (max-width:$phone-to-smallphone) {}
+    @media (max-width:$phone-to-smallphone) {
+      height: 250px;
+    }
   }
 
 
@@ -821,7 +840,7 @@ export default {
 
   box-sizing: border-box;
 
-  @media (max-width:$tablet-to-smalltablet) {
+  @media (max-width:$mid-to-tablet) {
     height: auto;
   }
 
@@ -838,7 +857,10 @@ export default {
       color: white;
       text-align: center;
 
-      @media (max-width:$mid-to-tablet) {}
+      @media (max-width:$mid-to-tablet) {
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
 
       @media (max-width:$tablet-to-smalltablet) {
         font-size: 40px;
@@ -867,13 +889,13 @@ export default {
 
       @media (max-width:$mid-to-tablet) {
         justify-content: center;
-
+        margin-top: 20px;
+        margin-bottom: 30px;
       }
 
       @media (max-width:$tablet-to-smalltablet) {
         font-size: 20px;
-        margin-top: 20px;
-        margin-bottom: 30px;
+
       }
 
       a {
@@ -901,7 +923,23 @@ export default {
 .formulaire {
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 100vw;
 
-  @media (max-width:$tall-to-mid) {}
+  @media (max-width:$smalltablet-to-phone) {
+    font-size: 16px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  }
+
+  @media (max-width:500px) {
+    font-size: 14px;
+  }
+
+  @media (max-width:$phone-to-smallphone) {
+    font-size: 12px;
+  }
 }
 </style>
