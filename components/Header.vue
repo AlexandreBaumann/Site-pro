@@ -63,6 +63,16 @@ header {
   .logo {
     font-size: 30px;
     font-weight: 600px;
+
+    @media (max-width:$mid-to-tablet) {}
+
+    @media (max-width:$tablet-to-smalltablet) {}
+
+    @media (max-width:$smalltablet-to-phone) {
+      font-size: 20px;
+    }
+
+    @media (max-width:$phone-to-smallphone) {}
   }
 
   nav ul {
@@ -74,7 +84,19 @@ header {
     li {
       margin: 0 10px;
       font-size: 24px;
+
+      @media (max-width:$mid-to-tablet) {}
+
+      @media (max-width:$tablet-to-smalltablet) {}
+
+      @media (max-width:$smalltablet-to-phone) {}
+
+      @media (max-width:$phone-to-smallphone) {}
+
+
     }
+
+
   }
 
   a {

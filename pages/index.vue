@@ -46,7 +46,7 @@
         Engine Optimization).
       </p>
     </section>
-    <section class="fullheightdiv prestationsGenItem">
+    <!-- <section class="fullheightdiv prestationsGenItem">
       <h2>Référencement naturel (SEO)</h2>
       <div class="prestationSeo">
         <div>
@@ -116,7 +116,7 @@
         </div>
 
       </div>
-    </section>
+    </section> -->
     <section class="formCTA">
       <FormCTA />
 
@@ -227,6 +227,7 @@ export default {
     height: 100%;
     z-index: -4;
     filter: brightness(50%);
+    object-fit: cover;
   }
 
   .accrochetext {
@@ -352,7 +353,7 @@ export default {
     }
 
     @media (max-width:$smalltablet-to-phone) {
-      font-size: 40px;
+      font-size: 30px;
 
     }
 
@@ -387,9 +388,13 @@ export default {
         font-size: 120px;
       }
 
-      @media (max-width:$tablet-to-smalltablet) {}
+      @media (max-width:$tablet-to-smalltablet) {
+        font-size: 90px;
+      }
 
-      @media (max-width:$smalltablet-to-phone) {}
+      @media (max-width:$smalltablet-to-phone) {
+        font-size: 60px;
+      }
 
       @media (max-width:$phone-to-smallphone) {}
     }
@@ -411,9 +416,13 @@ export default {
           font-size: 26px;
         }
 
-        @media (max-width:$tablet-to-smalltablet) {}
+        @media (max-width:$tablet-to-smalltablet) {
+          font-size: 24px;
+        }
 
-        @media (max-width:$smalltablet-to-phone) {}
+        @media (max-width:$smalltablet-to-phone) {
+          font-size: 18px;
+        }
 
         @media (max-width:$phone-to-smallphone) {}
       }
@@ -445,9 +454,13 @@ export default {
       font-size: 70px;
     }
 
-    @media (max-width:$tablet-to-smalltablet) {}
+    @media (max-width:$tablet-to-smalltablet) {
+      font-size: 60px;
+    }
 
-    @media (max-width:$smalltablet-to-phone) {}
+    @media (max-width:$smalltablet-to-phone) {
+      font-size: 50px;
+    }
 
     @media (max-width:$phone-to-smallphone) {}
 
@@ -467,9 +480,13 @@ export default {
       font-size: 40px;
     }
 
-    @media (max-width:$tablet-to-smalltablet) {}
+    @media (max-width:$tablet-to-smalltablet) {
+      font-size: 30px;
+    }
 
-    @media (max-width:$smalltablet-to-phone) {}
+    @media (max-width:$smalltablet-to-phone) {
+      font-size: 24px;
+    }
 
     @media (max-width:$phone-to-smallphone) {}
 
@@ -614,6 +631,12 @@ export default {
   display: flex;
   flex-direction: column;
 
+  @media (max-width:$tablet-to-smalltablet) {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+
   h2 {
     font-size: 60px;
     text-align: center;
@@ -633,7 +656,12 @@ export default {
       height: 15%;
     }
 
-    @media (max-width:$tablet-to-smalltablet) {}
+    @media (max-width:$tablet-to-smalltablet) {
+      font-size: 40px;
+
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
 
     @media (max-width:$smalltablet-to-phone) {}
 
@@ -651,7 +679,10 @@ export default {
       height: 120px;
     }
 
-    @media (max-width:$tablet-to-smalltablet) {}
+    @media (max-width:$tablet-to-smalltablet) {
+      height: 140px;
+
+    }
 
     @media (max-width:$smalltablet-to-phone) {}
 
@@ -668,7 +699,7 @@ export default {
 
     @media (max-width:$mid-to-tablet) {
       flex-direction: column;
-      gap: 1%;
+      gap: 10px;
 
     }
 
@@ -790,6 +821,10 @@ export default {
 
   box-sizing: border-box;
 
+  @media (max-width:$tablet-to-smalltablet) {
+    height: auto;
+  }
+
   .portfolioContainer {
     flex-direction: column;
     align-items: center;
@@ -807,7 +842,7 @@ export default {
 
       @media (max-width:$tablet-to-smalltablet) {
         font-size: 40px;
-        margin-top: 10px;
+        margin-top: 30px;
         margin-bottom: 10px;
       }
 
@@ -832,6 +867,13 @@ export default {
 
       @media (max-width:$mid-to-tablet) {
         justify-content: center;
+
+      }
+
+      @media (max-width:$tablet-to-smalltablet) {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 30px;
       }
 
       a {
@@ -861,4 +903,5 @@ export default {
   align-items: center;
 
   @media (max-width:$tall-to-mid) {}
-}</style>
+}
+</style>

@@ -55,7 +55,14 @@ export default {
 
     button {
         font-size: 36px;
+    }
 
+}
+
+header .form-bouton-modale {
+
+    button {
+        font-size: 24px;
     }
 }
 
