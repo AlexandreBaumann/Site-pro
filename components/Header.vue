@@ -22,7 +22,7 @@
         <span :class="{ 'active3': isMenuOpen }"></span>
       </div>
       <transition name="slide-fade">
-        <nav v-if="isMenuOpen" class="navBarSmall" :class="{ 'isOpen': isMenuOpen }">
+        <nav v-show="isMenuOpen" class="navBarSmall" :class="{ 'isOpen': isMenuOpen }">
           <ul>
             <li><nuxt-link to="/portfolio">Portfolio</nuxt-link></li>
             <li>
@@ -131,6 +131,7 @@ header {
   width: 50px;
   /* Réduire la largeur du conteneur */
   cursor: pointer;
+  display: none;
 
   @media (max-width:$smalltablet-to-phone) {
     display: flex;
@@ -217,5 +218,6 @@ header {
 .slide-fade-leave-to {
   transform: translateX(100%);
   opacity: 0;
-}</style>
+}
+</style>
   
