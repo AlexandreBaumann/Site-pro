@@ -6,16 +6,32 @@
           <p>Alexandre Baumann</p>
         </nuxt-link>
       </div>
-      <nav>
+      <nav class="navBarWide">
         <ul>
-          <!-- <li><nuxt-link to="/developpement">Développement</nuxt-link></li>
-          <li><nuxt-link to="/seo">SEO</nuxt-link></li> -->
+          <!-- <li><nuxt-link to="/prestations">Prestations</nuxt-link></li>
+         -->
           <li><nuxt-link to="/portfolio">Portfolio</nuxt-link></li>
           <li>
             <FormCTA />
           </li>
         </ul>
       </nav>
+      <div class="menuButton" @click="toggleMenu">
+        <span :class="{ 'active1': isMenuOpen }"></span>
+        <span :class="{ 'active2': isMenuOpen }"></span>
+        <span :class="{ 'active3': isMenuOpen }"></span>
+      </div>
+      <transition name="slide-fade">
+        <nav v-if="isMenuOpen" class="navBarSmall" :class="{ 'isOpen': isMenuOpen }">
+          <ul>
+            <li><nuxt-link to="/portfolio">Portfolio</nuxt-link></li>
+            <li>
+              <FormCTA />
+            </li>
+          </ul>
+        </nav>
+      </transition>
+
     </div>
   </header>
 </template>
@@ -27,7 +43,17 @@ export default {
   components: {
     FormCTA,
   },
-  name: 'Header'
+  name: 'Header',
+  data() {
+    return {
+      isMenuOpen: false
+    };
+  },
+  methods: {
+    toggleMenu() {
+      this.isMenuOpen = !this.isMenuOpen;
+    }
+  }
 }
 </script>
   
@@ -56,47 +82,16 @@ header {
     height: 100%;
     @include contentFrame;
     box-sizing: border-box;
-
-
+    position: relative;
   }
 
   .logo {
     font-size: 30px;
     font-weight: 600;
 
-    @media (max-width:$mid-to-tablet) {}
-
-    @media (max-width:$tablet-to-smalltablet) {}
-
     @media (max-width:$smalltablet-to-phone) {
       font-size: 20px;
     }
-
-    @media (max-width:$phone-to-smallphone) {}
-  }
-
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    align-items: center;
-
-    li {
-      margin: 0 10px;
-      font-size: 24px;
-
-      @media (max-width:$mid-to-tablet) {}
-
-      @media (max-width:$tablet-to-smalltablet) {}
-
-      @media (max-width:$smalltablet-to-phone) {}
-
-      @media (max-width:$phone-to-smallphone) {}
-
-
-    }
-
-
   }
 
   a {
@@ -104,5 +99,123 @@ header {
     text-decoration: none;
   }
 }
-</style>
+
+//////////////////////////////////// NAVBARWIDE //////////////////////////
+.navBarWide ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+
+  @media (max-width:$smalltablet-to-phone) {
+    display: none;
+  }
+
+  li {
+    margin: 0 10px;
+    font-size: 24px;
+
+    @media (max-width:$mid-to-tablet) {}
+
+    @media (max-width:$tablet-to-smalltablet) {}
+
+    @media (max-width:$smalltablet-to-phone) {}
+
+    @media (max-width:$phone-to-smallphone) {}
+  }
+
+}
+
+.menuButton {
+  flex-direction: column;
+  width: 50px;
+  /* Réduire la largeur du conteneur */
+  cursor: pointer;
+
+  @media (max-width:$smalltablet-to-phone) {
+    display: flex;
+  }
+
+  span {
+    background: white;
+    border-radius: 10px;
+    height: 5px;
+    margin: 5px 0;
+    transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+
+    &:nth-of-type(1) {
+      width: 50%;
+
+      &.active1 {
+        transform-origin: bottom;
+        transform: rotateZ(45deg) translate(5px, 0px);
+      }
+    }
+
+    &:nth-of-type(2) {
+      width: 100%;
+
+      &.active2 {
+        transform-origin: top;
+        transform: rotateZ(-45deg);
+      }
+    }
+
+    &:nth-of-type(3) {
+      width: 75%;
+
+      &.active3 {
+        transform-origin: bottom;
+        width: 50%;
+        transform: translate(20px, -8px) rotateZ(45deg);
+        /* Ajuster la transformation */
+      }
+    }
+  }
+}
+
+.navBarSmall {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: $dark-blue;
+  z-index: 10;
+  width: 50%;
+  border-radius: 0px 0px 0px 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+  transform: translateY(-100%); // Cachez le menu en le déplaçant au-dessus
+  transition: transform 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+
+  &.isOpen {
+    transform: translateY(0);
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding-left: 0px;
+
+    li {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 25px;
+
+    }
+  }
+
+}
+
+.slide-fade-enter-active,
+.slide-fade-leave-active {
+  transition: transform 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6), opacity 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to {
+  transform: translateX(100%);
+  opacity: 0;
+}</style>
   
