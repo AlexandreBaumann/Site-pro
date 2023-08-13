@@ -35,5 +35,7 @@ $full-height-mid: calc(100vh - #{$headerHeight-mid});
   padding-right: 10%;
   @media (max-width: $mid-to-tablet) {
     max-width: none;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
