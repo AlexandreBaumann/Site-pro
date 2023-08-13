@@ -155,6 +155,14 @@ export default {
         background-color: $dark-blue;
         color: white;
         border-radius: 10px;
+        display: inline-block; // Pour permettre la transformation
+        transition: transform 0.3s ease, box-shadow 0.3s ease; // Transition douce pour le décalage et l'ombre
+
+        // Décalage diagonal et ombre sur le survol
+        &:hover {
+            transform: translate(2px, -2px); // Décalage de 3px horizontalement et verticalement
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
     }
 
 

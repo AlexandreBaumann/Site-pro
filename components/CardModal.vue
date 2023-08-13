@@ -61,12 +61,17 @@ export default {
     padding: 50px;
     border-radius: 20px;
     width: 70%;
-    max-width: 50%;
 
     @media (max-width:$tall-to-mid) {
         padding: 30px;
 
     }
+
+    @media (max-width:$smalltablet-to-phone) {
+        padding: 20px;
+    }
+
+    @media (max-width:$phone-to-smallphone) {}
 
     img {
         height: 300px;
@@ -82,7 +87,9 @@ export default {
 
         @media (max-width:$tablet-to-smalltablet) {}
 
-        @media (max-width:$smalltablet-to-phone) {}
+        @media (max-width:$smalltablet-to-phone) {
+            height: 150px;
+        }
 
         @media (max-width:$phone-to-smallphone) {}
 
@@ -95,7 +102,13 @@ export default {
         cursor: pointer;
 
         @media (max-width:$tall-to-mid) {}
+
+        @media (max-width:$smalltablet-to-phone) {
+            display: none;
+        }
+
     }
+
 
     h2 {
         text-align: center;
@@ -104,6 +117,14 @@ export default {
         @media (max-width:$tall-to-mid) {
             font-size: 30px;
         }
+
+        @media (max-width:$smalltablet-to-phone) {
+            font-size: 25px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width:$phone-to-smallphone) {}
 
     }
 
@@ -118,6 +139,12 @@ export default {
             margin-top: 5px;
             margin-bottom: 5px;
         }
+
+        @media (max-width:$smalltablet-to-phone) {
+            font-size: 12px;
+        }
+
+        @media (max-width:$phone-to-smallphone) {}
 
 
     }
@@ -152,7 +179,9 @@ export default {
 
                 @media (max-width:$tablet-to-smalltablet) {}
 
-                @media (max-width:$smalltablet-to-phone) {}
+                @media (max-width:$smalltablet-to-phone) {
+                    padding: 5px 10px 5px 10px;
+                }
 
                 @media (max-width:$phone-to-smallphone) {}
 

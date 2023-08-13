@@ -59,12 +59,6 @@ export default {
 
 }
 
-header .form-bouton-modale {
-
-    button {
-        font-size: 24px;
-    }
-}
 
 .modal {
     display: flex;

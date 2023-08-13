@@ -1,7 +1,15 @@
 <template>
-  <div>
-    <h1>Portfolio</h1>
-  </div>
+  <main>
+    <h1>A propos</h1>
+    <section class="resume">
+      <h2>Informations</h2>
+
+    </section>
+    <section class="parcours">
+      <h2>Parcours</h2>
+
+    </section>
+  </main>
 </template>
 
 <script>

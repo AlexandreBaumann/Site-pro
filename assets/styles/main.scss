@@ -45,6 +45,12 @@ button {
   -moz-appearance: none; /* pour Firefox */
   appearance: none; /* standard moderne */
 }
+button:focus,
+a:focus,
+input:focus {
+  outline: 3px solid #0099cc; // Une bordure bleue claire pour l'indication de focus.
+  box-shadow: 0 0 5px #0099cc; // Une ombre pour un effet supplémentaire.
+}
 /////////////////////////// ETIQUETTES //////////////////////
 /////////////////////////// ETIQUETTES //////////////////////
 /////////////////////////// ETIQUETTES //////////////////////

@@ -11,8 +11,8 @@
           <!-- <li><nuxt-link to="/prestations">Prestations</nuxt-link></li>
          -->
           <li><nuxt-link to="/portfolio">Portfolio</nuxt-link></li>
-          <li>
-            <FormCTA />
+          <li class="cta-menu"><nuxt-link to="/contact">Contact</nuxt-link>
+
           </li>
         </ul>
       </nav>
@@ -25,8 +25,7 @@
         <nav v-show="isMenuOpen" class="navBarSmall" :class="{ 'isOpen': isMenuOpen }">
           <ul>
             <li><nuxt-link to="/portfolio">Portfolio</nuxt-link></li>
-            <li>
-              <FormCTA />
+            <li class="cta-menu"><nuxt-link to="/contact">Contact</nuxt-link>
             </li>
           </ul>
         </nav>
@@ -82,7 +81,6 @@ header {
     height: 100%;
     @include contentFrame;
     box-sizing: border-box;
-    position: relative;
   }
 
   .logo {
@@ -97,6 +95,14 @@ header {
   a {
     color: white;
     text-decoration: none;
+  }
+
+  .cta-menu a {
+    padding: 10px 20px 10px 20px;
+    background-color: $yellow;
+    border-radius: 20px;
+    font-weight: 600;
+    color: $dark-blue;
   }
 }
 
@@ -129,7 +135,6 @@ header {
 .menuButton {
   flex-direction: column;
   width: 50px;
-  /* Réduire la largeur du conteneur */
   cursor: pointer;
   display: none;
 
@@ -177,7 +182,8 @@ header {
 
 .navBarSmall {
   position: absolute;
-  top: 100%;
+
+  top: $headerHeight-mid;
   right: 0;
   background-color: $dark-blue;
   z-index: 10;
