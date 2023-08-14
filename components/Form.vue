@@ -6,35 +6,35 @@
                 <label for="firstName">
                     Prénom :
                 </label>
-                <input id="firstName" type="text" class="champtext" v-model="firstName" required />
+                <input id="firstName" type="text" class="champtext" v-model="firstName" aria-required="true" required />
             </div>
             <div class="champ">
                 <label for="lastName">
                     Nom :
                 </label>
-                <input id="lastName" type="text" class="champtext" v-model="lastName" required />
+                <input id="lastName" type="text" class="champtext" v-model="lastName" aria-required="true" required />
             </div>
         </div>
         <div class="champ">
             <label for="email">
                 Email :
             </label>
-            <input id="email" type="email" class="champtext" v-model="email" required />
+            <input id="email" type="email" class="champtext" v-model="email" aria-required="true" required />
         </div>
         <div class="champ">
             <label for="message">
                 Message :
             </label>
-            <textarea id="message" class="champtext" v-model="message" required></textarea>
+            <textarea id="message" class="champtext" v-model="message" aria-required="true" required></textarea>
         </div>
         <label class="checkbox" for="privacyPolicy">
-            <input id="privacyPolicy" type="checkbox" v-model="privacyPolicyAccepted" required />
+            <input id="privacyPolicy" type="checkbox" v-model="privacyPolicyAccepted" aria-required="true" required />
             Accepter la politique de confidentialité
         </label>
-        <div :style="{ position: 'absolute', left: '-5000px' }">
+        <label :style="{ position: 'absolute', left: '-5000px' }" aria-hidden="true">
             Ne pas remplir
             <input type="text" v-model="honeypot" />
-        </div>
+        </label>
         <button class="envoyer" type="submit">Envoyer</button>
         <p v-if="status">{{ status }}</p>
         <p v-if="showSuccessMessage">Message bien envoyé!</p>

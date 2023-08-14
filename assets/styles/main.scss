@@ -15,6 +15,9 @@ main {
   @media (max-width: $tall-to-mid) {
     margin-top: $headerHeight-mid;
   }
+  a {
+    color: $light-blue;
+  }
 }
 h1,
 h2,
@@ -81,7 +84,7 @@ input:focus {
 
 .Nuxt,
 .Vue {
-  background-color: #ff5500;
+  background-color: #c74200;
 }
 
 .SCSS,

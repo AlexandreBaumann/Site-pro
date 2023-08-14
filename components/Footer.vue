@@ -2,8 +2,9 @@
   <footer>
     <nav>
       <ul>
-        <!-- <li><nuxt-link to="/mention-legales">Mentions légales</nuxt-link></li> -->
-        <!-- <li><nuxt-link to="/politique-de-confidentialite">Politique de confidentialité</nuxt-link></li> -->
+        <li><nuxt-link to="/a-propos">A propos</nuxt-link></li>
+        <li><nuxt-link to="/mentions-legales">Mentions légales</nuxt-link></li>
+        <li><nuxt-link to="/politique-de-confidentialite">Politique de confidentialité</nuxt-link></li>
       </ul>
     </nav>
   </footer>
@@ -23,6 +24,7 @@ footer {
   color: #fff;
   padding: 20px;
   text-align: center;
+  margin-top: 30px;
 
   .container {
     max-width: 1200px;

@@ -52,6 +52,13 @@ export default {
     padding: 10px 20px 10px 20px;
     background-color: $yellow;
     border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease; // Ajout d'une transition pour la transformation
+
+    &:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.2);
+        transform: translate(2px, -2px); //  
+    }
 
     button {
         font-size: 36px;
@@ -87,6 +94,13 @@ export default {
     right: 20px;
     top: 10px;
     cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease; // Ajout d'une transition pour la transformation
+
+    &:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.2);
+        transform: translate(-2px, -2px); // Translate la carte de 2px en haut et à droite
+    }
 }
 
 .success-message {

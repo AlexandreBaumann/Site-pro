@@ -51,7 +51,8 @@ export default {
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 2%;
+    justify-content: center;
 }
 </style>
   

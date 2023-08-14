@@ -18,9 +18,9 @@
       </div>
       <div class="problemDiv">
         <div class="problemIcones">
-          <font-awesome-icon :icon="['fas', 'globe']" />
-          <font-awesome-icon :icon="['far', 'comments']" />
-          <font-awesome-icon :icon="['fas', 'search']" />
+          <font-awesome-icon :icon="['fas', 'globe']" aria-label="Icone de globe" />
+          <font-awesome-icon :icon="['far', 'comments']" aria-label="Icone de bulles de discussion" />
+          <font-awesome-icon :icon="['fas', 'search']" aria-label="Icone de loupe" />
         </div>
         <div class="problemTextes">
           <p>
@@ -137,10 +137,9 @@
         <div class="prestationSpéItem">
           <h3>Cartographie SEO</h3>
           <div class="prestationSpéDescription">
-            <p>Ma cartographie SEO est une plongée au coeur de votre secteur. Je combine l'utilisation des <strong>outils
-                SEO</strong> avec toutes les <strong>sources d'information</strong> disponibles pour vous donner une
+            <p>Mes outils me permettent de plonger au coeur de <strong>votre secteur</strong> pour vous donner une
               vision précise des opportunités et
-              menaces qui se dessinent sur le web dans <strong>votre secteur</strong>.
+              menaces qui se dessinent sur le web pour vous.
             </p>
           </div>
           <p class="cta">Plus de détails</p>
@@ -674,8 +673,6 @@ export default {
 
     @media (max-width:$tablet-to-smalltablet) {
       font-size: 40px;
-
-
     }
 
     @media (max-width:$smalltablet-to-phone) {}

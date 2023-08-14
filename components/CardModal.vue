@@ -170,6 +170,13 @@ export default {
                 padding: 20px 30px 20px 30px;
                 font-weight: 600;
                 line-height: 160%;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+                transition: box-shadow 0.3s ease, transform 0.3s ease; // Ajout d'une transition pour la transformation
+
+                &:hover {
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.2);
+                    transform: translate(2px, -2px); //  
+                }
 
                 @media (max-width:$tall-to-mid) {
                     padding: 10px 20px 10px 20px;

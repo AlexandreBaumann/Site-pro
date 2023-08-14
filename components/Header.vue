@@ -97,12 +97,24 @@ header {
     text-decoration: none;
   }
 
-  .cta-menu a {
-    padding: 10px 20px 10px 20px;
-    background-color: $yellow;
-    border-radius: 20px;
-    font-weight: 600;
-    color: $dark-blue;
+  .cta-menu {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease; // Ajout d'une transition pour la transformation
+
+    &:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.2);
+      transform: translate(1px, -1px); //  
+    }
+
+    a {
+      padding: 10px 20px 10px 20px;
+      background-color: $yellow;
+      border-radius: 20px;
+      font-weight: 600;
+      color: $dark-blue;
+
+
+    }
   }
 }
 

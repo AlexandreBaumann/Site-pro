@@ -3,7 +3,9 @@
     <div class="card" @click="showModal = true">
       <img :src="card.thumb" />
       <ul class="technologies">
-        <li v-for="tech in  card.technologies " :key="tech" :class="tech">{{ tech }}</li>
+        <li v-for="tech in card.technologies" :key="tech" :class="tech">
+          {{ tech }}
+        </li>
       </ul>
       <div class="cardText">
         <h3>{{ card.titre }}</h3>
@@ -11,41 +13,40 @@
       </div>
     </div>
     <CardModal :show="showModal" :card="card" @close="showModal = false" />
-
   </div>
 </template>
-  
+
 <script>
-import CardModal from './CardModal.vue';
+import CardModal from './CardModal.vue'
 
 export default {
   components: {
-    CardModal
+    CardModal,
   },
   name: 'Card',
   props: {
     card: {
       type: Object,
-      required: true
-    }
+      required: true,
+    },
   },
   data() {
     return {
-      showModal: false
-    };
+      showModal: false,
+    }
   },
   methods: {
     closeModal(event) {
       // Vérifie si l'événement provient de la div `.modal` elle-même
       if (event.target.classList.contains('modal')) {
-        this.showModal = false;
+        this.showModal = false
       }
-    }
-  }
+    },
+  },
 }
 </script>
-  
-<style scoped lang="scss" >
+
+<style scoped lang="scss">
 .card {
   padding: 1em;
   margin: 1em 0;
@@ -55,6 +56,13 @@ export default {
   border-radius: 20px;
   background-color: $light-gray;
   cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; // Animation douce pour l'effet de survol
+
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translate(2px, -2px);
+  }
 
   @media (max-width:$tall-to-mid) {
     height: 300px;
@@ -67,7 +75,6 @@ export default {
 
   @media (max-width:$mid-to-tablet) {
     width: 400px;
-
   }
 
 
@@ -226,4 +233,3 @@ export default {
 
 }
 </style>
-  
