@@ -1,9 +1,9 @@
 <template>
     <div class="form-bouton-modale">
-        <!-- Bouton CTA pour déclencher le modal -->
+        <!-- Bouton CTA  -->
         <button @click="showModal = true">Contact</button>
 
-        <!-- Le Modal -->
+        <!-- Modale -->
         <div v-if="showModal" class="modal" @click="closeModal($event)">
             <div class="modal-content">
                 <span class="close-btn" @click="showModal = false">&times;</span>
@@ -55,10 +55,6 @@ export default {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease, transform 0.3s ease; // Ajout d'une transition pour la transformation
 
-    &:hover {
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.2);
-        transform: translate(2px, -2px); //  
-    }
 
     button {
         font-size: 36px;
