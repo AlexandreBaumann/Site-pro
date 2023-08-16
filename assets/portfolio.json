@@ -26,7 +26,7 @@
             "MongoDB",
             "Python"
         ],
-        "thumb": "",
+        "thumb": "/alternative-hydrogene.jpg",
         "topic": [
             "Génération de site SEO",
             "Création de site internet"
@@ -43,7 +43,7 @@
             "Next",
             "React"
         ],
-        "thumb": "",
+        "thumb": "/chemins-de-vie.jpg",
         "topic": [
             "Création de site internet"
         ],
@@ -53,18 +53,18 @@
         "interet": "4"
     },
     {
-        "titre": "Kazaa - formation OpenClassRoom",
-        "url": "/portfolio/front-end-kazaa",
+        "titre": "Kaza - formation OpenClassRoom",
+        "url": "/portfolio/front-end-kaza",
         "technologies": [
             "React"
         ],
-        "thumb": "",
+        "thumb": "/kaza.jpg",
         "topic": [
             "Projet de formation"
         ],
         "abstract": "Intégration du front end pour un site projet de formation.",
-        "resumeP1": "",
-        "resumeP2": "",
+        "resumeP1": "Le projet Kaza, pour la formation OpenClassRooms, consistait à intégrer une interface graphique et plusieurs fonctionnalités: une boucle, un élément collapse et un carousel.",
+        "resumeP2": "Il nous a permis de nous familiariser avec React et la bibliothèque Express.",
         "interet": "2"
     },
     {
@@ -74,13 +74,13 @@
             "Node",
             "Express"
         ],
-        "thumb": "",
+        "thumb": "/vieux-grimoire.jpg",
         "topic": [
             "Projet de formation"
         ],
         "abstract": "Conception du backend d'un site tourné autour de la notation de livres.",
-        "resumeP1": "",
-        "resumeP2": "",
+        "resumeP1": "Le projet Mon vieux Grimoire, pour la formation OpenClassRooms, consistait à développer le backend d'un site de notation de livres.",
+        "resumeP2": "Il a fallu développer des routeurs, middleware et contrôleur, notamment pour gérer une authentification et la publication d'images optimisées.",
         "interet": "2"
     }
 ]

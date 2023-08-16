@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="card" @click="showModal = true">
-      <img :src="card.thumb" />
+      <img :src="card.thumb" alt="Screenshot illustrant le projet" aria-hidden />
       <ul class="technologies">
         <li v-for="tech in card.technologies" :key="tech" :class="tech">
           {{ tech }}
@@ -65,7 +65,7 @@ export default {
   }
 
   @media (max-width:$tall-to-mid) {
-    height: 300px;
+    height: 250px;
   }
 
   @media (max-width:1300px) {

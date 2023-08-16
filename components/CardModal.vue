@@ -2,7 +2,7 @@
     <div v-if="show" class="modal" @click="closeModal($event)">
         <div class="modal-content">
             <span class="close-btn" @click="close()">&times;</span>
-            <img :src="card.thumb" />
+            <img :src="card.thumb" alt="Screenshot illustrant le projet" aria-hidden />
             <ul class="technologies">
                 <li v-for="tech in  card.technologies " :key="tech" :class="tech">{{ tech }}</li>
             </ul>

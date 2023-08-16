@@ -121,7 +121,7 @@
       <FormCTA />
 
     </section>
-    <section class="fullheightdiv prestationsSpé">
+    <!-- <section class="fullheightdiv prestationsSpé">
       <h2>Prestations spécifiques</h2>
       <div>
         <div class="prestationSpéItem">
@@ -156,7 +156,7 @@
           <p class="cta">Plus de détails</p>
         </div>
       </div>
-    </section>
+    </section> -->
     <section class="fullheightdiv portfolioDiv">
       <div class="portfolioContainer">
         <h2>Portfolio</h2>
@@ -246,19 +246,13 @@ export default {
     }
 
     @media (max-width:$mid-to-tablet) {
-      padding: 50px;
       width: 70%;
 
     }
 
-    @media (max-width:$tablet-to-smalltablet) {
-      padding: 30px;
-      ;
-    }
+    @media (max-width:$tablet-to-smalltablet) {}
 
-    @media (max-width:$smalltablet-to-phone) {
-      padding: 20px;
-    }
+    @media (max-width:$smalltablet-to-phone) {}
 
     @media (max-width:$phone-to-smallphone) {}
 
@@ -276,11 +270,11 @@ export default {
       }
 
       @media (max-width:$mid-to-tablet) {
-        font-size: 60px;
+        font-size: 36px;
       }
 
       @media (max-width:$tablet-to-smalltablet) {
-        font-size: 50px;
+        font-size: 32px;
       }
 
       @media (max-width:$smalltablet-to-phone) {
@@ -304,13 +298,9 @@ export default {
 
       }
 
-      @media (max-width:$mid-to-tablet) {
-        font-size: 40px;
-      }
+      @media (max-width:$mid-to-tablet) {}
 
-      @media (max-width:$tablet-to-smalltablet) {
-        font-size: 34px;
-      }
+      @media (max-width:$tablet-to-smalltablet) {}
 
       @media (max-width:$smalltablet-to-phone) {
         font-size: 20px;
@@ -338,6 +328,7 @@ export default {
 
   p {
     text-align: center;
+
   }
 
   .problemaccroche {
@@ -347,12 +338,13 @@ export default {
     @media (max-width:$tall-to-mid) {}
 
     @media (max-width:$mid-to-tablet) {
-      font-size: 70px;
       line-height: 160%;
+      font-size: 40px;
+
     }
 
     @media (max-width:$tablet-to-smalltablet) {
-      font-size: 50px;
+      font-size: 34px;
     }
 
     @media (max-width:$smalltablet-to-phone) {
@@ -389,12 +381,10 @@ export default {
         margin-bottom: 20px;
       }
 
-      @media (max-width:$mid-to-tablet) {
-        font-size: 120px;
-      }
+      @media (max-width:$mid-to-tablet) {}
 
       @media (max-width:$tablet-to-smalltablet) {
-        font-size: 90px;
+        font-size: 80px;
       }
 
       @media (max-width:$smalltablet-to-phone) {
@@ -420,11 +410,11 @@ export default {
         }
 
         @media (max-width:$mid-to-tablet) {
-          font-size: 26px;
+          font-size: 18px;
         }
 
         @media (max-width:$tablet-to-smalltablet) {
-          font-size: 24px;
+          font-size: 16px;
         }
 
         @media (max-width:$smalltablet-to-phone) {
@@ -459,13 +449,9 @@ export default {
       font-size: 50px;
     }
 
-    @media (max-width:$mid-to-tablet) {
-      font-size: 70px;
-    }
+    @media (max-width:$mid-to-tablet) {}
 
-    @media (max-width:$tablet-to-smalltablet) {
-      font-size: 60px;
-    }
+    @media (max-width:$tablet-to-smalltablet) {}
 
     @media (max-width:$smalltablet-to-phone) {
       font-size: 50px;
@@ -487,9 +473,7 @@ export default {
       font-size: 30px;
     }
 
-    @media (max-width:$mid-to-tablet) {
-      font-size: 40px;
-    }
+    @media (max-width:$mid-to-tablet) {}
 
     @media (max-width:$tablet-to-smalltablet) {
       font-size: 30px;
@@ -921,7 +905,6 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100vw;
 
   @media (max-width:$smalltablet-to-phone) {
     font-size: 16px;

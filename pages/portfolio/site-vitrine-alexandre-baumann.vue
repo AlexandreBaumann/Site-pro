@@ -168,7 +168,17 @@
                 " au début de mon script de traitement du formulaire, j'obtenais "undefined". Visiblement il fallait un
                 parser
                 pour analyser correctement le corps de la requête. J'ai implémanté bodyparser et ça a marché.</p>
+            <p>Le formulaire n'est néanmoins pas actif actuellement, vu que le site est statique. Je pourrais faire comme
+                avec chemins-de-vie et utiliser la version "server side rendering" au lieu de la version statique, mais cela
+                suppose une adaptation un peu lourde. De plus, je ne souhaite pas être "coincés" par ce point à chaque fois
+                que j'expérimente une nouvelle technologie. Je vais probablement, à la place, créer un serveur dédié qui me
+                servira pour
+                tous mes formulaires.</p>
             <h3>Sur la mise en page</h3>
+            <p>J'avais tenté d'animer le bouton CTA de la page d'accueil comme mes autres boutons, avec un petit effet quand
+                on passe la souris dessus. Néanmoins, cela s'est très mal combiné avec la modale qu'il déclenchait.
+                L'affichage de cette dernière a lourdement dysfonctionné: elle alternait très rapidement entre son affichage
+                "normal" et un affichage altéré lorsqu'on passait la souris dessus. </p>
             <h4>Autres détails</h4>
             <p>J'ai été confronté à quelques autres difficultés, plus mineures, liées à ma découverte de Nuxt:</p>
             <ul>
