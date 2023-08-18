@@ -8,11 +8,20 @@
       </div>
       <nav class="navBarWide">
         <ul>
-          <!-- <li><nuxt-link to="/prestations">Prestations</nuxt-link></li>
-         -->
-          <li><nuxt-link to="/portfolio">Portfolio</nuxt-link></li>
-          <li class="cta-menu"><nuxt-link to="/contact">Contact</nuxt-link>
-
+          <li>
+            <nuxt-link to="/a-propos" :class="{ active: $route.path === '/a-propos' }">
+              A propos
+            </nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/portfolio" :class="{ active: $route.path === '/portfolio' }">
+              Portfolio
+            </nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/contact" :class="{ active: $route.path === '/contact' }">
+              Contact
+            </nuxt-link>
           </li>
         </ul>
       </nav>
@@ -24,8 +33,20 @@
       <transition name="slide-fade">
         <nav v-show="isMenuOpen" class="navBarSmall" :class="{ 'isOpen': isMenuOpen }">
           <ul>
-            <li><nuxt-link to="/portfolio">Portfolio</nuxt-link></li>
-            <li class="cta-menu"><nuxt-link to="/contact">Contact</nuxt-link>
+            <li>
+              <nuxt-link to="/a-propos" :class="{ active: $route.path === '/a-propos' }">
+                A propos
+              </nuxt-link>
+            </li>
+            <li>
+              <nuxt-link to="/portfolio" :class="{ active: $route.path === '/portfolio' }">
+                Portfolio
+              </nuxt-link>
+            </li>
+            <li>
+              <nuxt-link to="/contact" :class="{ active: $route.path === '/contact' }">
+                Contact
+              </nuxt-link>
             </li>
           </ul>
         </nav>
@@ -80,7 +101,6 @@ header {
     width: 100%;
     height: 100%;
     @include contentFrame;
-    box-sizing: border-box;
   }
 
   .logo {
@@ -97,51 +117,70 @@ header {
     text-decoration: none;
   }
 
-  .cta-menu {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease, transform 0.3s ease; // Ajout d'une transition pour la transformation
 
-    &:hover {
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.2);
-      transform: translate(1px, -1px); //  
-    }
+}
 
-    a {
-      padding: 10px 20px 10px 20px;
-      background-color: $yellow;
-      border-radius: 20px;
-      font-weight: 600;
-      color: $dark-blue;
-
-
-    }
-  }
+.active {
+  text-decoration: underline;
+  text-underline-offset: 10px;
 }
 
 //////////////////////////////////// NAVBARWIDE //////////////////////////
-.navBarWide ul {
-  list-style-type: none;
-  padding: 0;
+.navBarWide {
+  height: 100%;
   display: flex;
   align-items: center;
 
-  @media (max-width:$smalltablet-to-phone) {
-    display: none;
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+
+    @media (max-width:$smalltablet-to-phone) {
+      display: none;
+    }
+
+    li {
+      margin: 0 10px;
+      font-size: 30px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+      a {
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+      }
+
+      :hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: $tall-to-mid) {
+        font-size: 26px;
+
+      }
+
+      @media (max-width:$mid-to-tablet) {
+        font-size: 22px;
+      }
+
+      @media (max-width:$tablet-to-smalltablet) {}
+
+      @media (max-width:$smalltablet-to-phone) {}
+
+      @media (max-width:$phone-to-smallphone) {}
+    }
+
   }
-
-  li {
-    margin: 0 10px;
-    font-size: 24px;
-
-    @media (max-width:$mid-to-tablet) {}
-
-    @media (max-width:$tablet-to-smalltablet) {}
-
-    @media (max-width:$smalltablet-to-phone) {}
-
-    @media (max-width:$phone-to-smallphone) {}
-  }
-
 }
 
 .menuButton {

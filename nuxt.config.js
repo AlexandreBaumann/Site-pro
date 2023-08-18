@@ -44,8 +44,4 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
   target: 'static',
-  serverMiddleware: [
-    bodyParser.json(),
-    { path: '/api/submit-form', handler: '~/serverMiddleware/submitForm.js' },
-  ],
 }

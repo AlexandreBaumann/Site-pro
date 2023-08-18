@@ -2,7 +2,7 @@
   <footer>
     <nav>
       <ul>
-        <li><nuxt-link to="/a-propos">A propos</nuxt-link></li>
+
         <li><nuxt-link to="/mentions-legales">Mentions légales</nuxt-link></li>
         <li><nuxt-link to="/politique-de-confidentialite">Politique de confidentialité</nuxt-link></li>
       </ul>
