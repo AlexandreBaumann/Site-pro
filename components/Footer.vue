@@ -22,6 +22,11 @@ export default {
 <style scoped lang="scss">
 @import '~/assets/variables.scss';
 
+.active {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
 footer {
   background-color: $dark-blue;
   color: #fff;

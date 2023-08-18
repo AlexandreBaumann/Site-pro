@@ -118,6 +118,10 @@ header {
   }
 }
 
+.active {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
 
 
 //////////////////////////////////// NAVBARWIDE //////////////////////////
