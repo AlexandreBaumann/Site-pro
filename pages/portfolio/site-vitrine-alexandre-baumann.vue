@@ -14,6 +14,7 @@
             <p>Je vais devoir utiliser le langage technique. Je vous propose donc, avant cela, un résumé compréhensible par
                 un
                 non-développeur.</p>
+            <p>Vous pouvez trouver le code, si autorisé, ici : https://github.com/AlexandreBaumann/Site-pro</p>
             <h2>Résumé</h2>
             <p>Le présent site utilise Nuxt.js, un framework javascript permettant une expérience de navigation améliorée
                 tout

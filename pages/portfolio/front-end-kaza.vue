@@ -14,6 +14,7 @@
             <p>Je vais devoir utiliser le langage technique. Je vous propose donc, avant cela, un résumé compréhensible par
                 un
                 non-développeur.</p>
+            <p>Vous pouvez consulter le code ici: https://github.com/AlexandreBaumann/p6_react</p>
             <h2>Résumé</h2>
             <p>Ce projet a été réalisé dans le cadre de ma formation OpenClassRooms. Il s'agissait de développer le front
                 end d'un site en utilisant React.js, une librairie javascript. Il s'agissait d'une application présentant

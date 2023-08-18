@@ -3,7 +3,8 @@
         <div class="container">
 
             <h1>Alternative-hydrogène: un site d'information sous Next.js</h1>
-            <p>Alternative-hydrogène est un site d'information sur l'hydrogène de plus de 300 pages. Je vais vous
+            <p><strong><nuxt-link to="https://www.alternative-hydrogene.com/">Alternative-hydrogène</nuxt-link></strong> est
+                un site d'information sur l'hydrogène de plus de 300 pages. Je vais vous
                 présenter ici:</p>
             <ul>
                 <li>Les technologies utilisées</li>
@@ -14,6 +15,7 @@
             <p>Je vais devoir utiliser le langage technique. Je vous propose donc, avant cela, un résumé compréhensible par
                 un
                 non-développeur.</p>
+            <p>Vous pouvez consulter le code, si autorisé, ici : https://github.com/AlexandreBaumann/Next--pages-router-</p>
             <h2>Résumé</h2>
             <p>J'avais utilisé la génération par IA pour produire ce site, initialement sous wordpress. Pour tester Next.js,
                 un framework javascript base sur React,

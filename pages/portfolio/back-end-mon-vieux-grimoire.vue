@@ -3,7 +3,8 @@
         <div class="container">
 
             <h1>Mon Vieux Grimoire: projet OpenClassRooms back-end</h1>
-            <p>Kazaa est un projet d'intégration front-end dans le cadre de ma formation OpenClassRooms. Je vais vous
+            <p>Mon Vieux Grimoire est un projet de développement backend dans le cadre de ma formation OpenClassRooms. Je
+                vais vous
                 présenter ici:</p>
             <ul>
                 <li>Les technologies utilisées</li>
@@ -14,6 +15,7 @@
             <p>Je vais devoir utiliser le langage technique. Je vous propose donc, avant cela, un résumé compréhensible par
                 un
                 non-développeur.</p>
+            <p>Vous pouvez consulter le code à l'adresse suivante : https://github.com/AlexandreBaumann/p7</p>
             <h2>Résumé</h2>
             <p></p>
 

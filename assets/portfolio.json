@@ -53,7 +53,7 @@
         "interet": "4"
     },
     {
-        "titre": "Kaza - formation OpenClassRoom",
+        "titre": "Kaza - formation OpenClassRooms",
         "url": "/portfolio/front-end-kaza",
         "technologies": [
             "React"
@@ -68,7 +68,7 @@
         "interet": "2"
     },
     {
-        "titre": "Mon vieux Grimoire - formation OpenClassRoom",
+        "titre": "Mon vieux Grimoire - formation OpenClassRooms",
         "url": "/portfolio/back-end-mon-vieux-grimoire",
         "technologies": [
             "Node",

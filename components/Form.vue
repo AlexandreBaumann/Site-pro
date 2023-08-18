@@ -77,7 +77,7 @@ export default {
             };
 
             try {
-                const response = await fetch("/api/submit-form", {
+                const response = await fetch("https://serveur.alexandrebaumann.com/site-pro", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",

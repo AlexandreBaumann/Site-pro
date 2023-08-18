@@ -14,6 +14,7 @@
             <p>Je vais devoir utiliser le langage technique. Je vous propose donc, avant cela, un résumé compréhensible par
                 un
                 non-développeur.</p>
+            <p>Vous pouvez consulter le code, si autorisé, à l'adresse suivante: https://github.com/AlexandreBaumann/cdv</p>
             <h2>Résumé</h2>
             <p>Le site est développé avec Next.js, un framework javascript basé sur React.js. Il n'y a pas encore de base de
                 données.</p>
