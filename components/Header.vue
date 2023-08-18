@@ -116,14 +116,9 @@ header {
     color: white;
     text-decoration: none;
   }
-
-
 }
 
-.active {
-  text-decoration: underline;
-  text-underline-offset: 10px;
-}
+
 
 //////////////////////////////////// NAVBARWIDE //////////////////////////
 .navBarWide {
@@ -162,6 +157,8 @@ header {
 
       :hover {
         text-decoration: underline;
+        text-underline-offset: 10px;
+
       }
 
       @media (max-width: $tall-to-mid) {

@@ -3,8 +3,11 @@
     <nav>
       <ul>
 
-        <li><nuxt-link to="/mentions-legales">Mentions légales</nuxt-link></li>
-        <li><nuxt-link to="/politique-de-confidentialite">Politique de confidentialité</nuxt-link></li>
+        <li><nuxt-link to="/mentions-legales" :class="{ active: $route.path === '/mentions-legales' }">Mentions
+            légales</nuxt-link></li>
+        <li><nuxt-link to="/politique-de-confidentialite"
+            :class="{ active: $route.path === '/politique-de-confidentialite' }">Politique de confidentialité</nuxt-link>
+        </li>
       </ul>
     </nav>
   </footer>
@@ -42,6 +45,13 @@ footer {
       a {
         color: #fff;
         text-decoration: none;
+
+        :hover {
+          text-decoration: underline;
+          text-underline-offset: 10px;
+
+        }
+
       }
     }
   }

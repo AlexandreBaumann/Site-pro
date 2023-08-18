@@ -54,6 +54,10 @@ input:focus {
   outline: 1px solid #0099cc; // Une bordure bleue claire pour l'indication de focus.
   box-shadow: 0 0 5px #0099cc; // Une ombre pour un effet supplémentaire.
 }
+.active {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
 /////////////////////////// ETIQUETTES //////////////////////
 /////////////////////////// ETIQUETTES //////////////////////
 /////////////////////////// ETIQUETTES //////////////////////
