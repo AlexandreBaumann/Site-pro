@@ -15,7 +15,7 @@
                     grand écran d'ordinateur)</li>
                 <li><strong>Attributs alt</strong> présents et, si besoin, renseignés.</li>
             </ul>
-            <h2>Liste des sites</h2>
+            <h2>Liste des projets</h2>
             <section class="portfolio">
                 <Card v-for="cardData in $store.state.data.data" :key="cardData._id" :card="cardData" />
             </section>

@@ -25,13 +25,12 @@ export default {
             "sameAs": [
                 "https://www.linkedin.com/in/alexandre-baumann-b032388a/",
             ],
-            "jobTitle": ["Développeur Web", "Consultant SEO"],  // Ou autre titre professionnel
+            "jobTitle": ["Développeur Web", "Consultant SEO"],
             "description": "Consultant SEO et développeur web",
             "alumniOf": "OpenClassRoom",
             "email": "contact@alexandrebaumann.com",
             "knowsAbout": ["Développement Web", "Vue.js", "Nuxt.js", "SEO", "CSS", "HTML", "SCSS"],
             "image": "https://media.licdn.com/dms/image/C4D03AQH7-q1DBCDoJw/profile-displayphoto-shrink_200_200/0/1586881830721?e=1697068800&v=beta&t=g7xz8j_o8oJZj0-8LIjTOrt62NCBk79Fm7uTvYiaHSU",
-            // Ajoutez d'autres propriétés si nécessaire
         };
         return {
             title: this.metaData.title,
@@ -49,8 +48,6 @@ export default {
                 { name: 'og:site_name', content: 'Alexandre Baumann - Site professionnel' },  // Nom du site pour Open Graph (réseaux sociaux)
                 { name: 'og:title', content: this.metaData.title },  // Titre pour Open Graph
                 { name: 'og:description', content: this.metaData.description },  // Description pour Open Graph
-
-                // Ajoutez d'autres métadonnées si nécessaire...
             ],
         };
     },

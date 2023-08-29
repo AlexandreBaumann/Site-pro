@@ -15,13 +15,43 @@
         "description": "Développeur et consultant SEO, je vous aide à améliorer votre visibilité sur le web."
     },
     {
+        "url": "/mentions-legales",
+        "title": "Mention légales du site d'un développeur web et consultant SEO",
+        "description": "Développeur et consultant SEO, je vous aide à améliorer votre visibilité sur le web."
+    },
+    {
+        "url": "/politique-de-confidentialite",
+        "title": "Politique de confidentialité du site d'un développeur web et consultant SEO",
+        "description": "Développeur et consultant SEO, je vous aide à améliorer votre visibilité sur le web."
+    },
+    {
         "url": "/portfolio",
         "title": "Portfolio de projets Web d'Alexandre Baumann",
         "description": "Trouvez ici les sites Web et scripts orientés SEO que j'ai développés."
     },
     {
+        "url": "/portfolio/seo-etude-de-marche-isolation",
+        "title": "Etude de marché SEO sur l'isolation thermique ou phonique",
+        "description": "Découvrez une ébauche de haute qualité d'étude de marché SEO sur l'isolation thermique ou phonique."
+    },
+    {
+        "url": "/portfolio/site-vitrine-chemins-de-vie",
+        "title": "Portfolio: site vitrine d'un sophrologue - masseur.",
+        "description": "Description des enjeux techniques de la réalisation du site vitrine d'un sophrologue - masseur"
+    },
+    {
+        "url": "/portfolio/front-end-kazaa",
+        "title": "Portfolio: projet frontend 'Kazaa' pour la formation OpenClassRooms",
+        "description": "Description technique de la réalisation du projet frontend 'Kazaa' pour la formation OpenClassRooms"
+    },
+    {
+        "url": "/portfolio/back-end-mon-vieux-grimoire",
+        "title": "Portfolio: projet back-end 'Mon vieux Grimoire' pour la formation OpenClassRooms",
+        "description": "Description technique de la réalisation du projet back-end 'Mon vieux Grimoire' pour la formation OpenClassRooms"
+    },
+    {
         "url": "/portfolio/site-vitrine-alexandre-baumann",
         "title": "Site vitrine d'Alexandre Baumann: présentation du projet",
-        "description": "Site vitrine développé avec Nuxt.js."
+        "description": "Description des enjeux techniques de la réalisation du site vitrine développé avec Nuxt.js"
     }
 ]

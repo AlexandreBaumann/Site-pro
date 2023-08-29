@@ -4,7 +4,7 @@
     <div class="container">
       <section class="resume">
         <div class="chapeau">
-          <img src="photo-alexandre-baumann.webp" alt="Photo d'Alexandre Baumann" />
+          <img src="/photo-alexandre-baumann.webp" alt="Photo d'Alexandre Baumann" />
           <h2>Informations</h2>
 
         </div>
@@ -37,8 +37,9 @@
       <section class="parcours">
         <h2>Parcours web</h2>
         <p>J'anime des sites internet depuis plus de 3 ans. J'ai été formé au SEO et à la qualité web en 2022 et ai
-          travaillé comme consultant SEO. J'ai ensuite suivi une <strong>formation de développeur web de janvier à aout 2023 avec
-          OpenClassRooms</strong>. Il s'agissait d'une formation diplomante (titre professionnel niveau 5) avec un suivi
+          travaillé comme consultant SEO. J'ai ensuite suivi une <strong>formation de développeur web de janvier à aout
+            2023 avec
+            OpenClassRooms</strong>. Il s'agissait d'une formation diplomante (titre professionnel niveau 5) avec un suivi
           hebdomadaire par un mentor.</p>
         <h2>Réalisations</h2>
         <p>Ma principale réalisation web est, sur le plan technique, ce site et, sur le plan du contenu,
