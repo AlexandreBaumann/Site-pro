@@ -3,7 +3,9 @@
         <div class="container">
 
             <h1>Chemins de vie: un site vitrine bien-être</h1>
-            <p>Chemins de vie est un site vitrine pour un masseur-sophrologue. Je vais vous
+            <p><strong><a href="https://test.alexandrebaumann.com" target="#">Chemins de vie</a></strong> est un site
+                vitrine pour un
+                masseur-sophrologue. Je vais vous
                 présenter ici:</p>
             <ul>
                 <li>Les technologies utilisées</li>

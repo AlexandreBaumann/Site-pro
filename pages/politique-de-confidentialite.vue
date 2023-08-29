@@ -47,7 +47,8 @@
         <p>Conformément à la réglementation en vigueur, vous avez le droit d'accéder, de rectifier et de supprimer vos
             données
             personnelles. Pour exercer ces droits, veuillez nous contacter par les moyens proposés dans notre page
-            <nuxt-link to="/contact">Contact</nuxt-link>.</p>
+            <nuxt-link to="/contact">Contact</nuxt-link>.
+        </p>
 
 
         <h2> Contact</h2>
@@ -65,5 +66,10 @@ export default {
         
 <style scoped lang="scss">
 @import '~/assets/variables.scss';
+
+main {
+    @include contentFrame;
+
+}
 </style>
         

@@ -1,12 +1,12 @@
 [
     {
-        "titre": "Site professionnel AB",
+        "titre": "Mon site professionnel",
+        "cat": "Dev",
         "url": "/portfolio/site-vitrine-alexandre-baumann",
         "technologies": [
             "Nuxt",
             "Vue",
-            "SCSS",
-            "MongoDB"
+            "SCSS"
         ],
         "thumb": "/Site-AB.jpg",
         "topic": "Création de site internet",
@@ -19,6 +19,7 @@
     },
     {
         "titre": "Alternative Hydrogène",
+        "cat": "Dev",
         "url": "/portfolio/site-information-alternative-hydrogene",
         "technologies": [
             "Next",
@@ -38,6 +39,7 @@
     },
     {
         "titre": "Chemins de vie",
+        "cat": "Dev",
         "url": "/portfolio/site-vitrine-chemins-de-vie",
         "technologies": [
             "Next",
@@ -54,6 +56,7 @@
     },
     {
         "titre": "Kaza - formation OpenClassRooms",
+        "cat": "Dev",
         "url": "/portfolio/front-end-kaza",
         "technologies": [
             "React"
@@ -69,6 +72,7 @@
     },
     {
         "titre": "Mon vieux Grimoire - formation OpenClassRooms",
+        "cat": "Dev",
         "url": "/portfolio/back-end-mon-vieux-grimoire",
         "technologies": [
             "Node",
@@ -82,5 +86,21 @@
         "resumeP1": "Le projet Mon vieux Grimoire, pour la formation OpenClassRooms, consistait à développer le backend d'un site de notation de livres.",
         "resumeP2": "Il a fallu développer des routeurs, middleware et contrôleur, notamment pour gérer une authentification et la publication d'images optimisées.",
         "interet": "2"
+    },
+    {
+        "titre": "Etude de marché SEO : 'isolation' (ébauche ~1 journée de travail) ",
+        "cat": "SEO",
+        "url": "/portfolio/seo-etude-de-marche-isolation",
+        "technologies": [
+            "SEMrush"
+        ],
+        "thumb": "/isolation-personne.jpg",
+        "topic": [
+            "Etude de marché SEO"
+        ],
+        "abstract": "Etude globale du marché de l'isolation sur le web.",
+        "resumeP1": "Il s'agit d'une étude globale de marché SEO, portant sur l'isolation (thermique ou phonique) et correspondant à une journée de travail.",
+        "resumeP2": "J'y présente les principaux ensembles de mots-clés (matériaux, zones à isoler, techniques ..) et propose des stratégies pour 4 types d'entreprises.",
+        "interet": "5"
     }
 ]

@@ -3,7 +3,7 @@
         <div class="container">
 
             <h1>Alternative-hydrogène: un site d'information sous Next.js</h1>
-            <p><strong><nuxt-link to="https://www.alternative-hydrogene.com/">Alternative-hydrogène</nuxt-link></strong> est
+            <p><strong><a href="https://www.alternative-hydrogene.com/" target="#">Alternative-hydrogène</a></strong> est
                 un site d'information sur l'hydrogène de plus de 300 pages. Je vais vous
                 présenter ici:</p>
             <ul>

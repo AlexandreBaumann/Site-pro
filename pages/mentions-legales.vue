@@ -30,5 +30,10 @@ export default {
     
 <style scoped lang="scss">
 @import '~/assets/variables.scss';
+
+main {
+    @include contentFrame;
+
+}
 </style>
     
