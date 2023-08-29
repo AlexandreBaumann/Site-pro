@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <Head />
+    <SEOHead />
     <Header /> <!-- votre header -->
     <Nuxt /> <!-- le contenu de la page -->
     <Footer /> <!-- votre footer -->
@@ -11,12 +11,12 @@
 <script>
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
-import Head from '~/components/Head.vue';
+import SEOHead from '~/components/SEOHead.vue';
 
 export default {
   components: {
     Header,
-    Head,
+    SEOHead,
     Footer
   }
 }

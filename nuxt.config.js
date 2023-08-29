@@ -1,21 +1,4 @@
-import bodyParser from 'body-parser'
-
 export default {
-  // Global page headers: https://go.nuxtjs.dev/config-head
-  head: {
-    title: 'pro',
-    htmlAttrs: {
-      lang: 'fr',
-    },
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' },
-    ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon2.png' }],
-  },
-
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '@/assets/styles/normalize.css',
