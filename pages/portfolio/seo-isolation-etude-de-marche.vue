@@ -1,7 +1,7 @@
 <template>
     <main>
         <div class="container">
-            <h1>Une étude de marché SEO autour de l'isolation</h1>
+            <h1>Etude de marché SEO autour de l'isolation</h1>
             <p>Je fais quelques études de marché SEO autour de l'écologie (mon secteur principal, animant
                 discoverthegreentech.com) pour alimenter mon portfolio.</p>
             <p>Ici on va creuser le thème de <strong>l'isolation</strong> (phonique ou thermique).</p>
@@ -15,27 +15,84 @@
             </ul>
 
             <h2>Résumé</h2>
-            <p></p>
+            <p>Le marché SEO autour de l'isolation (thermique ou phonique) est très large, avec d'importants volumes de
+                recherche. On voit émerger plusieurs grandes thématiques:</p>
+            <ul>
+                <li>Les <strong>pièces ou aux éléments de la maison à isoler</strong>: la toiture, la chambre, le plafond,
+                    le garage ... Il y a aussi une distinction entre isolation intérieure et extérieure.</li>
+                <li>Les <strong>techniques mises en oeuvre</strong> (flocage, le soufflage ...)</li>
+                <li>Les <strong>aspects réglementaires et financiers</strong> (isolation à 1 euros, normes Bâtiment basse
+                    consommation (BBC) ...). </li>
+                <li>Les différents <strong>éléments de l'isolation</strong>: le pare-vapeur, les panneaux,
+                    l'isolant ... Il y a différents types d'isolants (sous chape, de fondation, sous
+                    dalle, sous plancher ...).</li>
+                <li>Les <strong>matériaux</strong> (polystyrène, chanvre, liège ...) de différentes dimensions et de
+                    différentes marques.</li>
+                <li>Le matériel d'isolation (caméra endoscopique, pistolets à mousse expansive ...) et ses marques.</li>
+                <li>Enfin, il y a l'isolation phonique, acoustique et industrielle qui sont un peu à part.</li>
+            </ul>
+            <p>On voit, à travers cela, se dessiner différentes <strong>cibles</strong>:</p>
+            <ul>
+                <li>Deux types de <strong>particuliers</strong>: ce qui vont faire eux-mêmes et ceux qui vont faire faire.
+                </li>
+                <li>Les <strong>entreprises professionnelles</strong> qui peuvent vouloir réaliser des travaux d'isolation
+                </li>
+                <li>Les <strong>artisans en isolation</strong> qui cherchent du matériel particulièrement adapté à leurs
+                    besoins.</li>
+            </ul>
+            <p>Sur toute cette thématique, nous avons surtout rencontré des sites internet / mots-clés s'adressant à des
+                particuliers
+                souhaitant rénover leur maison, proposant la mise en relation avec des artisans. Il y a également des sites
+                plus spécifiques, par exemple pour isoler un van et ne faire
+                un logement mobile. La cible professionnelle est également un sujet spécifique.</p>
+            <p>Il y a beaucoup d'acteurs nationaux sur cette thématique, dont beaucoup d'éditeurs de site SEO (des
+                professionnels de la création de contenus). Une entreprise souhaitant s'insérer sur ce créneau devra
+                identifier les requêtes où la concurrence est moins intense et se construire une visibilité dessus, avant
+                d'en prendre d'autres. Pour se démarquer, un soin particulier devra être porté à l'expérience utilisateur et
+                à l'expertise apparente.</p>
+            <p>Un artisan local sera encore plus exposé à ces problématiques, car non seulement il aura moins de moyens,
+                mais en plus il répondra moins efficacement aux requêtes en dehors de sa zone de chalandise (qui peuvent
+                souhaiter trouver un artisan) et une visibilité nationale lui rapportera moins. Il faudra donc se concentrer
+                sur des sujets très spécifiques et fournir une expérience utilisateur impeccable.</p>
+            <p>Une entreprise de matériel va évidemment cibler les mots-clé de produits et de marques. On peut également
+                imaginer cibler des tutoriel de techniques avancées, s'adressant aux professionnels. La difficulté
+                pourrait être de trouver les mots-clés correspondant à des recherches de particuliers souhaitant faire leurs
+                travaux eux-mêmes. Ce pourrait, en même temps, être fructueux, car il est possible que les éditeurs de site
+                SEO, très présents, cherchent à vendre de la mise en relation dans tous les cas. Arriver sur ces requêtes en
+                proposant du matériel pourrait être un avantage, répondant mieux à l'intention de recherche. C'est une
+                question à approfondir.</p>
+            <p>Un acteur touchant incidemment à l'isolation devra se concentrer sur les requêtes ne concernant que son
+                produit. Ainsi, il est inutile pour un site proposant l'isolation des fourgons d'avoir une page très
+                optimisée sur le pont thermique ou les propriétés de la laine de roche. Cela ne veut pas dire qu'il ne faut
+                pas ces pages, mais qu'il faut être conscient de leur rôle: elles répondent à l'intention de recherche des
+                personnes qui, ayant cherché d'autres choses dans votre site, arrivent sur cette page.</p>
 
 
+            <p>Voilà, c'est une ébauche. Le sujet étant gigantesque, j'ai préféré me limiter. Le présent article présente
+                le travail d'une
+                journée de recherche.</p>
 
             <h2>Première approche: qu'est-ce que l'isolation ? </h2>
             <h3>Les différents aspects de l'isolation</h3>
             <p>Dès le début (~1h), en faisant une simple recherche sur Semrush, on peut identifier de nombreux aspects à
                 l'isolation :</p>
             <ul>
-                <li>Elle peut être extérieure ou intérieure et viser différentes zones: le contour d'une trappe, des
+                <li>Elle peut être <strong>extérieure ou intérieure</strong> et viser <strong>différentes zones</strong>: le
+                    contour d'une trappe, des
                     combles, une verrière, terrasse, garage, un chauffe-eau ...</li>
-                <lI>Il y a isolation sonique et thermique. Cela peut cibler des cas très différents. Par défaut, il s'agit
+                <lI>Il y a isolation <strong>sonique</strong> et <strong>thermique</strong>. Cela peut cibler des cas très
+                    différents. Par défaut, il s'agit
                     surtout d'isolation thermique, mais vous pouvez aussi cibler l'isolation phonique uniquement.</lI>
-                <li>Elle a différents matériaux: liège, paille, placo</li>
-                <li>Il peut y avoir des aides (crédit d'impot isolation, isolation à 1€, "ma prime renov" ...)</li>
-                <li>Il y a des caractéristiques comme l'épaisseur de l'isolation.</li>
+                <li>Elle a <strong>différents matériaux</strong>: liège, paille, placo ...</li>
+                <li>Il peut y avoir des <strong>aides</strong> (crédit d'impot isolation, isolation à 1€, "ma prime renov"
+                    ...)</li>
+                <li>Il y a des <strong>caractéristiques</strong> comme l'épaisseur de l'isolation.</li>
             </ul>
             <h3>
                 Quelques marques
             </h3>
-            <p>Par expérience, je sais que les fournisseurs et les objets peuvent être intéressants aussi. Explorons un peu
+            <p>Par expérience, je sais que les <strong>fournisseurs</strong> et le <strong>matériel</strong> peuvent être
+                intéressants aussi. Explorons un peu
                 les SERP des marques.</p>
             <p>Allons voir "meilleur fournisseur isolation". On tombe sur des listes de fournisseurs proposant la meilleure
                 prime énergie. Vous allez avoir EDF, Auchan, Antargaz, Hellio ... </p>
@@ -48,10 +105,11 @@
                 Saint-Gobain avec ses filiales Isover et Placo. Je vais demander à ChatGPT pour compléter et j'obtiens en
                 plus Kingspan, Actis insulation, Celotex et Bauder. (total ~0h20)</p>
             <h3>Quelques produits spécifiques</h3>
-            <p>On peut aussi aller voir le matériel professionnel d'installation. Ce coup-ci, on va aller d'abord poser à la
+            <p>On peut aussi aller voir le <strong>matériel professionnel</strong> d'installation. Ce coup-ci, on va aller
+                d'abord poser à la
                 question à ChatGPT: <i>"Quel est le matériel professionnel pour installer une isolation ? Est-ce que tu
                     connais
-                    des marques ?"</i> Voici sa réponse, c'est fou (bien sûr, il faut vérifier, mais même si 50% des
+                    des marques ?"</i> Voici sa réponse (bien sûr, il faut vérifier, mais même si 50% des
                 informations sont correctes, c'est fantastique):</p><i>
                 <ul>
                     <li>
@@ -222,6 +280,13 @@
             <p>Cette explication est étayée par la présence, en position 5, de la page d'accueil d'un autre site de BTP,
                 flocage-tcf.fr. En effet, son contenu à proprement parler est maigre, mais elle renvoie à de nombreuses
                 pages ayant beaucoup d'informations, notamment des chantiers réalisés.</p>
+            <h3>"isolation industrielle"</h3>
+            <p>La recherche "isolation industrielle" renvoie directement à des prestataires de service , que nous n'avons
+                pas
+                plus-values dans les autres requêtes (https://www.kaeferwanner.fr/Isolation.html;
+                https://www.sofradi.fr/isolation-industrielle/;
+                https://www.itbfrance.com/2018/02/16/calorifuge-industriel-lisolation-haute-performance/). Cela montre bien
+                qu'il s'agit d'un marché très spécifique.</p>
             <h3>"isolation van"</h3>
             Dernière analyse, une question très nichée et actuelle: "isolation van". En effet, il est de plus en plus
             tendance d'aménager un van pour pouvoir vivre dedans et partir en voyage. Cette requête est intéressante, parce
@@ -243,6 +308,7 @@
                     fourgon.</li>
             </ul>
             <p>Vous voyez qu'on est dans un monde totalement différent.</p>
+
             <h3>Ellipse</h3>
             <p>Ce travail a déjà pris 3h: il faut à chaque fois étudier le site, comprendre de quoi il s'agit, identifier
                 les avantages des uns et des autres, les plus-values apportées au lecteur ... Cela s'accélère à mesure qu'on
@@ -272,14 +338,23 @@
                     anti-feu, intérieur ...),
                     l'isolant (mince, multi-couche, thermique..), les "écrans sous toiture", le matériel HPV (haute
                     perméabilité à la vapeur d’eau). Il y a différents types d'isolants (sous chape, de fondation, sous
-                    dalle, sous plancher ...)</li>
+                    dalle, sous plancher ...).</li>
                 <li>Les <strong>matériaux</strong>: le polystyrène, la laine ou fibre de bois, le chanvre, le liège, la
                     laine de verre, la
-                    ouate de cellulose et la vermiculite. L'épaisseur ou les dimensions peuvent s'y ajouter.</li>
+                    ouate de cellulose et la vermiculite. L'épaisseur ou les dimensions peuvent s'y ajouter, ainsi que les
+                    marques.</li>
                 <li>Le matériel d'isolation, comme les caméra endoscopique (pour voir les pertes de chaleur) ou les
-                    pistolets à mousse expansive.</li>
+                    pistolets à mousse expansive, et ses marques.</li>
                 <li>Enfin, il y a l'isolation phonique, acoustique et industrielle qui sont un peu à part.</li>
             </ul>
+            <p>On voit, à travers cela, se dessiner différentes <strong>cibles</strong>. Tout d'abord, il y a deux types de
+                <strong>particuliers</strong>: ce
+                qui vont faire eux-mêmes et ceux qui vont faire faire. Ensuite, il y a les <strong>entreprises
+                    professionnelles</strong> qui
+                peuvent vouloir réaliser des travaux d'isolation. Enfin, vous avez des <strong>artisans en
+                    isolation</strong> qui cherchent
+                du matériel particulièrement adapté à leurs besoins.
+            </p>
             <p>Au niveau des entreprises d'installateurs d'isolation, j'ai noté:</p>
             <ul>
                 <li>https://www.di-projection.com/index.html</li>

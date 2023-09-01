@@ -102,5 +102,22 @@
         "resumeP1": "Il s'agit d'une étude globale de marché SEO, portant sur l'isolation (thermique ou phonique) et correspondant à une journée de travail.",
         "resumeP2": "J'y présente les principaux ensembles de mots-clés (matériaux, zones à isoler, techniques ..) et propose des stratégies pour 4 types d'entreprises.",
         "interet": "5"
+    },
+    {
+        "titre": "Etude de marché et stratégie SEO : 'installateur photovoltaïque' ",
+        "cat": "SEO",
+        "url": "/portfolio/seo-panneaux-pv-etude-de-marche-strat",
+        "technologies": [
+            "SEMrush"
+        ],
+        "thumb": "/panneaux-solaires-installation.webp",
+        "topic": [
+            "Etude de marché SEO",
+            "Stratégie"
+        ],
+        "abstract": "Etude du marché SEO de l'installation de panneaux photovoltaïques.",
+        "resumeP1": "Je fais une étude de marché SEO pour installateur de panneaux photovoltaïques et propose une stratégie et un plan de site.",
+        "resumeP2": "J'y présente en détail les principaux ensembles de mots-clés, leur intérêt et leur facilité, ainsi que les concurrents.",
+        "interet": "5"
     }
 ]
