@@ -708,7 +708,7 @@ export default {
       flex-direction: column;
       justify-content: space-between;
       width: 30%;
-      border: 2px solid $light-blue;
+      border: 2px solid $blue700;
       padding: 20px;
       border-radius: 40px;
       flex-shrink: 0;
@@ -817,7 +817,7 @@ export default {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  background-color: $light-blue;
+  background-color: $blue700;
 
   box-sizing: border-box;
 
@@ -882,6 +882,12 @@ export default {
       a {
         text-decoration: none;
         color: $yellow;
+
+        &:hover {
+          text-decoration: underline;
+          text-underline-offset: 5px;
+
+        }
       }
     }
 

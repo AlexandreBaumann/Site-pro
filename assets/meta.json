@@ -50,6 +50,11 @@
         "description": "Description technique de la réalisation du projet back-end 'Mon vieux Grimoire' pour la formation OpenClassRooms"
     },
     {
+        "url": "/portfolio/seo-panneaux-pv-etude-de-marche-strat",
+        "title": "Portfolio: étude de marché et stratégie sur l'installation de panneaux solaires",
+        "description": "Présentation détaillée d'une étude de marché et d'une stratéie pour un installateur de panneaux solaires."
+    },
+    {
         "url": "/portfolio/site-vitrine-alexandre-baumann",
         "title": "Site vitrine d'Alexandre Baumann: présentation du projet",
         "description": "Description des enjeux techniques de la réalisation du site vitrine développé avec Nuxt.js"

@@ -2,19 +2,8 @@
     <main>
         <div class="container">
             <h1>Portfolio et case studies</h1>
-            <p>Vous trouverez ici l'ensemble de mes travaux.</p>
-            <h2>Respect de la qualité web</h2>
-            <p>Mes sites respectent les bonnes pratiques de qualité web, SEO et accessibilité, dont notamment:</p>
-            <ul>
-                <li>Respect de la <strong>sémantique HTML</strong> et de la <strong>hiérarchie des titres</strong></li>
-                <li>Labels Aria pour guider les <strong>lecteurs d'écran</strong></li>
-                <li><strong>Métadonnées Schema</strong> dans la balise Head</li>
-                <li><strong>Mise en page responsive</strong>: j'adapte la mise en forme à plusieurs formats (mobile,
-                    tablette,
-                    petit écran d'ordinateur et
-                    grand écran d'ordinateur)</li>
-                <li><strong>Attributs alt</strong> présents et, si besoin, renseignés.</li>
-            </ul>
+            <p>Vous trouverez ici une sélection de mes travaux et leur présentation.</p>
+
             <h2>Liste des projets</h2>
             <div class="filter-section">
                 <button :class="{ active: selectedCategory === '' }" @click="setFilter('')">Tous</button>
@@ -58,7 +47,11 @@ export default {
   
 <style scoped lang="scss">
 .container {
+    width: 100%;
+
     @include contentFrame;
+    text-align: center;
+
 
     h1 {
         text-align: center;
@@ -79,6 +72,7 @@ export default {
     flex-wrap: wrap;
     gap: 2%;
     justify-content: center;
+
 }
 
 .filter-section {
@@ -91,13 +85,13 @@ export default {
         margin: 0 10px;
         border: none;
         border-radius: 25px; // Ajoute des bords arrondis
-        background-color: #333;
+        background-color: $gray800;
         color: #fff;
         cursor: pointer;
         transition: background-color 0.3s, transform 0.2s; // Transition pour l'effet hover et le click
 
         &:hover {
-            background-color: #555;
+            background-color: $gray600;
             transform: scale(1.05); // Légère augmentation de taille au survol
         }
 
@@ -107,10 +101,10 @@ export default {
     }
 
     .active {
-        background-color: #007BFF; // Une couleur différente pour le bouton actif
+        background-color: $blue900; // Une couleur différente pour le bouton actif
 
         &:hover {
-            background-color: #0056b3; // Une teinte plus foncée au survol pour le bouton actif
+            background-color: $blue700; // Une teinte plus foncée au survol pour le bouton actif
         }
     }
 }

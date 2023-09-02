@@ -13,7 +13,15 @@
 }
 
 $dark-blue: #0a192f;
-$light-blue: #172a45;
+$blue900: #1a237e;
+
+$blue700: #303f9f;
+$blue500: #3f51b5;
+$blue300: #7986cb;
+
+$gray800: #424242;
+$gray600: #757575;
+
 $light-gray: #ccd6f6;
 $yellow: #ffd700;
 
@@ -34,15 +42,15 @@ $full-height-mid: calc(100vh - #{$headerHeight-mid});
 
 @mixin contentFrame {
   max-width: 1200px;
-  padding-left: 10%;
-  padding-right: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
   @media (max-width: $mid-to-tablet) {
     max-width: none;
-    padding-left: 7%;
-    padding-right: 7%;
+    margin-left: 7%;
+    margin-right: 7%;
   }
   @media (max-width: $tablet-to-smalltablet) {
-    padding-left: 5%;
-    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }

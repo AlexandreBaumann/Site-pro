@@ -16,7 +16,7 @@ main {
     margin-top: $headerHeight-mid;
   }
   a {
-    color: $light-blue;
+    color: $blue700;
   }
 }
 h1,
@@ -53,6 +53,11 @@ a:focus,
 input:focus {
   outline: 1px solid #0099cc; // Une bordure bleue claire pour l'indication de focus.
   box-shadow: 0 0 5px #0099cc; // Une ombre pour un effet supplémentaire.
+}
+ul {
+  @media (max-width: 600px) {
+    padding-left: 20px;
+  }
 }
 
 /////////////////////////// ETIQUETTES //////////////////////
@@ -104,4 +109,8 @@ input:focus {
 
 .MongoDB {
   background-color: #9932cc;
+}
+
+.SEMrush {
+  background-color: #1a1a8b;
 }

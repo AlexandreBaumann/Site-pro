@@ -109,7 +109,7 @@ export default {
 
 .checkmark {
     font-size: 50px;
-    color: $light-blue;
+    color: $blue700;
 }
 
 .success-message button {

@@ -51,7 +51,7 @@ export default {
   padding: 1em;
   margin: 1em 0;
   width: 300px;
-  height: 500px;
+  height: 400px;
   padding: 20px;
   border-radius: 20px;
   background-color: $light-gray;
@@ -110,31 +110,34 @@ export default {
 
   h3 {
     text-align: center;
-    font-size: 26px;
+    font-size: 24px;
 
     @media (max-width:$tall-to-mid) {
-      font-size: 22px;
+      font-size: 20px;
       margin-top: 10px;
       margin-bottom: 10px;
     }
 
     @media (max-width:1300px) {
-      font-size: 20px;
+      font-size: 18px;
       margin-top: 7px;
       margin-bottom: 7px;
     }
 
     @media (max-width:$mid-to-tablet) {
-      font-size: 26px;
+      font-size: 24px;
     }
 
     @media (max-width:$tablet-to-smalltablet) {}
 
     @media (max-width:$smalltablet-to-phone) {
-      font-size: 22px;
+      font-size: 20px;
     }
 
-    @media (max-width:$phone-to-smallphone) {}
+    @media (max-width:$phone-to-smallphone) {
+      font-size: 18px;
+
+    }
   }
 
   p {

@@ -16,7 +16,6 @@ export default {
         },
     },
     head() {
-        console.log('metaData:', this.metaData);
         if (!this.metaData) return {};
         const schema = {
             "@context": "http://schema.org",
