@@ -817,7 +817,7 @@ export default {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  background-color: $blue700;
+  background-color: $blue900;
 
   box-sizing: border-box;
 

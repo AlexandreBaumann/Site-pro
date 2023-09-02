@@ -36,13 +36,17 @@
       </section>
       <section class="parcours">
         <h2>Parcours web</h2>
-        <p>J'anime des sites internet depuis plus de 3 ans. J'ai été formé au SEO et à la qualité web en 2022 et ai
-          travaillé comme consultant SEO. J'ai ensuite suivi une <strong>formation de développeur web de janvier à aout
-            2023 avec
-            OpenClassRooms</strong>. Il s'agissait d'une formation diplomante (titre professionnel niveau 5) avec un suivi
+        <p>J'anime des sites internet depuis plus de 3 ans. J'ai été formé au <strong>SEO et à la qualité web</strong> en
+          2022 et ai
+          travaillé comme consultant SEO. J'ai ensuite suivi une formation de <strong>développeur web</strong> de janvier
+          à aout
+          2023 avec
+          OpenClassRooms. Il s'agissait d'une formation diplomante (titre professionnel niveau 5) avec un suivi
           hebdomadaire par un mentor.</p>
         <h2>Réalisations</h2>
-        <p>Ma principale réalisation web est, sur le plan technique, ce site et, sur le plan du contenu,
+        <p>Ma principale réalisation web est, sur le plan technique, <a
+            href="/portfolio/site-information-alternative-hydrogene">Alternative-hydrogène</a> (un site de plusieurs
+          centaines de pages organisées par une base de donnée MongoDB sur un site NextJS) et, sur le plan du contenu,
           www.discoverthegreentech.com. Ce dernier est un site d'information sur l'innovation écologique très prometteur,
           notamment sur
           le plan du référencement naturel (SEO).</p>

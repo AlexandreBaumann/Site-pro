@@ -2,7 +2,7 @@
     <main>
         <div class="container">
             <h1>Portfolio et case studies</h1>
-            <p>Vous trouverez ici une sélection de mes travaux et leur présentation.</p>
+            <p>Trouvez ici une sélection de mes travaux et leur présentation.</p>
 
             <h2>Liste des projets</h2>
             <div class="filter-section">
@@ -58,13 +58,20 @@ export default {
         font-size: 60px;
         margin-top: 60px;
         margin-bottom: 60px;
+        padding-right: 20px;
+        padding-left: 20px;
+
+        @media (max-width: 600px) {
+            font-size: 50px;
+
+        }
 
     }
 
-    >ul li {
-        line-height: 160%;
+    p {
+        padding-right: 20px;
+        padding-left: 20px;
     }
-
 }
 
 .portfolio {
@@ -79,6 +86,11 @@ export default {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+
+    @media (max-width: 600px) {
+        flex-direction: column;
+        row-gap: 20px;
+    }
 
     button {
         padding: 10px 20px;

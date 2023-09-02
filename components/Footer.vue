@@ -43,6 +43,12 @@ footer {
     list-style-type: none;
     padding: 0;
 
+    @media (max-width: 600px) {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+    }
+
     li {
       display: inline;
       margin: 0 10px;

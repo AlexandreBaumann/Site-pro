@@ -18,7 +18,7 @@
             <p>Le marché SEO autour de l'isolation (thermique ou phonique) est très large, avec d'importants volumes de
                 recherche. On voit émerger plusieurs grandes thématiques:</p>
             <ul>
-                <li>Les <strong>pièces ou aux éléments de la maison à isoler</strong>: la toiture, la chambre, le plafond,
+                <li>Les <strong>pièces ou éléments de la maison à isoler</strong>: la toiture, la chambre, le plafond,
                     le garage ... Il y a aussi une distinction entre isolation intérieure et extérieure.</li>
                 <li>Les <strong>techniques mises en oeuvre</strong> (flocage, le soufflage ...)</li>
                 <li>Les <strong>aspects réglementaires et financiers</strong> (isolation à 1 euros, normes Bâtiment basse
@@ -28,7 +28,8 @@
                     dalle, sous plancher ...).</li>
                 <li>Les <strong>matériaux</strong> (polystyrène, chanvre, liège ...) de différentes dimensions et de
                     différentes marques.</li>
-                <li>Le matériel d'isolation (caméra endoscopique, pistolets à mousse expansive ...) et ses marques.</li>
+                <li>Le <strong>matériel d'isolation</strong> (caméra endoscopique, pistolets à mousse expansive ...) et ses
+                    marques.</li>
                 <li>Enfin, il y a l'isolation phonique, acoustique et industrielle qui sont un peu à part.</li>
             </ul>
             <p>On voit, à travers cela, se dessiner différentes <strong>cibles</strong>:</p>
@@ -41,31 +42,38 @@
                     besoins.</li>
             </ul>
             <p>Sur toute cette thématique, nous avons surtout rencontré des sites internet / mots-clés s'adressant à des
-                particuliers
-                souhaitant rénover leur maison, proposant la mise en relation avec des artisans. Il y a également des sites
-                plus spécifiques, par exemple pour isoler un van et ne faire
-                un logement mobile. La cible professionnelle est également un sujet spécifique.</p>
-            <p>Il y a beaucoup d'acteurs nationaux sur cette thématique, dont beaucoup d'éditeurs de site SEO (des
-                professionnels de la création de contenus). Une entreprise souhaitant s'insérer sur ce créneau devra
+                <strong> particuliers
+                    souhaitant rénover leur maison</strong>, proposant la <strong>mise en relation avec des
+                    artisans</strong>. Il y a également des sites
+                plus spécifiques, par exemple pour isoler un van et en faire
+                un logement mobile. La cible professionnelle est également un sujet spécifique.
+            </p>
+            <p>Il y a de nombreux acteurs nationaux sur cette thématique, dont beaucoup d'éditeurs de site SEO (des
+                professionnels de la création de contenus). Une <strong>entreprise nationale</strong> souhaitant s'insérer
+                sur ce créneau devra
                 identifier les requêtes où la concurrence est moins intense et se construire une visibilité dessus, avant
                 d'en prendre d'autres. Pour se démarquer, un soin particulier devra être porté à l'expérience utilisateur et
                 à l'expertise apparente.</p>
-            <p>Un artisan local sera encore plus exposé à ces problématiques, car non seulement il aura moins de moyens,
+            <p>Un <strong>artisan local</strong> sera encore plus exposé à ces problématiques, car non seulement il aura
+                moins de moyens,
                 mais en plus il répondra moins efficacement aux requêtes en dehors de sa zone de chalandise (qui peuvent
                 souhaiter trouver un artisan) et une visibilité nationale lui rapportera moins. Il faudra donc se concentrer
                 sur des sujets très spécifiques et fournir une expérience utilisateur impeccable.</p>
-            <p>Une entreprise de matériel va évidemment cibler les mots-clé de produits et de marques. On peut également
-                imaginer cibler des tutoriel de techniques avancées, s'adressant aux professionnels. La difficulté
-                pourrait être de trouver les mots-clés correspondant à des recherches de particuliers souhaitant faire leurs
-                travaux eux-mêmes. Ce pourrait, en même temps, être fructueux, car il est possible que les éditeurs de site
-                SEO, très présents, cherchent à vendre de la mise en relation dans tous les cas. Arriver sur ces requêtes en
-                proposant du matériel pourrait être un avantage, répondant mieux à l'intention de recherche. C'est une
+            <p>Une <strong>entreprise de matériel</strong> va évidemment cibler les mots-clé de produits et de marques. On
+                peut également
+                imaginer cibler des tutoriel de techniques avancées, s'adressant aux professionnels. La même chose pour les
+                particuliers sera plus difficile en raison du nombre d'éditeurs de site
+                SEO cherchant à vendre de la mise en relation. Arriver sur ces requêtes en
+                proposant du matériel pourrait être un avantage, répondant mieux à l'intention de recherche, mais
+                l'intention semble actuellement comprise comme relevant de la mise en relation. C'est une
                 question à approfondir.</p>
             <p>Un acteur touchant incidemment à l'isolation devra se concentrer sur les requêtes ne concernant que son
-                produit. Ainsi, il est inutile pour un site proposant l'isolation des fourgons d'avoir une page très
+                produit. Ainsi, il est inutile pour un <strong>site proposant l'isolation des fourgons</strong> d'avoir une
+                page très
                 optimisée sur le pont thermique ou les propriétés de la laine de roche. Cela ne veut pas dire qu'il ne faut
                 pas ces pages, mais qu'il faut être conscient de leur rôle: elles répondent à l'intention de recherche des
-                personnes qui, ayant cherché d'autres choses dans votre site, arrivent sur cette page.</p>
+                personnes qui, ayant cherché d'autres choses dans votre site, se posent des question sur ces termes
+                techniques.</p>
 
 
             <p>Voilà, c'est une ébauche. Le sujet étant gigantesque, j'ai préféré me limiter. Le présent article présente
@@ -171,6 +179,11 @@
                         Pour localiser les montants derrière les murs et éviter de percer des conduits ou des fils.
                     </li>
                 </ul>
+                <p>Cela nous donnes des noms et des notions à explorer. ChatGPT donne des réponses souvent fausses, mais
+                    même une réponse fausse peut être utile. Par exemple, je ne savais même pas qu'il y avait des lames
+                    spéciales pour couper l'isolant. En allant vérifier, on trouver effectivement des <a
+                        href="https://www.hultafors.com/products/knives_and_blades/H0321-insulation-knife/79526">couteaux à
+                        isolation</a>.</p>
             </i>
             <h2>L'expansion</h2>
             <p>Ainsi, en 2h, nous avons déjà plusieurs dizaines voire centaines de mots-clés intéressants. Néanmoins, on a
@@ -181,8 +194,9 @@
             <p>Nous allons commencer par creuser l'un des principaux thèmes: <strong>l'isolation des combles</strong>. Le
                 rechercher sur
                 Google nous réserve quelque surprises: il y a un site gouvernemental qui traite du sujet ! Il se trouve
-                premier (https://france-renov.gouv.fr/renovation/isolation/combles-maison). Ensuite, on a le site d'Effy, <a
-                    href="https://www.quelleenergie.fr/economies-energie/isolation-combles">"quelleenergie"</a>, un
+                <a href="https://france-renov.gouv.fr/renovation/isolation/combles-maison">premier</a>. Ensuite, on a le
+                site d'Effy, <a href="https://www.quelleenergie.fr/economies-energie/isolation-combles">"quelleenergie"</a>,
+                un
                 sous-site d'EDF, <a
                     href="https://www.izi-by-edf-renov.fr/isolation-combles-perduss">"izi-by-edf-renov.fr"</a>, puis,
                 particulièrement intéressant, <a
@@ -192,10 +206,12 @@
                 professionnels du secteur. C'est typiquement le genre de projets qui sont faits par des SEO se dédiant à
                 l'édition de site. Effy va un cran plus loin dans l'intermédiation (ils ont l'air de faire, outre la mise en
                 relation, de l'accompagnement, envoyant notamment des techniciens pour évaluer les logements à rénover si
-                j'ai bien compris), mais c'est la même typologie de site.</p>
+                j'ai bien compris), mais c'est la même typologie de site.
+            </p>
             <p>Au niveau du contenu:</p>
             <ul>
-                <li>Le site gouvernemental est un peu léger en termes de contenu (il ne parle pas trop des matériaux, le
+                <li>Le <strong>site gouvernemental</strong> est un peu léger en termes de contenu (il ne parle pas trop des
+                    matériaux, le
                     "vrai" contenu est caché dans des onglets,et manque de fluidité: on est un peu perdu). Je pense que
                     c'est le fait que ce soit un site gouvernemental plus, surtout, qu'il renvoie à des pages présentant les
                     <strong>aides disponibles</strong>. En effet, ici, on est certain de la qualité des
@@ -203,27 +219,29 @@
                     n'est jamais le cas pour un site privé. Je doute qu'il soit possible de le dépasser, surtout quand on
                     voit les sites suivants.
                 </li>
-                <li>L'article Quellenergie (Effy) est TRES qualitatif, avec de jolis schémas, une écriture concise et claire
-                    (on pourrait
-                    regretter le peu de transition entre sections, mais je pense que c'est volontaire et correspond à la
-                    manière dont le lecteur aborde ce type d'articles) et même,
+                <li>L'article <strong>Quellenergie (Effy)</strong> est TRES qualitatif, avec de jolis schémas, une écriture
+                    concise et claire
+                    et même,
                     comble du luxe, une vidéo explicative avec Jamy Gourmand (un vulgarisateur français très connu et
-                    apprécié) ... Niveau contenu, ils abordent le prix et les
+                    apprécié des français) ... Niveau contenu, ils abordent le prix et les
                     aides (il semble que ce soit un point central), la différence entre combles perdus et amménagés, les
                     bonnes raisons d'isoler ses combles, le choix de l'isolant et les critères de performance.</li>
-                <li>L'article d'EDF aborde les même thèmes (aides, intérêt, types d'isolant), mais est beaucoup plus tourné
+                <li>L'article <strong>d'EDF</strong> aborde les même thèmes (aides, intérêt, types d'isolant), mais est
+                    beaucoup plus tourné
                     vers l'aspect commercial. La navigation est particulièrement fluide et agréable. Ils ont mis du contenu
                     vers la fin, dans la plus pure tradition "SEO": d'abord on met le contenu qui vend, puis, pour Google et
                     l'utilisateur plus curieux, on met du contenu plus approfondi vers le bas de la page (ici des
                     informations sur les techniques d'application et les matériaux).</li>
-                <li>Enfin, l'article de travaux.com, "5 règles pour réussir son isolation de combles" est au format d'un
+                <li>Enfin, l'article de <strong>travaux.com</strong>, "5 règles pour réussir son isolation de combles" est
+                    au format d'un
                     article de blog classique, avec du texte et quelques visuel (les sites d'Effy et EDF ont une mise en
                     page beaucoup plus complexe, avec des sidebar, des filtres, des cartes ...). Le contenu est aussi très
                     différent: il donne des astuces qui vont aborder des points "classiques" (critères de performace,
                     matériaux ..), mais pas seulement sous un angle descriptif. Ils donnent des conseils (ex: "Isoler et
                     ventiler correctement vos combles").</li>
             </ul>
-            <p>On voit ici l'importance du renseignement sur les aides. C'est d'autant plus clair quand on regarde le 5e
+            <p>On voit ici l'importance du renseignement sur <strong>les aides</strong>. C'est d'autant plus clair quand on
+                regarde le 5e
                 résultat: un site gouvernemental titrant "Isolation à 1 euro : fin de cette offre". Là, on ne parle même
                 pas d'aspects pratique ... On voit aussi que ce n'est pas une thématique vierge: de grands acteurs nationaux
                 sont dessus.</p>
@@ -282,11 +300,13 @@
                 pages ayant beaucoup d'informations, notamment des chantiers réalisés.</p>
             <h3>"isolation industrielle"</h3>
             <p>La recherche "isolation industrielle" renvoie directement à des prestataires de service , que nous n'avons
-                pas
-                plus-values dans les autres requêtes (https://www.kaeferwanner.fr/Isolation.html;
-                https://www.sofradi.fr/isolation-industrielle/;
-                https://www.itbfrance.com/2018/02/16/calorifuge-industriel-lisolation-haute-performance/). Cela montre bien
-                qu'il s'agit d'un marché très spécifique.</p>
+                pas dans les autres requêtes (<a href="https://www.kaeferwanner.fr/Isolation.html">Kaeferwanner</a>;<a
+                    href="https://www.sofradi.fr/isolation-industrielle/">Sofradi</a>
+                ;
+                <a href="https://www.itbfrance.com/2018/02/16/calorifuge-industriel-lisolation-haute-performance/">ITB
+                    France</a>). Cela montre bien
+                qu'il s'agit d'un marché très spécifique.
+            </p>
             <h3>"isolation van"</h3>
             Dernière analyse, une question très nichée et actuelle: "isolation van". En effet, il est de plus en plus
             tendance d'aménager un van pour pouvoir vivre dedans et partir en voyage. Cette requête est intéressante, parce
@@ -299,7 +319,7 @@
                     détaillé, et renvoie vers des témoignages d'utilisateurs.
                 </li>
                 <li>Le second, <a href="https://mon-fourgon-amenage.fr/isolation">mon-fourgon-amenage.fr</a> est aussi un
-                    site SEO, peu qualitatif au niveau de la présentation (en un mot, c'est laid et peu travaillé). C'est
+                    site SEO, peu qualitatif au niveau de la présentation. C'est
                     une page catégorie avec du contenu (conséquent) dépliable en haut, puis une boucle d'articles. De
                     nombreuses questions sont traitées, cet aspect est très qualitatif: quelqu'un qui s'intéresse au sujet
                     va passer du temps à tout lire.</li>
@@ -355,7 +375,8 @@
                     isolation</strong> qui cherchent
                 du matériel particulièrement adapté à leurs besoins.
             </p>
-            <p>Au niveau des entreprises d'installateurs d'isolation, j'ai noté:</p>
+            <p>Au niveau des entreprises d'installateurs d'isolation, j'ai noté (en allant vite, il doit y en avoir
+                d'autres):</p>
             <ul>
                 <li>https://www.di-projection.com/index.html</li>
                 <li>https://www.daniel-isolation.com/</li>
@@ -377,12 +398,13 @@
             </p>
             <p>En termes de restitution, vous voyez que c'est assez long et pas toujours facile à comprendre pour un
                 profane. J'ai détaillé ici pour vous montrer la réalité du procédé. En pratique, l'étude sera
-                plus ciblée (là on n'a pas encore défini le client) et le livrable sera synthétique et lisible.</p>
+                plus ciblée (là on n'a pas encore défini le client) et le livrable sera plus synthétique.</p>
             <h2>Application pratique</h2>
             <p>Globalement, les
                 "keyword difficulty" (indicateur de Semrush pour évaluer la "difficulté" d'une
                 SERP) sont assez bas et les volumes estimés élevés. Néanmoins, il y a de nombreux acteurs nationaux très
-                solides bien positionnés sur l'essentiel de ces SERP: </p>
+                solides bien positionnés sur l'essentiel de ces SERP. C'est une thématique relativement concurrentielle.
+            </p>
             <h3>Une entreprise nationale de service d'isolation </h3>
             <p>Le marché des travaux immobiliers, tels que l'isolation, est gigantesque et une cible privilégiée pour les
                 SEO.
@@ -391,17 +413,21 @@
                 marché, il devra faire attention aux leaders du secteur, comme Effy et travaux.com.</p>
             <p>La principale difficulté sera de penser la structure du site: vous allez parler de matériaux, de procédés,
                 d'espaces à aménager, etc. Comment faire pour rester lisible ? Une réponse que j'avais trouvée pour
-                Discover The Greentech, un site d'information très large, a été de créer une barre de menu supplémentaire
+                Discover The Greentech sur un problème similaire a été de créer une barre de menu supplémentaire
                 pour aiguiller l'utilisateur quand il arrive sur un des grands dossiers.</p>
             <h3>Un artisan local spécialiste de l'isolation</h3>
-            <p>De manière générale, les entreprises locales sont un cas assez compliqué, car elles ne peuvent pas, à terme,
-                lutter contre les acteurs nationaux (à moins de devenir, sur Google, elles-mêmes des acteurs nationaux), en
-                raison de la limitation de leur zone de chalandise. En effet, les utilisateurs vont vouloir un moment
+            <p>De manière générale, les <strong>entreprises locales</strong> sont des cas assez difficiles, car elles ne
+                peuvent pas, à
+                terme,
+                lutter contre les acteurs nationaux, en
+                raison de la limitation de leur zone de chalandise (à moins de devenir, sur Google, elles-mêmes des acteurs
+                nationaux). En effet, les utilisateurs vont vouloir un moment
                 contacter un prestataire. Si c'est hors de votre secteur, ils vont partir de votre site et retourner sur
                 google. Leur intention de recherche globale n'aura donc pas été entièrement remplie. Même si ce n'est que
                 quelques % des utilisateurs, à terme cela sera sans doute décisif: vous perdrez. De plus, le site concurrent
                 national
-                devrait récupèrer une plus-value supérieure de son exposition et pourra donc davantage investir dedans.</p>
+                récupèrera probablement une plus-value supérieure de son exposition et pourra donc davantage investir
+                dedans.</p>
             <p>Bref, vous pouvez allez chercher des mots-clés nationaux (surtout que la difficulté ne semble pas très élevée
                 globalement): vous pouvez quand même ramener des clients et cela devrait renforcer votre site. Néanmoins,
                 gardez ces éléments à l'esprit.</p>
@@ -409,7 +435,8 @@
                 n'y a
                 pas trop moyen de contourner ça et cela permet à Google de comprendre ce que vous faites), de l'autre votre
                 blog va favoriser votre localisation avec des cas clients (qui vous permettront peut-être même de remonter
-                sur de plus grandes requêtes) et tenter de cibler des sujets très spécifiques, que vous pourrez 'gagner'
+                sur de plus grandes requêtes) et tenter de cibler des sujets <strong>très spécifiques</strong>, que vous
+                pourrez 'gagner'
                 sans trop d'effort et garder assez longtemps.</p>
             <p>Il faut aussi être cohérent. Par exemple, vous n'auriez pas particulièrement intérêt à cibler "isolation
                 fourgon" ou "isolation van". En effet, si vous ne proposez pas de service d'isolation de van (et je doute de
@@ -426,7 +453,8 @@
                 verre soufflée danger" quand on a décidé, ou presque, d'appliquer l'isolation soi-même).</p>
             <p>Donc concrètement, voici quelques idées de contenus:</p>
             <ul>
-                <li>Faire un dossier sur l'isolation du sol et des plafonds des garages. En effet, c'est un sujet très
+                <li>Faire un <strong>dossier sur l'isolation du sol et des plafonds des garages</strong>. En effet, c'est un
+                    sujet très
                     spécifique, beaucoup recherché et qui semble assez peu abordé. Je pense qu'il est possible de faire
                     largement mieux que les
                     articles du top 3. Par exemple, cet <a
@@ -435,20 +463,24 @@
                     le premier H2 ne sert à rien, ils ne donnent pas d'exemple pour illustrer le prix ("15€/m², ça ne
                     dit rien à personne, il faut préciser "soit 300€ pour un garage normal (20m²)."") ...
                 </li>
-                <li>L'isolation en appartement me semble être un sujet intéressant et assez mal traité. Les articles du top
+                <li>L'<strong>isolation en appartement</strong> me semble être un sujet intéressant et assez mal traité. Les
+                    articles du top
                     10 parlent soit de l'isolation du sol en général, soit uniquement de l'isolation phonique. Cela laisse
                     penser qu'un article sur l'ensemble des isolations des sols en appartement serait intéressant.
                     Un dossier complet sur le sujet pourrait être intéressant, sauf évidemment si vous êtes dans une zone
                     rurale.</li>
-                <li>Les pages pour les matériaux semblent surtout tendre à l'achat dudit matériau. Néanmoins des pages
+                <li>Les pages pour les <strong>matériaux</strong> semblent surtout tendre à l'achat dudit matériau.
+                    Néanmoins des pages
                     présentant ceux que vous utilisez me semblent importantes, donnant une information que beaucoup
                     d'utilisateurs chercheront en lisant votre offre. Idem pour vos techniques. Ce n'est pas parce qu'une
                     page ne fait pas office de porte d'entrée pour des clients qu'elle est inutile.</li>
             </ul>
             <h3>Un distributeur de matériel d'isolation</h3>
-            <p>En tant que distributeur de matériel d'isolation, vous serez forcément intéressé par les requêtes relatives
+            <p>En tant que <strong>distributeur de matériel d'isolation</strong>, vous serez forcément intéressé par les
+                requêtes relatives
                 aux matériaux
-                que vous commercialisez. Vous ferez également des comparatifs en fonction de l'usage de destination
+                que vous commercialisez. Vous ferez également des comparatifs en fonction de l'<strong>usage de
+                    destination</strong>
                 (isolation des combles: quel isolant est le meilleur?). Vous
                 voudrez également cibler les requêtes relatives aux travaux, si elles ont
                 tendances à être faites par les propriétaires eux-même. En effet, pour les travaux ayant tendance à être
@@ -457,30 +489,32 @@
                 votre offre. Si vous êtes chanceux, vous pouvez même toucher des requêtes spécifiques (ex:"isolation
                 armaflex", qui d'ailleurs ne revoie pas au site armaflex, mais à des tuto pour isolation de fourgon)</p>
             <h3>Un acteur dont l'activité touche incidemment à l'isolation</h3>
-            <p>Si vous voulez, par exemple, lancer un site autour de l'isolation des fourgons, il est intéressant de
+            <p>Si vous voulez, par exemple, lancer un site autour de l'<strong>isolation des fourgons</strong>, il est
+                intéressant de
                 présenter les aspects génériques de l'isolation dans ce domaine: les notions importantes (performance, pont
                 thermique ..) et les matériaux notamment. Bien sûr, toutes les requêtes relatives à des endroits à isoler,
                 même fenêtre et porte, ne vous seront pas utiles (il s'agira des fenêtres et portes de maison/appartement).
             </p>
             <h2>La personnalisation</h2>
             <p>A ce stade, on a une vision qui est raisonnablement approfondie. Néanmoins, j'encourage de ne jamais s'en
-                contenter et d'aller plus loin pour deux raisons. D'une part, il ne
+                contenter et d'<strong>approfondir</strong> pour deux raisons. D'une part, il ne
                 faut pas oublier les valeurs ajoutées que vous cherchez à obtenir: de l'image, de l'audience, des clients.
                 Or, des pages, en apparence inintéressantes d'un point de vue de la visibilité sur les moteurs de recherche,
-                pourront en réalité être importantes. C'est pour cela que, plutôt de raisonner en termes de requêtes à
+                pourront être en réalité importantes. C'est pour cela que, plutôt de raisonner en termes de requêtes à
                 cibler, il faut avant tout raisonner en termes de client à satisfaire. Il faut se demander : "ok, donc le
                 couple trentenaire (ou autre persona) rénovant sa première maison arrive ici après avoir cherché cela,
                 maintenant, quelle sont ses prochaines questions ?" Les mots-clés sont des guides utiles (ils vous
                 permettent de choisir la persona la plus intéressante) et des aides à la rédaction (avec YourTextGuru).
                 Néanmoins, ce ne sont que des outils. Le seul objectif est de satisfaire le client (de sorte à en tirer de
-                la
-                valeur évidemment).
-            <p>D'autre part, vous allez vous faire attaquer par d'autres sites: le secteur est concurrentiel. Vous devez
-                vous protéger en construisant un avantage qui va défendre votre position (un "moat" certains diront). Mieux
+                la valeur évidemment).
+            <p>D'autre part, vous allez vous faire attaquer par d'autres sites: le secteur est
+                <strong>concurrentiel</strong>. Vous devez
+                vous protéger en construisant un avantage qui va défendre votre position (un "<strong>moat</strong>"). Mieux
                 connaître le besoin du client et y répondre très efficacement est une première défense, qui peut être
                 difficile à percer pour un concurrent connaissant moins le terrain que vous. Vous pouvez envisager d'autres
                 mesures, comme la création de contenus spécifiques (infographies, vidéos ..), l'animation de réseaux
-                sociaux, l'organisation de partenariats ... </p>
+                sociaux, l'organisation de partenariats ...
+            </p>
 
             </p>
         </div>
