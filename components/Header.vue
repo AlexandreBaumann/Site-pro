@@ -157,13 +157,14 @@ header {
         display: flex;
         align-items: center;
 
+        &:hover {
+          text-decoration: underline;
+          text-underline-offset: 10px;
+
+        }
       }
 
-      :hover {
-        text-decoration: underline;
-        text-underline-offset: 10px;
 
-      }
 
       @media (max-width: $tall-to-mid) {
         font-size: 26px;

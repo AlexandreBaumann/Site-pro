@@ -246,7 +246,8 @@
                 pas d'aspects pratique ... On voit aussi que ce n'est pas une thématique vierge: de grands acteurs nationaux
                 sont dessus.</p>
             <h3>"flocage isolation"</h3>
-            <p>Maintenant qu'on a étudié une des SERP (Search Engine Result Page, un résultat de recherche google en somme)
+            <p>Maintenant qu'on a étudié une des <b>SERP (Search Engine Result Page</b>, un résultat de recherche google en
+                somme)
                 principales, avec les plus gros acteurs, on va regarder une qui est un peu plus spécifique ("nichée" dans le
                 jargon) et chercher "flocage isolation", le flocage étant un des procédés d'isolation (vous en avez
                 probablement déjà vu, ils aspergent les parois). </p>
@@ -379,14 +380,13 @@
                 d'autres):</p>
             <ul>
                 <li>https://www.di-projection.com/index.html</li>
-                <li>https://www.daniel-isolation.com/</li>
                 <li>https://ctbg.fr/</li>
                 <li>https://www.cth-habitat.com/isolation/</li>
                 <li>https://ebs-isolation.fr/</li>
                 <li>https://batisec.net</li>
                 <li>https://dubois-isolation.fr/</li>
             </ul>
-            <p>Ensuite vous avez des fabricants de matériaux d'isolation (ati-sol.com,
+            <p>Ensuite vous avez des fabricants de matériaux d'isolation (https://www.ati-isol.com/,
                 hirschisolation.fr...), de nombreux sites d'information de rénovation en
                 général
                 (https://www.expertise-renovation.com/, www.izi-by-edf-renov.fr/, www.quelleenergie.fr/ ...) ou d'isolation
@@ -465,58 +465,64 @@
                 </li>
                 <li>L'<strong>isolation en appartement</strong> me semble être un sujet intéressant et assez mal traité. Les
                     articles du top
-                    10 parlent soit de l'isolation du sol en général, soit uniquement de l'isolation phonique. Cela laisse
+                    10 parlent en général soit de l'isolation du sol en général, soit uniquement de l'isolation phonique ou
+                    seulement des murs. Seuls quelques articles portent sur l'appartement en général et il est possible de
+                    mieux les écrire. Cela laisse
                     penser qu'un article sur l'ensemble des isolations des sols en appartement serait intéressant.
                     Un dossier complet sur le sujet pourrait être intéressant, sauf évidemment si vous êtes dans une zone
                     rurale.</li>
                 <li>Les pages pour les <strong>matériaux</strong> semblent surtout tendre à l'achat dudit matériau.
                     Néanmoins des pages
-                    présentant ceux que vous utilisez me semblent importantes, donnant une information que beaucoup
-                    d'utilisateurs chercheront en lisant votre offre. Idem pour vos techniques. Ce n'est pas parce qu'une
+                    présentant ceux que vous utilisez peuvent être importantes, donnant une information que des utilisateurs
+                    chercheront en lisant votre offre. Idem pour vos techniques. Ce n'est pas parce qu'une
                     page ne fait pas office de porte d'entrée pour des clients qu'elle est inutile.</li>
             </ul>
             <h3>Un distributeur de matériel d'isolation</h3>
-            <p>En tant que <strong>distributeur de matériel d'isolation</strong>, vous serez forcément intéressé par les
+            <p>En tant que <strong>distributeur de matériel d'isolation</strong>, vous serez intéressé par les
                 requêtes relatives
                 aux matériaux
-                que vous commercialisez. Vous ferez également des comparatifs en fonction de l'<strong>usage de
+                que vous commercialisez. Il sera aussi intéressant de faire des comparatifs en fonction de l'<strong>usage
+                    de
                     destination</strong>
                 (isolation des combles: quel isolant est le meilleur?). Vous
                 voudrez également cibler les requêtes relatives aux travaux, si elles ont
                 tendances à être faites par les propriétaires eux-même. En effet, pour les travaux ayant tendance à être
                 faits par des professionnels, les sites d'intermédiation auront l'avantage. Enfin, les pages de marque
-                seront très intéressantes pour vous, pour renforcer vos cocons et donner une perspective intéressante à
-                votre offre. Si vous êtes chanceux, vous pouvez même toucher des requêtes spécifiques (ex:"isolation
-                armaflex", qui d'ailleurs ne revoie pas au site armaflex, mais à des tuto pour isolation de fourgon)</p>
+                seront très intéressantes pour vous, pour renforcer vos cocons [ensemble de pages répondant à un ensemble
+                cohérent d'intentions de recherche] et donner une perspective intéressante à
+                votre offre. </p>
             <h3>Un acteur dont l'activité touche incidemment à l'isolation</h3>
-            <p>Si vous voulez, par exemple, lancer un site autour de l'<strong>isolation des fourgons</strong>, il est
-                intéressant de
-                présenter les aspects génériques de l'isolation dans ce domaine: les notions importantes (performance, pont
-                thermique ..) et les matériaux notamment. Bien sûr, toutes les requêtes relatives à des endroits à isoler,
-                même fenêtre et porte, ne vous seront pas utiles (il s'agira des fenêtres et portes de maison/appartement).
+            <p>Si vous voulez, par exemple, lancer un site autour de l'<strong>isolation des fourgons</strong>, vous allez
+                évidemment vous concentrer sur le sujet spécifique de l'isolation de fourgon. Vous pourrez néanmoins vouloir
+                traiter des aspects génériques de l'isolation dans ce domaine: les notions importantes (performance, pont
+                thermique ..) et les matériaux notamment. Vous voulez évitez que votre utilisateur, étant par exemple arrivé
+                sur votre site en tapant
+                "isolation van", doive retourner sur Google faire d'autres recherches pour comprendre ce dont vous parlez.
             </p>
             <h2>La personnalisation</h2>
-            <p>A ce stade, on a une vision qui est raisonnablement approfondie. Néanmoins, j'encourage de ne jamais s'en
+            <p>A ce stade, on a une vision qui assez complète. Néanmoins, j'encourage de ne jamais s'en
                 contenter et d'<strong>approfondir</strong> pour deux raisons. D'une part, il ne
                 faut pas oublier les valeurs ajoutées que vous cherchez à obtenir: de l'image, de l'audience, des clients.
                 Or, des pages, en apparence inintéressantes d'un point de vue de la visibilité sur les moteurs de recherche,
                 pourront être en réalité importantes. C'est pour cela que, plutôt de raisonner en termes de requêtes à
-                cibler, il faut avant tout raisonner en termes de client à satisfaire. Il faut se demander : "ok, donc le
+                cibler, il faut avant tout raisonner en termes de client à satisfaire. </p>
+            <p>Il faut se demander : "donc le
                 couple trentenaire (ou autre persona) rénovant sa première maison arrive ici après avoir cherché cela,
-                maintenant, quelle sont ses prochaines questions ?" Les mots-clés sont des guides utiles (ils vous
+                maintenant, quelle sont ses prochaines questions ?" Les <strong>mots-clés</strong> sont des guides utiles
+                (ils vous
                 permettent de choisir la persona la plus intéressante) et des aides à la rédaction (avec YourTextGuru).
                 Néanmoins, ce ne sont que des outils. Le seul objectif est de satisfaire le client (de sorte à en tirer de
-                la valeur évidemment).
+                la valeur évidemment). </p>
             <p>D'autre part, vous allez vous faire attaquer par d'autres sites: le secteur est
                 <strong>concurrentiel</strong>. Vous devez
-                vous protéger en construisant un avantage qui va défendre votre position (un "<strong>moat</strong>"). Mieux
+                vous protéger en construisant un <strong>avantage</strong> qui va défendre votre position (un
+                "<strong>moat</strong>"). Mieux
                 connaître le besoin du client et y répondre très efficacement est une première défense, qui peut être
                 difficile à percer pour un concurrent connaissant moins le terrain que vous. Vous pouvez envisager d'autres
                 mesures, comme la création de contenus spécifiques (infographies, vidéos ..), l'animation de réseaux
                 sociaux, l'organisation de partenariats ...
             </p>
 
-            </p>
         </div>
     </main>
 </template>

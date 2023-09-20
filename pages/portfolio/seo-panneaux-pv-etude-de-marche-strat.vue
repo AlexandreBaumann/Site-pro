@@ -218,7 +218,7 @@
             <h3>Stratégie générale</h3>
             <p>Au fil de notre étude, nous avons constaté que le secteur était assez concurrentiel. Néanmoins, quelques
                 opportunités se dessinent.</p>
-            <p>Le <strong>marché de l'abri (carport pour pergola) photovoltaïque</strong> semble intéressant. En effet, les
+            <p>Le <strong>marché de l'abri (carport ou pergola) photovoltaïque</strong> semble intéressant. En effet, les
                 principaux
                 acteurs sont peu présents dessus et il y a une quantité non négligeable de requêtes qui traduisent une forte
                 intention d'achat pour des montants importants. Plus
@@ -230,26 +230,27 @@
                 photovoltaiques. Nous partirons du principe qu'il est possible de faire des partenariats pour répondre à
                 cette difficulté.
             </p>
-            <p>Beaucoup de <strong>requêtes informationnelles</strong> intéressantes sont mal ou pas traitées. Par exemple,
+            <p>Beaucoup de <strong>requêtes informationnelles</strong> intéressantes pourraient être mieux traitées. Par
+                exemple,
                 pour "combien de
                 panneaux photovoltaïques pour 10000 kw", on ne voit aucun des principaux sites sauf www.nouvelr-energie.com
-                et son article est très moyen. Une page reprenant tous les calculs pour évaluer le nombre de panneaux
+                et son article est très perfectible. Une page reprenant tous les calculs pour évaluer le nombre de panneaux
                 nécessaires en fonction de leur taille et de l'exposition de manière très synthétique devrait pouvoir gagner
                 la première place.</p>
             <p>Le <strong>marché est très récent</strong>, donc il est possible que les acteurs aient valorisé une démarche
-                très
-                industrielle limitant la qualité du parcours utilisateurs tracé. Il n'est sans doute pas impossible de
-                remporter des victoire, même sur leur terrain (installation de panneaux la myriade de variations), en
+
+                industrielle un peu grossière. Il n'est sans doute pas impossible de
+                remporter des victoires, même sur leur terrain (la myriade de variations autour de l'installation de
+                panneaux), en
                 affinant le ciblage et l'organisation du contenu.</p>
             <p>S'agissant de la <strong>géolocalisation</strong>, plusieurs acteurs sont bien présents (www.qualit-enr.org,
                 www.hellowatt.fr
                 ...) avec des pages de type annuaire et des pages pour chaque prestataire. Ainsi, si vous cherchez "Solar
-                Bois Énergie" (un installateur vendéen), le deuxième résultat est Hellowatt. Je ne pense pas que les
-                concurrencer sur cet angle soit viable. Remplacer ce système par une page compacte avec un générateur
-                de contenu en javascript pourrait répondre au besoin de l'utilisateur et être plus facile à maintenir.</p>
+                Bois Énergie" (un installateur vendéen), le deuxième résultat est Hellowatt. Je ne suis pas sûr que les
+                concurrencer sur cet angle soit viable. Il faudrait approfondir.</p>
 
             <h3>Quelques parcours utilisateurs</h3>
-            <p>Comme je le dis souvent, le principe du SEO est la création de parcours utilisateurs: ils arrivent sur une
+            <p>Le principe du SEO est la création de parcours utilisateurs: ils arrivent sur une
                 page et doivent trouver tout ce qu'ils cherchent, en étant au passage orientés vers les pages de vente. Nous
                 allons imaginer certains de ces itinéraires:</p>
             <ul>
@@ -266,7 +267,7 @@
                 </li>
             </ul>
             <p>Ici j'ai pris un parcours assez ordinaire je pense: d'abord on voit si on peut le faire soi-même, on voit que
-                c'est compliqué, on voir pour faire faire. Le point d'entrée pourrait être au moment de la recherche sur
+                c'est compliqué, on voit pour faire faire. Le point d'entrée pourrait être au moment de la recherche sur
                 distinction entre
                 technologies ("quel panneau solaire choisir" par exemple), sur la méthode pour installer ("comment installer
                 des panneaux solaires"), des paramètres à prendre en compte ("rendement panneaux solaires") de l'évaluation
@@ -333,7 +334,7 @@
                 <li>Contact</li>
             </ul>
             <p>Vous l'aurez sans doute deviné, l'essentiel de la stratégie se produira dans le blog. En effet, dans les
-                pages principales, il est souvent difficile de mettre beaucoup de contenu et de pages différentes: ce sont
+                pages principales, il est souvent difficile de mettre beaucoup de contenus et de pages différentes: ce sont
                 des pages de vente et on
                 risque de rendre confus un prospect par ailleurs convaincu. On aura plusieurs grands ensembles:</p>
             <ul>
@@ -374,22 +375,23 @@
                 </li>
             </ul>
             <p>Ce n'est qu'une ébauche. En analysant plus en détail les sites français et américains, on pourrait sans doute
-                trouver
-                quelques dizaines de pages de plus à faire.</p>
+                des dizaines de pages de plus à faire.</p>
 
             <p>On peut aussi imaginer un type d'articles, similaire aux cas clients, dans lesquels vous montrez comment vous
                 travaillez. Cela permettrait de cibler des requêtes autour
                 de la méthode pour installer des panneaux (ex: comment installer des panneaux solaires sur un toit). Cela
-                peut également être des articles beaucoup partagés sur les réseaux sociaux ce qui étend votre portée et
-                envoie des signaux positifs à Google. Cela permet également de rassurer les clients et de créer du lien.</p>
+                peut également être des articles particulièrement partagés sur les réseaux sociaux ce qui étend votre portée
+                et envoie des signaux positifs à Google. Cela permet également de rassurer les clients et de créer du lien.
+            </p>
             <p>On pourra également tenter de profiter de cas clients et d'actualités pour géolocaliser notre activité et
                 cibler des requêtes que nous n'aurions pas ciblé par ailleurs.</p>
             <h2>Mot de la fin</h2>
-            <p>Voilà j'espère que cet exercice vous a plu. Je suis allé aussi loin que possible sans client réel. Je
+            <p>Voilà j'espère que cet exercice vous a plu. Je
                 rappelle que discuter avec le client est un élément central pour définir ces stratégies: il faut se
                 renseigner sur ce qu'il fait, sur ce qu'il veut faire, sur les détails techniques</p>
             <div class="colonnes2">
-                <p>N'hésitez pas à me contacter si vous avez des commentaires à me faire parvenir.</p>
+                <p>N'hésitez pas à me contacter si vous souhaitez que je propose une stratégie spécifiquement adaptée à
+                    votre entreprise.</p>
 
                 <div class="formCTA">
                     <FormCTA />

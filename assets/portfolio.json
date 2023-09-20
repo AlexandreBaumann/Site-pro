@@ -52,12 +52,12 @@
         "abstract": "Site vitrine pour un masseur / sophrologue , à destination des particuliers et des entreprises.",
         "resumeP1": "Ce site vitrine présente les services d'un masseur - sophrologue à destination des particuliers et des entreprises. Il est codé avec <strong>Next.js</strong>, un framework de React permettant le Server Side Rendering.",
         "resumeP2": "Les fonctionnalités sont une <strong>modale</strong> et un <strong>formulaire de contact</strong>.",
-        "interet": "4"
+        "interet": "2"
     },
     {
-        "titre": "Kaza - formation OpenClassRooms",
+        "titre": "Kasa - formation OpenClassRooms",
         "cat": "Dev",
-        "url": "/portfolio/front-end-kaza",
+        "url": "/portfolio/front-end-kasa",
         "technologies": [
             "React"
         ],
@@ -66,7 +66,7 @@
             "Projet de formation"
         ],
         "abstract": "Intégration du front end pour un site projet de formation.",
-        "resumeP1": "Le projet Kaza, pour la formation OpenClassRooms, consistait à intégrer une interface graphique et plusieurs fonctionnalités: une boucle, un élément collapse et un carousel.",
+        "resumeP1": "Le projet Kasa, pour la formation OpenClassRooms, consistait à intégrer une interface graphique et plusieurs fonctionnalités: une boucle, un élément collapse et un carousel.",
         "resumeP2": "Il nous a permis de nous familiariser avec React et la bibliothèque Express.",
         "interet": "2"
     },

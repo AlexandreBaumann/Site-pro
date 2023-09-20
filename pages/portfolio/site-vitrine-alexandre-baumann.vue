@@ -6,6 +6,7 @@
             <p>C'est le site sur lequel nous sommes: mon site vitrine, pour exposer mes travaux et prestations. Je vais vous
                 présenter ici:</p>
             <ul>
+                <li>Discussion sur l'expérience utilisateur</li>
                 <li>Les technologies utilisées</li>
                 <li>Les fonctionnalités</li>
                 <li>Les éléments de style un peu complexes</li>
@@ -14,22 +15,41 @@
             <p>Je vais devoir utiliser le langage technique. Je vous propose donc, avant cela, un résumé compréhensible par
                 un
                 non-développeur.</p>
-            <p>Vous pouvez trouver le code, si autorisé, ici : https://github.com/AlexandreBaumann/Site-pro</p>
+            <p>Pour le code, il faut une autorisation (que je vous donnerai évidemment si vous me la demandez):
+                https://github.com/AlexandreBaumann/Site-pro</p>
             <h2>Résumé</h2>
             <p>Le présent site utilise Nuxt.js, un framework javascript permettant une expérience de navigation améliorée
-                tout
-                en étant optimisé pour le SEO.</p>
+                tout en étant optimisé pour le SEO.</p>
             <p>J'ai limité autant que possible l'utilisation de dépendances, pour garder le système relativement simple. Il
-                y a
-                quelques fonctionnalités spécifiques: un formulaire de contact, des "modales" (fenêtres qui s'ouvrent et
-                occupent l'écran
-                en grisant la page en arrière plan) et l'intégration d'une boucle d'articles (c'est comme la liste d'article
-                dans les journaux ou les blogs).</p>
+                y a quelques fonctionnalités spécifiques: un formulaire de contact, des "modales" (fenêtres qui s'ouvrent et
+                occupent l'écran en grisant la page en arrière plan) et l'intégration d'une boucle d'articles (c'est comme
+                la liste d'article dans les journaux ou les blogs).</p>
             <p>Le formulaire est l'élément qui a demandé le plus de travail: il a fallu le rendre conforme aux exigences de
-                la
-                qualité web (si un champ est mal rempli, l'erreur doit être décrite; il faut un message de validation ..),
-                le
-                rendre sécure pour éviter les injections de code et enfin configurer l'envoi de mail.</p>
+                la qualité web (si un champ est mal rempli, l'erreur doit être décrite; il faut un message de validation
+                ..), le rendre sécure pour éviter les injections de code et enfin configurer l'envoi de mail.</p>
+
+            <h2>Discussion sur l'expérience utilisateur</h2>
+            <p>Le site a pour objet de me vendre comme développeur et SEO en me présentant avec mon portfolio.</p>
+            <p>Il respecte les standards de qualité web. Par exemple, les éléments actionnables changent au survol, les
+                onglets actifs de
+                menu sont soulignés, les icones et boutons sont assortis d'aria-labels e</p>
+            <p>La page contact est un peu particulière. Classiquement, c'est une page qui pose des problèmes sur le plan du
+                SEO, car elle est vide et va être trop mise en avant par les liens interne. De plus, je trouve risqué de
+                placer son numéro de téléphone et mail en plein texte, ces informations pouvant facilement être récupérées
+                par un robot ("crawler"). Une option pour l'éviter est de la transformer en modale. C'est ce que j'ai fait
+                pour discoverthegreentech. Je le fais également ici avec les icônes "Contactez-moi" qui, au lieu de renvoyer
+                vers la page contact, ouvrent une modale. Cela me semble également préférable en termes d'expérience
+                utilisateur, permettant de rapidement revenir sur le contenu qu'on lisait.
+            </p>
+            <p>Néanmoins, les utilisateurs s'attendent à avoir une page contact à part entière pour un site vitrine. J'ai
+                donc créé une page et, pour les protéger des robots, placé le numéro de
+                téléphonie et le mail derrière un script: il suffit de cliquer sur l'icône téléphone ou mail pour que la
+                coordonnée souhaitée s'affiche. On reste accessible aux lecteurs d'écran en utilisant des éléments boutons
+                et des aria-labels explicites.</p>
+            <p>Le formulaire est évidemment sécurisé côté backend, avec une retraitement de la requête pour éviter les
+                injections et vérifier que tous les champs sont remplis (et écarter les robots grâce au honeypot). Le
+                frontend gère les messages d'erreurs précisant à l'utilisateur s'il y a une erreur.</p>
+            <p>Il faut encore que je conçoive les pages "prestations", qui vont préciser mon offre.</p>
 
             <h2>Présentation des technologies utilisées</h2>
             <h3>Nuxt.js</h3>

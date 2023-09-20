@@ -57,10 +57,9 @@ footer {
         color: #fff;
         text-decoration: none;
 
-        :hover {
+        &:hover {
           text-decoration: underline;
           text-underline-offset: 10px;
-
         }
 
       }

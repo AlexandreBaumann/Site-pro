@@ -2,8 +2,8 @@
     <main>
         <div class="container">
 
-            <h1>Kazaa: projet scolaire front-end</h1>
-            <p>Kazaa est un projet d'intégration front-end dans le cadre de ma formation OpenClassRooms. Je vais vous
+            <h1>Kasa: projet scolaire front-end</h1>
+            <p>Kasa est un projet d'intégration front-end dans le cadre de ma formation OpenClassRooms. Je vais vous
                 présenter ici:</p>
             <ul>
                 <li>Les technologies utilisées</li>

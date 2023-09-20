@@ -16,11 +16,17 @@
           <li>Python</li>
           <li>Bases de données: MongoDB</li>
         </ul>
+        <h3>Outils SEO utilisés</h3>
+        <ul>
+          <li>YourTextGuru</li>
+          <li>Semrush, SEObserver, Yooda Insight, Babbar</li>
+          <li>Google Search Console, Google Analytics, Matomo</li>
+        </ul>
         <h3>Points forts</h3>
         <ul>
           <li>Standards de qualité web (accessibilité et SEO)</li>
           <li>Ecoute, recherche et compréhension</li>
-          <li>Adaptabilité</li>
+          <li>Adaptabilité et autonomie</li>
 
         </ul>
         <h3>Projets réalisés</h3>
@@ -30,7 +36,6 @@
           <li>Stratégie SEO de grande ampleur</li>
           <li>Rédaction de centaines de pages</li>
           <li>Génération de centaines de pages</li>
-
           <li>Extraction, classification et visualisation de données</li>
         </ul>
       </section>
@@ -44,12 +49,14 @@
           OpenClassRooms. Il s'agissait d'une formation diplomante (titre professionnel niveau 5) avec un suivi
           hebdomadaire par un mentor.</p>
         <h2>Réalisations</h2>
-        <p>Ma principale réalisation web est, sur le plan technique, <a
+        <p>Ma principale réalisation en développement web est, <a
             href="/portfolio/site-information-alternative-hydrogene">Alternative-hydrogène</a> (un site de plusieurs
-          centaines de pages organisées par une base de donnée MongoDB sur un site NextJS) et, sur le plan du contenu,
-          www.discoverthegreentech.com. Ce dernier est un site d'information sur l'innovation écologique très prometteur,
-          notamment sur
-          le plan du référencement naturel (SEO).</p>
+          centaines de pages organisées par une base de donnée MongoDB sur un site NextJS).</p>
+        <p> Sur le plan du contenu, mon site principal est
+          <a href="www.discoverthegreentech.com">Discoverthegreentech</a>: un site d'information de plus de 500 pages sur
+          l'innovation écologique ayant de beaux résultats sur le plan du SEO. C'est aussi le thème wordpress le plus
+          avancé que j'aie conçu.
+        </p>
         <p>Vous pouvez consulter l'ensemble de mes réalisations dans la page <nuxt-link
             to="/portfolio">Portfolio</nuxt-link>.</p>
 
