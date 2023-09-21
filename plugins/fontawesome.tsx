@@ -8,12 +8,22 @@ import {
   faSearch,
   faPhone,
   faEnvelope,
+  faChevronLeft,
+  faChevronRight,
 } from '@fortawesome/free-solid-svg-icons'
 // ICONES
 
 config.autoAddCss = false
 
 // ICONES
-library.add(faPhone, faEnvelope, faComments, faGlobe, faSearch) // ICONES
+library.add(
+  faPhone,
+  faEnvelope,
+  faComments,
+  faGlobe,
+  faSearch,
+  faChevronLeft,
+  faChevronRight
+) // ICONES
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
