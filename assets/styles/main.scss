@@ -124,3 +124,10 @@ code {
   white-space: pre-line;
   display: block;
 }
+.col2 {
+  display: flex;
+  gap: 3%;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}

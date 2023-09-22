@@ -18,6 +18,25 @@
         "interet": "5"
     },
     {
+        "titre": "Extraction et visualisation de données",
+        "cat": "Dev",
+        "url": "/portfolio/extraction-visualisation-donnees",
+        "technologies": [
+            "React",
+            "Python"
+        ],
+        "thumb": "/gsc.webp",
+        "topic": [
+            "Extraction de données",
+            "SEO",
+            "Visualisation de données"
+        ],
+        "abstract": "Outils d'extraction et de visualisation des données de la Google Search Console.",
+        "resumeP1": "C'est un outil open source combinant deux programmes: GSC-Extractor, codé en Python, permet de se connecter, d'extraire et de retravailler les données venant de la Google Search Console.",
+        "resumeP2": "GSC-Dataviz permet d'ensuite visualiser ces donneés grâce à de nombreux filtres, un graphique et un tableau.",
+        "interet": "5"
+    },
+    {
         "titre": "Alternative Hydrogène",
         "cat": "Dev",
         "url": "/portfolio/site-information-alternative-hydrogene",

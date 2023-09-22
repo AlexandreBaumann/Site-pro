@@ -58,5 +58,10 @@
         "url": "/portfolio/site-vitrine-alexandre-baumann",
         "title": "Site vitrine d'Alexandre Baumann: présentation du projet",
         "description": "Description des enjeux techniques de la réalisation du site vitrine développé avec Nuxt.js"
+    },
+    {
+        "url": "/portfolio/extraction-visualisation-donnees",
+        "title": "Extraction et visualisation de données (Google Search Console)",
+        "description": "Présentation d'un outil open source d'extraction et de visualisaton de données de la Google Search Console."
     }
 ]

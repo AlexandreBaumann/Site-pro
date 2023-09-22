@@ -1,15 +1,19 @@
 <template>
     <!-- Titre du slide actuel -->
     <div class="slideDiv">
-        <h2>{{ slides[currentSlideIndex].title }}</h2>
+        <p class="slideTitle">{{ slides[currentSlideIndex].title }}</p>
 
-        <button @click="prevSlide" :disabled="currentSlideIndex === 0" class="previous"><font-awesome-icon
-                :icon="['fas', 'chevron-left']" /></button>
+        <button v-if="currentSlideIndex !== 0" @click="prevSlide" class="previous">
+            <font-awesome-icon :icon="['fas', 'chevron-left']" />
+        </button>
+
+        <button v-if="currentSlideIndex !== slides.length - 1" @click="nextSlide" class="next">
+            <font-awesome-icon :icon="['fas', 'chevron-right']" />
+        </button>
+
 
         <div v-html="slides[currentSlideIndex].content" class="slideDivContent"></div>
 
-        <button @click="nextSlide" :disabled="currentSlideIndex === slides.length - 1" class="next"><font-awesome-icon
-                :icon="['fas', 'chevron-right']" /></button>
 
         <div class="nav-points">
             <span v-for="(slide, index) in slides" :key="index" :class="{ 'active-point': currentSlideIndex === index }"
@@ -57,21 +61,20 @@ export default {
 /* Votre CSS ici */
 .slideDiv {
 
-    background-color: $blue999;
-    color: $blue50;
+    background-color: $blue100;
+    color: $dark-blue;
     position: relative;
     padding-top: 30px;
     padding-bottom: 10px;
     border-radius: 10px;
     box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.5);
 
-    a {
-        color: $yellow;
-    }
 
-    h2 {
+
+    .slideTitle {
         text-align: center;
         margin-top: 0px;
+        font-size: 30px;
     }
 
     &Content {
@@ -79,7 +82,7 @@ export default {
         margin: 0px 70px 0px 70px;
         padding: 0px 10px 0px 10px;
         overflow-y: auto;
-        background-color: $dark-blue;
+        background-color: $blue50;
         border-radius: 10px;
         box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.7);
 
@@ -87,18 +90,62 @@ export default {
             width: 10px;
 
             &-thumb {
-                background-color: $blue900;
+                background-color: $blue200;
                 border-radius: 6px;
             }
 
             &-track {
-                background-color: $dark-blue;
+                background-color: $blue100;
             }
         }
 
         // Pour Firefox
-        scrollbar-color: $blue900 $dark-blue;
+        scrollbar-color: $blue100 $blue50;
         scrollbar-width: thin;
+
+        ::v-deep {
+            line-height: 150%;
+
+            //Le problème réside dans la manière dont Vue.js gère le HTML injecté via la directive v-html. 
+            //Les styles "scoped" de Vue.js ne s'appliquent pas au contenu injecté par v-html car Vue ajoute un attribut de données unique 
+            //(comme data-v-5472ae34 dans votre cas) aux éléments du DOM générés par le composant, mais pas au contenu injecté.
+            h2,
+            h3,
+            h4 {
+                text-align: center;
+                font-weight: 500;
+                letter-spacing: 1px;
+            }
+
+            .purple {
+                color: #880E4F;
+            }
+
+            .orange {
+                color: #E65100;
+            }
+
+            .green {
+                color: #1B5E20;
+            }
+
+            img {
+                object-fit: contain;
+                max-width: 100%;
+
+            }
+
+            .col2 img {
+                max-width: 45%;
+
+                @media (max-width:768px) {
+                    max-width: 100%;
+
+                }
+
+            }
+
+        }
 
     }
 
@@ -112,6 +159,7 @@ export default {
         justify-content: center;
         top: 0;
         font-size: 36px;
+        transition: transform 0.3s ease;
 
 
     }
@@ -119,10 +167,18 @@ export default {
 
 .previous {
     left: 0; // Positionne le premier bouton à gauche
+
+    &:hover {
+        transform: translate(-4px, -4px);
+    }
 }
 
 .next {
     right: 0; // Positionne le dernier bouton à droite
+
+    &:hover {
+        transform: translate(4px, -4px);
+    }
 }
 
 .nav-points {
@@ -133,14 +189,18 @@ export default {
     letter-spacing: 5px;
 
     span {
-        text-shadow: 0 0 4px rgba(0, 0, 0, 1),
-            0 0 8px rgba(0, 0, 0, 1),
-            0 0 12px rgba(0, 0, 0, 01); // Ombres superposées
+        text-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+
+        &:hover {
+            color: $blue900;
+            transform: translate(2px, -2px);
+        }
+
     }
 }
 
 .active-point {
-    color: $yellow;
+    color: $yellow !important;
 }
 </style>
   
