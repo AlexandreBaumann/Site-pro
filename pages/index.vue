@@ -805,7 +805,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: $dark-blue;
+  background-color: $darkBlue;
   width: 100%;
 }
 

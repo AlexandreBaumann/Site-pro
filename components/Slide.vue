@@ -62,7 +62,7 @@ export default {
 .slideDiv {
 
     background-color: $blue100;
-    color: $dark-blue;
+    color: $darkBlue;
     position: relative;
     padding-top: 30px;
     padding-bottom: 10px;

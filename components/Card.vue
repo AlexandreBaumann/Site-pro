@@ -1,6 +1,20 @@
 <template>
   <div>
-    <div class="card" @click="showModal = true">
+    <a v-if="isLink" :href="card.url" class="card">
+      <img :src="card.thumb" alt="Screenshot illustrant le projet" aria-hidden />
+      <ul class="technologies">
+        <li v-for="tech in card.technologies" :key="tech" :class="tech">
+          {{ tech }}
+        </li>
+      </ul>
+      <div class="cardText">
+        <h3>{{ card.titre }}</h3>
+        <p>{{ card.abstract }}</p>
+      </div>
+    </a>
+
+
+    <div v-else class="card" @click="showModal = true">
       <img :src="card.thumb" alt="Screenshot illustrant le projet" aria-hidden />
       <ul class="technologies">
         <li v-for="tech in card.technologies" :key="tech" :class="tech">
@@ -23,17 +37,20 @@ export default {
   components: {
     CardModal,
   },
-  name: 'Card',
   props: {
     card: {
       type: Object,
       required: true,
     },
+    isLink: {
+      type: Boolean,
+      default: false,
+    },
   },
   data() {
     return {
       showModal: false,
-    }
+    };
   },
   methods: {
     closeModal(event) {
@@ -58,6 +75,9 @@ export default {
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease; // Animation douce pour l'effet de survol
+  display: block;
+  color: $darkBlue;
+  text-decoration: none;
 
   &:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.2);

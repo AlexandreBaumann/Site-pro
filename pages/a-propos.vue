@@ -49,14 +49,24 @@
           OpenClassRooms. Il s'agissait d'une formation diplomante (titre professionnel niveau 5) avec un suivi
           hebdomadaire par un mentor.</p>
         <h2>Réalisations</h2>
-        <p>Ma principale réalisation en développement web est, <a
-            href="/portfolio/site-information-alternative-hydrogene">Alternative-hydrogène</a> (un site de plusieurs
-          centaines de pages organisées par une base de donnée MongoDB sur un site NextJS).</p>
-        <p> Sur le plan du contenu, mon site principal est
-          <a href="www.discoverthegreentech.com">Discoverthegreentech</a>: un site d'information de plus de 500 pages sur
-          l'innovation écologique ayant de beaux résultats sur le plan du SEO. C'est aussi le thème wordpress le plus
-          avancé que j'aie conçu.
-        </p>
+        <p>Mes principales réalisations sont:</p>
+        <ul>
+          <li>en développement, en général, mon programme <strong><a
+                href="/portfolio/extraction-visualisation-donnees/">d'extraction et de
+                visualisation des données</a></strong> de la Google
+            Search Console. Il utilise Python pour l'extraction et classification de données et React avec un store Redux
+            pour la visualisation.</li>
+          <li>en développement web, <strong><a
+                href="/portfolio/site-information-alternative-hydrogene">Alternative-hydrogène</a></strong>
+            (un site de plusieurs centaines de pages organisées par une base de donnée MongoDB sur un site NextJS).</li>
+          <li>Sur le plan du contenu, mon site principal est
+            <a href="www.discoverthegreentech.com">Discoverthegreentech</a>: un site d'information de plus de 500 pages
+            sur
+            l'innovation écologique ayant de beaux résultats sur le plan du SEO. C'est aussi le <strong>thème
+              wordpress</strong> le plus
+            avancé que j'aie conçu.
+          </li>
+        </ul>
         <p>Vous pouvez consulter l'ensemble de mes réalisations dans la page <nuxt-link
             to="/portfolio">Portfolio</nuxt-link>.</p>
 

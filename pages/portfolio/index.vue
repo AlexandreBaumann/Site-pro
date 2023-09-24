@@ -9,12 +9,11 @@
                 <button :class="{ active: selectedCategory === '' }" @click="setFilter('')">Tous</button>
                 <button :class="{ active: selectedCategory === 'Dev' }" @click="setFilter('Dev')">Développement Web</button>
                 <button :class="{ active: selectedCategory === 'SEO' }" @click="setFilter('SEO')">SEO</button>
-
             </div>
 
 
             <section class="portfolio">
-                <Card v-for="cardData in filteredCards" :key="cardData._id" :card="cardData" />
+                <Card v-for="cardData in filteredCards" :key="cardData._id" :card="cardData" :is-link="true" />
             </section>
         </div>
     </main>

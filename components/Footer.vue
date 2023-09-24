@@ -3,9 +3,9 @@
     <nav>
       <ul>
 
-        <li><nuxt-link to="/mentions-legales" :class="{ active: $route.path === '/mentions-legales' }">Mentions
+        <li><nuxt-link to="/mentions-legales/" :class="{ active: $route.path === '/mentions-legales/' }">Mentions
             légales</nuxt-link></li>
-        <li><nuxt-link to="/politique-de-confidentialite"
+        <li><nuxt-link to="/politique-de-confidentialite/"
             :class="{ active: $route.path === '/politique-de-confidentialite' }">Politique de confidentialité</nuxt-link>
         </li>
       </ul>
@@ -28,7 +28,7 @@ export default {
 }
 
 footer {
-  background-color: $dark-blue;
+  background-color: $darkBlue;
   color: #fff;
   padding: 20px;
   text-align: center;

@@ -196,7 +196,7 @@ h1 {
                     padding: 10px;
 
                     font-weight: 600;
-                    color: $dark-blue;
+                    color: $darkBlue;
                     display: inline-block;
                     transition: transform 0.3s ease, box-shadow 0.3s ease;
 

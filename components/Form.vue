@@ -152,7 +152,7 @@ export default {
     .envoyer {
         padding: 10px 20px 10px 20px;
         font-weight: 600;
-        background-color: $dark-blue;
+        background-color: $darkBlue;
         color: white;
         border-radius: 10px;
         display: inline-block; // Pour permettre la transformation

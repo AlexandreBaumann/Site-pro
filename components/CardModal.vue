@@ -165,7 +165,7 @@ export default {
 
             button {
                 background-color: $yellow;
-                color: $dark-blue;
+                color: $darkBlue;
                 border-radius: 20px;
                 padding: 20px 30px 20px 30px;
                 font-weight: 600;

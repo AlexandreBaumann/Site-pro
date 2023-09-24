@@ -114,7 +114,7 @@ export default {
 
 .success-message button {
     background-color: $yellow;
-    color: $dark-blue;
+    color: $darkBlue;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;

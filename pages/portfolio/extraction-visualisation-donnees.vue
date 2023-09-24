@@ -2,7 +2,7 @@
     <main>
         <div class="container">
 
-            <h1>Extraction et visualisation de données e la Google Search Console</h1>
+            <h1>Extraction et visualisation de données de la Google Search Console</h1>
             <p> La Google Search Console fournit des informations sur la visibilité de votre site sur Google. Elle associe
                 les
                 requêtes
@@ -12,14 +12,19 @@
             <p>Néanmoins, lire ses données est difficile avec l'interface Google dès qu'on a un site un peu
                 volumineux. Les exports sont limités à 1000 lignes et naviguer entre les différents
                 filtres est pénible, avec des temps de chargement longs.</p>
-            <p>Dès qu'on a un site un peu volumineux, ces données sont très dures à lire</p>
-            <p>. Pour résoudre ce problème j'ai
+            <p>Dès qu'on a un site un peu volumineux, ces données sont très dures à lire.</p>
+            <p>Pour résoudre ce problème j'ai
                 conçu un programme open source permettant d'extraire, classer et visualiser
                 ces données. Il se divise en deux programmes:</p>
             <ul>
-                <li> GSC-Extractor en Python pour l'extraction-classification;</li>
-                <li>GSC-Dataviz en React pour la visualisation</li>
+                <li>GSC-Extractor en Python pour l'extraction-classification, que vous trouvez ici : <a
+                        href="https://github.com/AlexandreBaumann/GSC-Extractor">
+                        https://github.com/AlexandreBaumann/GSC-Extractor</a>;</li>
+                <li>GSC-Dataviz en React pour la visualisation, disponible ici : <a
+                        href="https://github.com/AlexandreBaumann/Data-Viz-GSC">https://github.com/AlexandreBaumann/Data-Viz-GSC</a>
+                </li>
             </ul>
+
             <p>Ici, je vais vous présenter le
                 <strong>code</strong> et les
                 <strong>difficultés</strong> rencontrées pour le développer. S'agissant du tutoriel complet, il se trouve

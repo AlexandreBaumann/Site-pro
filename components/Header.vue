@@ -9,17 +9,17 @@
       <nav class="navBarWide">
         <ul>
           <li>
-            <nuxt-link to="/a-propos" :class="{ active: $route.path === '/a-propos' }">
+            <nuxt-link to="/a-propos/" :class="{ active: $route.path === '/a-propos/' }">
               A propos
             </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/portfolio" :class="{ active: $route.path === '/portfolio' }">
+            <nuxt-link to="/portfolio/" :class="{ active: $route.path === '/portfolio/' }">
               Portfolio
             </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/contact" :class="{ active: $route.path === '/contact' }">
+            <nuxt-link to="/contact/" :class="{ active: $route.path === '/contact/' }">
               Contact
             </nuxt-link>
           </li>
@@ -34,17 +34,17 @@
         <nav v-show="isMenuOpen" class="navBarSmall" :class="{ 'isOpen': isMenuOpen }">
           <ul>
             <li>
-              <nuxt-link to="/a-propos" :class="{ active: $route.path === '/a-propos' }">
+              <nuxt-link to="/a-propos/" :class="{ active: $route.path === '/a-propos/' }">
                 A propos
               </nuxt-link>
             </li>
             <li>
-              <nuxt-link to="/portfolio" :class="{ active: $route.path === '/portfolio' }">
+              <nuxt-link to="/portfolio/" :class="{ active: $route.path === '/portfolio/' }">
                 Portfolio
               </nuxt-link>
             </li>
             <li>
-              <nuxt-link to="/contact" :class="{ active: $route.path === '/contact' }">
+              <nuxt-link to="/contact/" :class="{ active: $route.path === '/contact/' }">
                 Contact
               </nuxt-link>
             </li>
@@ -81,7 +81,7 @@ export default {
 @import '~/assets/variables.scss';
 
 header {
-  background-color: $dark-blue;
+  background-color: $darkBlue;
   height: $headerHeight-tall;
   position: fixed;
   top: 0px;
@@ -238,7 +238,7 @@ header {
 
   top: $headerHeight-mid;
   right: 0;
-  background-color: $dark-blue;
+  background-color: $darkBlue;
   z-index: 10;
   width: 50%;
   border-radius: 0px 0px 0px 20px;
