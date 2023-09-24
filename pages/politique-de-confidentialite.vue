@@ -47,14 +47,14 @@
         <p>Conformément à la réglementation en vigueur, vous avez le droit d'accéder, de rectifier et de supprimer vos
             données
             personnelles. Pour exercer ces droits, veuillez nous contacter par les moyens proposés dans notre page
-            <nuxt-link to="/contact">Contact</nuxt-link>.
+            <nuxt-link to="/contact/">Contact</nuxt-link>.
         </p>
 
 
         <h2> Contact</h2>
 
         <p>Pour toute question concernant cette politique de confidentialité, veuillez nous contacter par les moyens
-            proposés dans notre page <nuxt-link to="/contact">Contact</nuxt-link>.
+            proposés dans notre page <nuxt-link to="/contact/">Contact</nuxt-link>.
         </p>
     </main>
 </template>

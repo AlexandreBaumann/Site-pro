@@ -21,7 +21,7 @@ export default {
             "@context": "http://schema.org",
             "@type": "WebPage",
             "name": "Alexandre Baumann - Développeur Web & Consultant SEO",
-            "url": `https://pro.alexandrebaumann.com${this.metaData.url}`,
+            "url": `https://pro.alexandrebaumann.com${this.metaData.url}/`,
             "sameAs": [
                 "https://www.linkedin.com/in/alexandre-baumann-b032388a/",
             ],
@@ -32,7 +32,7 @@ export default {
                 "@type": "Person",
                 "name": "Alexandre Baumann",
                 "jobTitle": ["Développeur Web", "Consultant SEO"],
-                "knowsAbout": ["Développement Web", "Vue.js", "Nuxt.js", "SEO", "CSS", "HTML", "SCSS"],
+                "knowsAbout": ["Développement Web", "Vue.js", "Nuxt.js", "SEO", "CSS", "HTML", "SCSS", "SEO", "Redaction Web", "Redaction SEO"],
                 "alumniOf": "OpenClassRooms",
                 "email": "contact@alexandrebaumann.com",
             }
@@ -41,7 +41,7 @@ export default {
         return {
             title: this.metaData.title,
             link: [
-                { rel: 'canonical', href: `https://pro.alexandrebaumann.com${this.metaData.url}` },
+                { rel: 'canonical', href: `https://pro.alexandrebaumann.com${this.$route.path === '/' ? '' : this.metaData.url + '/'}/` },
                 { rel: 'icon', type: 'image/x-icon', href: '/favicon2.png' }
             ],
             htmlAttrs: {

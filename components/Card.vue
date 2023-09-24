@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a v-if="isLink" :href="card.url" class="card">
+    <a v-if="isLink" :href="card.url + '/'" class="card">
       <img :src="card.thumb" alt="Screenshot illustrant le projet" aria-hidden />
       <ul class="technologies">
         <li v-for="tech in card.technologies" :key="tech" :class="tech">

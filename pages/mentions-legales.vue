@@ -4,7 +4,7 @@
         <p>
             Le propriétaire du présent site est Alexandre Baumann.
             <br />
-            Il est joignable par les moyens proposés dans notre page <nuxt-link to="/contact">Contact</nuxt-link>.
+            Il est joignable par les moyens proposés dans notre page <nuxt-link to="/contact/">Contact</nuxt-link>.
         </p>
         <h2>Hébergement</h2>
         <p>

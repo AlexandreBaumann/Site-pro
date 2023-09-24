@@ -198,7 +198,7 @@
                 site d'Effy, <a href="https://www.quelleenergie.fr/economies-energie/isolation-combles">"quelleenergie"</a>,
                 un
                 sous-site d'EDF, <a
-                    href="https://www.izi-by-edf-renov.fr/isolation-combles-perduss">"izi-by-edf-renov.fr"</a>, puis,
+                    href="https://www.izi-by-edf-renov.fr/isolation-combles-perdus">"izi-by-edf-renov.fr"</a>, puis,
                 particulièrement intéressant, <a
                     href="https://www.travaux.com/isolation/articles/reussir-son-isolation-de-combles">travaux.com</a>. Ce
                 dernier est un site "SEO" (c'est-à-dire dont la valeur ajoutée et le modèle repose entièrement sur le

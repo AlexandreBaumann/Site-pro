@@ -40,9 +40,9 @@
         "description": "Description des enjeux techniques de la réalisation du site vitrine d'un sophrologue - masseur"
     },
     {
-        "url": "/portfolio/front-end-kazaa",
-        "title": "Portfolio: projet frontend 'Kazaa' pour la formation OpenClassRooms",
-        "description": "Description technique de la réalisation du projet frontend 'Kazaa' pour la formation OpenClassRooms"
+        "url": "/portfolio/front-end-kasa",
+        "title": "Portfolio: projet frontend 'Kasa' pour la formation OpenClassRooms",
+        "description": "Description technique de la réalisation du projet frontend 'Kasa' pour la formation OpenClassRooms"
     },
     {
         "url": "/portfolio/back-end-mon-vieux-grimoire",
@@ -63,5 +63,10 @@
         "url": "/portfolio/extraction-visualisation-donnees",
         "title": "Extraction et visualisation de données (Google Search Console)",
         "description": "Présentation d'un outil open source d'extraction et de visualisaton de données de la Google Search Console."
+    },
+    {
+        "url": "/portfolio/site-information-alternative-hydrogene",
+        "title": "Présentation du code du site d'information alternative-hydrogene",
+        "description": "Je présente en détail comment j'ai code alternative-hydrogene grâce à Next.js."
     }
 ]
