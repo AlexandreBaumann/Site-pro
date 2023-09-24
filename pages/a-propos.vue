@@ -60,7 +60,8 @@
                 href="/portfolio/site-information-alternative-hydrogene">Alternative-hydrogène</a></strong>
             (un site de plusieurs centaines de pages organisées par une base de donnée MongoDB sur un site NextJS).</li>
           <li>Sur le plan du contenu, mon site principal est
-            <a href="www.discoverthegreentech.com">Discoverthegreentech</a>: un site d'information de plus de 500 pages
+            <strong><a href="https://www.discoverthegreentech.com">Discoverthegreentech</a></strong>: un site
+            d'information de plus de 500 pages
             sur
             l'innovation écologique ayant de beaux résultats sur le plan du SEO. C'est aussi le <strong>thème
               wordpress</strong> le plus
