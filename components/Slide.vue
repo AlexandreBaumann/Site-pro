@@ -11,7 +11,6 @@
             <font-awesome-icon :icon="['fas', 'chevron-right']" />
         </button>
 
-
         <div v-html="slides[currentSlideIndex].content" class="slideDivContent"></div>
 
 
@@ -21,7 +20,6 @@
                 •
             </span>
         </div>
-        <!-- Points de navigation -->
 
     </div>
 </template>

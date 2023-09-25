@@ -165,7 +165,7 @@
           <Card v-for="cardData in topInterestProjects" :key="cardData._id" :card="cardData" />
         </article>
         <p class="lienPortfolio">
-          <nuxt-link to="/portfolio">Voir tout le portfolio</nuxt-link>
+          <nuxt-link to="/portfolio/">Voir tout le portfolio</nuxt-link>
         </p>
       </div>
     </section>

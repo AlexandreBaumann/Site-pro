@@ -41,7 +41,7 @@ export default {
         return {
             title: this.metaData.title,
             link: [
-                { rel: 'canonical', href: `https://pro.alexandrebaumann.com${this.$route.path === '/' ? '' : this.metaData.url + '/'}/` },
+                { rel: 'canonical', href: `https://pro.alexandrebaumann.com${this.$route.path === '/' ? '' : this.metaData.url + '/'}` },
                 { rel: 'icon', type: 'image/x-icon', href: '/favicon2.png' }
             ],
             htmlAttrs: {

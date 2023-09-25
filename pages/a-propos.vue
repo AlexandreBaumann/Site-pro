@@ -57,7 +57,7 @@
             Search Console. Il utilise Python pour l'extraction et classification de données et React avec un store Redux
             pour la visualisation.</li>
           <li>en développement web, <strong><a
-                href="/portfolio/site-information-alternative-hydrogene">Alternative-hydrogène</a></strong>
+                href="/portfolio/site-information-alternative-hydrogene/">Alternative-hydrogène</a></strong>
             (un site de plusieurs centaines de pages organisées par une base de donnée MongoDB sur un site NextJS).</li>
           <li>Sur le plan du contenu, mon site principal est
             <strong><a href="https://www.discoverthegreentech.com">Discoverthegreentech</a></strong>: un site
@@ -69,7 +69,7 @@
           </li>
         </ul>
         <p>Vous pouvez consulter l'ensemble de mes réalisations dans la page <nuxt-link
-            to="/portfolio">Portfolio</nuxt-link>.</p>
+            to="/portfolio/">Portfolio</nuxt-link>.</p>
 
       </section>
     </div>
