@@ -2,7 +2,7 @@
     <main>
         <div class="container">
 
-            <h1>Site vitrine Alexandre Baumann (Developpement et SEO)</h1>
+            <h1>Site vitrine Alexandre Baumann (Développement et SEO)</h1>
             <p>Le présent site utilise Nuxt.js, un framework javascript permettant une expérience de navigation améliorée
                 tout en étant optimisé pour le SEO.</p>
             <p>C'est un site vitrine, ayant pour objet de présenter mes compétences en SEO et développement web et d'inviter
@@ -14,8 +14,7 @@
                 un contenu sans rompre le fil de la navigation. Le slider ci-dessous est également conçu dans cette optique.
             </p>
 
-            <p>Je vais vous
-                présenter ici:</p>
+            <p>Je vais vous présenter ici:</p>
             <ul>
                 <li>Description du parcours utilisateur</li>
                 <li>Les technologies utilisées</li>
@@ -24,7 +23,7 @@
                 <li>Les perspectives d'amélioration</li>
 
             </ul>
-            <p>Pour le code, il faut une autorisation (que je vous donnerai évidemment si vous me la demandez):
+            <p>Le code est disponible à l'adresse suivante:
                 https://github.com/AlexandreBaumann/Site-pro</p>
 
             <Slide :slides="mesSlides" />
@@ -326,6 +325,7 @@ export default {
                     et finaliser mon projet Alternative-hydrogène, puis le détailler et mettre en forme.</p>
                 <p>Une fois que cela sera fait, je rendrai mon site <strong>multilingue</strong>.</p>
                 <p>Il faudra également réétudier <strong>l'accessibilité</strong>, que j'installe le <strong>tracking</strong> et étudie les <strong>cookies</strong>. </p>
+                <p>Enfin, j'aimerais qu'il soit possible de parcourir le slider avec les flèches directionnelles.</p>
                     ` },
 
             ]
@@ -353,5 +353,6 @@ export default {
     >div {
         flex: 1;
     }
-}</style>
+}
+</style>
   
